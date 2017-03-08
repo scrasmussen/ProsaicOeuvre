@@ -67,30 +67,6 @@ def report(N,B,M,cost,t):
         print("Number used:",nu)
         print("Percentage used:", 100*nu/tl)
 
-def rel(i, b, M):
-    global cost, reliability
-    if b<0:
-        return 0
-    if b==0 and i>0:
-        return 0
-    if b>=0 and i==0:
-        return 1;
-    pmax = 0
-    if i > N:
-        return 0
-    r = math.floor(b/cost[i])
-
-    for k in range(1,r+1):
-        p = REL[i-1][b-k*cost[i]]
-        if p==0:
-            rel(i-1,b-k*cost[i],M)
-        prob= p * (1-(1-reliability[i])**k)
-        # prob=rel(i-1,b-k*cost[i],M) * (1-(1-reliability[i])**k)
-        if pmax < prob and b <= originalB and i <= N:
-            pmax = prob
-            M[i][b]=k
-            REL[i][b]=pmax
-    return pmax
 
 def iter(i, b, M):
     global cost, reliability
@@ -111,6 +87,47 @@ def iter(i, b, M):
             M[i][b]=k
             ITER[i][b] = pmax
 
+
+def rel(i, b, M):
+    startingi = i
+    global cost, reliability
+    if b<0:
+        return 0
+    if b==0 and i>0:
+        return 0
+    if b>=0 and i==0:
+        return 1;
+    pmax = 0
+    # if i > N:
+    #     return 0
+    r = math.floor(b/cost[i])
+
+    for k in range(1,r+1):
+        p = REL[i-1][b-k*cost[i]]
+        if p==0:
+            p=rel(i-1,b-k*cost[i],M)
+
+        if i!=startingi:
+            print("ARTLESS D:")
+
+        prob= p * (1-(1-reliability[i])**k)
+        # if i == 5:
+        #     print("P=",p,"i=",i,"b=",b, "prob=",prob,pmax)
+
+        # prob=rel(i-1,b-k*cost[i],M) * (1-(1-reliability[i])**k)
+        # if pmax < prob and b <= originalB :
+        # print("i=",i,"b=",b, "prob=",prob,pmax,"p=",p)
+        # if i == 5 and b == 8:
+        #     print(M)
+        #     print(REL)
+        if pmax < prob:
+            pmax = prob
+            M[i][b]=k
+            REL[i][b]=pmax
+                
+    return pmax
+
+            
 # run iterative version and print report
 for i in range(1,N+1):
     for b in range(1,B+1):
@@ -118,15 +135,15 @@ for i in range(1,N+1):
 report(N,B,Miter,cost,"iter")
             
 # run memoization version and print report
-for i in range(1,N+1):
-    rel(i,B+1,Mrel)
+rel(N,originalB,Mrel)
 
-# rel(N,B,Mrel)
+
 report(N,B,Mrel,cost,"memo")
-print(Miter)
-print(Mrel)
-print()
-print(ITER)
-print(REL)
+# print(Miter)
+# print(Mrel)
+# print()
+# print(ITER)
+# print(REL)
 print("Fin")
 
+print(len(REL),len(REL[1]))
