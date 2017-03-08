@@ -1,4 +1,4 @@
-import sys, math
+import sys, math, time
 import numpy as np
 
 np.set_printoptions(precision=4)
@@ -98,8 +98,6 @@ def rel(i, b, M):
     if b>=0 and i==0:
         return 1;
     pmax = 0
-    # if i > N:
-    #     return 0
     r = math.floor(b/cost[i])
 
     for k in range(1,r+1):
@@ -107,19 +105,8 @@ def rel(i, b, M):
         if p==0:
             p=rel(i-1,b-k*cost[i],M)
 
-        if i!=startingi:
-            print("ARTLESS D:")
-
         prob= p * (1-(1-reliability[i])**k)
-        # if i == 5:
-        #     print("P=",p,"i=",i,"b=",b, "prob=",prob,pmax)
 
-        # prob=rel(i-1,b-k*cost[i],M) * (1-(1-reliability[i])**k)
-        # if pmax < prob and b <= originalB :
-        # print("i=",i,"b=",b, "prob=",prob,pmax,"p=",p)
-        # if i == 5 and b == 8:
-        #     print(M)
-        #     print(REL)
         if pmax < prob:
             pmax = prob
             M[i][b]=k
@@ -127,16 +114,19 @@ def rel(i, b, M):
                 
     return pmax
 
-            
+
+istart=time.time()
 # run iterative version and print report
 for i in range(1,N+1):
     for b in range(1,B+1):
         iter(i,b,Miter)
+itime=time.time()-istart
 report(N,B,Miter,cost,"iter")
-            
-# run memoization version and print report
-rel(N,originalB,Mrel)
 
+# run memoization version and print report
+rstart=time.time()
+rel(N,originalB,Mrel)
+rtime=time.time()-rstart
 
 report(N,B,Mrel,cost,"memo")
 # print(Miter)
@@ -144,6 +134,5 @@ report(N,B,Mrel,cost,"memo")
 # print()
 # print(ITER)
 # print(REL)
-print("Fin")
-
-print(len(REL),len(REL[1]))
+# print("Fin")
+# print("itime=",itime,"| rtime=",rtime)
