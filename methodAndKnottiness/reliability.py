@@ -1,9 +1,10 @@
 import sys, math
+import numpy as np
 
+np.set_printoptions(precision=4)
 count = 0
-cost=[]
-reliability=[]
-
+cost=np.array([666])
+reliability=np.array([666])
 # Read input. Budget, number of machines, cost and reliability
 for line in sys.stdin:
     if count == 0:
@@ -12,31 +13,120 @@ for line in sys.stdin:
         N = int(line)
     else:
         c, r = line.rstrip().split(' ')
-        cost.append(int(c))
-        reliability.append(float(r))
-
+        cost = np.append(cost,[int(c)])
+        reliability = np.append(reliability,[float(r)])
     count+=1
+REL=np.zeros((N+1)*(B+1))
+REL.shape=(N+1,B+1)
+REL[0][:]=1
+ITER=np.zeros((N+1)*(B+1))
+ITER.shape=(N+1,B+1)
+ITER[0][:]=1
+Mrel=np.zeros((N+1)*(B+1))
+Mrel.shape=(N+1,B+1)
+Miter=np.zeros((N+1)*(B+1))
+Miter.shape=(N+1,B+1)
 
-M = [[0 for i in range(B)] for i in range(N)]
-for i in range(B):
-    M[0][i]=1
-
+originalB=B
     
-print(cost)
-#for i in range(1,N):
-for i in range(1,3):
-    for b in range(0,B):
-        max = 0
-        # break
-        for k in range(0, math.floor(b/cost[i])):
-            m = M[i-1][b-k*cost[i]]*(1-reliability[i])**k
-            if m > max:
-                max = m
-                print("new max",max)
+def report(N,B,M,cost,t):
+    p=1
+    pb=B
+    if t=="iter":
+        print("Budget:",B)
+        print("Number machines:",N)
+        print("Iterated Version:")
+    elif t =="memo":
+        print("Memoized Version:")
+    for i in range(N,0,-1):
+        num = M[i][int(pb)]
+        pb = pb - num * cost[i]
+        rel = (1-(1-reliability[i])**num)
+        p=p*rel
 
-print("Budget:", B)
-print("Number machines:", N)
-# print("\nIterated Version:")
-# print(M[0:3])
+    print("Maximum reliability:",p)
+    p=1
+    for i in range(N,0,-1):
+        num = M[i][int(B)]
+        B = B - num * cost[i]
+        print(num,"copies of machine",i,"of cost",cost[i]) #,end='. ')
+        rel = (1-(1-reliability[i])**num)
+        p=p*rel
+        # print("Budget",B,"remaining. Prob ", rel,"Total prob",p)
+    print()
+    # print memoization statistics
+    if t=="memo":
+        tl = (N+1)*(originalB+1)
+        nu = 0
+        for i in range(N+1):
+            for j in range(originalB+1):
+                if Mrel[i][j]!=0:
+                    nu=nu+1
+        print("Memoization Statistics:")
+        print("Total locations:",tl)
+        print("Number used:",nu)
+        print("Percentage used:", 100*nu/tl)
 
+def rel(i, b, M):
+    global cost, reliability
+    if b<0:
+        return 0
+    if b==0 and i>0:
+        return 0
+    if b>=0 and i==0:
+        return 1;
+    pmax = 0
+    if i > N:
+        return 0
+    r = math.floor(b/cost[i])
+
+    for k in range(1,r+1):
+        p = REL[i-1][b-k*cost[i]]
+        if p==0:
+            rel(i-1,b-k*cost[i],M)
+        prob= p * (1-(1-reliability[i])**k)
+        # prob=rel(i-1,b-k*cost[i],M) * (1-(1-reliability[i])**k)
+        if pmax < prob and b <= originalB and i <= N:
+            pmax = prob
+            M[i][b]=k
+            REL[i][b]=pmax
+    return pmax
+
+def iter(i, b, M):
+    global cost, reliability
+    if b<0:
+        return 0
+    if b==0 and i>0:
+        return 0
+    if b>=0 and i==0:
+        return 1;
+    pmax = 0
+    r = math.floor(b/cost[i])
+    for k in range(1,r+1):
+        p = ITER[i-1][b-k*cost[i]]
+        prob=p * (1-(1-reliability[i])**k)
+
+        if pmax < prob:
+            pmax = prob
+            M[i][b]=k
+            ITER[i][b] = pmax
+
+# run iterative version and print report
+for i in range(1,N+1):
+    for b in range(1,B+1):
+        iter(i,b,Miter)
+report(N,B,Miter,cost,"iter")
+            
+# run memoization version and print report
+for i in range(1,N+1):
+    rel(i,B+1,Mrel)
+
+# rel(N,B,Mrel)
+report(N,B,Mrel,cost,"memo")
+print(Miter)
+print(Mrel)
+print()
+print(ITER)
+print(REL)
 print("Fin")
+
