@@ -58,8 +58,8 @@ def report(N,B,M,cost,t):
     if t=="memo":
         tl = (N+1)*(originalB+1)
         nu = 0
-        for i in range(N+1):
-            for j in range(originalB+1):
+        for i in range(int(N+1)):
+            for j in range(int(originalB+1)):
                 if Mrel[i][j]!=0:
                     nu=nu+1
         print("Memoization Statistics:")
@@ -78,7 +78,7 @@ def iter(i, b, M):
         return 1;
     pmax = 0
     r = math.floor(b/cost[i])
-    for k in range(1,r+1):
+    for k in range(1,int(r+1)):
         p = ITER[i-1][b-k*cost[i]]
         prob=p * (1-(1-reliability[i])**k)
 
@@ -100,7 +100,7 @@ def rel(i, b, M):
     pmax = 0
     r = math.floor(b/cost[i])
 
-    for k in range(1,r+1):
+    for k in range(1,int(r+1)):
         p = REL[i-1][b-k*cost[i]]
         if p==0:
             p=rel(i-1,b-k*cost[i],M)
@@ -117,8 +117,8 @@ def rel(i, b, M):
 
 istart=time.time()
 # run iterative version and print report
-for i in range(1,N+1):
-    for b in range(1,B+1):
+for i in range(1,int(N+1)):
+    for b in range(1,int(B+1)):
         iter(i,b,Miter)
 itime=time.time()-istart
 report(N,B,Miter,cost,"iter")
