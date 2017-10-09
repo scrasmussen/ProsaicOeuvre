@@ -1,6 +1,12 @@
 Collection of useful articles for setting up GalliumOS as I like it.
 
 
+=====
+CLEAN
+=====
+#!/bin/bash
+rm *~
+
 ===========
 KEYBINDINGS
 ===========
@@ -16,3 +22,8 @@ amixer set Master 5dB-
 Command to raise volume
 amixer set Master 5dB+ unmute
 (Note that I used "unmute",because, if volume is muted and I press the key to raise volume,then I want that it is  automatically switched to unmuted smile )
+
+==========
+BRIGHTNESS
+==========
+https://askubuntu.com/questions/149054/how-to-change-lcd-brightness-from-command-line-or-via-script
