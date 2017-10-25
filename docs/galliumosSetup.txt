@@ -1,5 +1,20 @@
 Collection of useful articles for setting up GalliumOS as I like it.
 
+=====
+EMACS
+=====
+*Show Column Numbers
+
+    (setq column-number-mode t)
+
+* [tab] inserts two spaces
+  https://www.reddit.com/r/emacs/comments/32fqm3/make_tab_2_spaces_in_every_mode/
+   
+    (setq-default indent-tabs-mode nil)
+    (global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
+    (electric-indent-mode 0)
+
+
 
 =====
 CLEAN
