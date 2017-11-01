@@ -15,8 +15,8 @@ Spotify Keybindings
 https://gist.github.com/jbonney/5743509
 
 Volume Keybindings
-Command to lower volume: `amixer set Master 5dB-`
-Command to raise volume: `amixer set Master 5dB+ unmute`
+Command to lower volume: `amixer set Master 5dB-`  
+Command to raise volume: `amixer set Master 5dB+ unmute`  
 (Note that I used "unmute",because, if volume is muted and I press the key to raise volume,then I want that it is  automatically switched to unmuted smile )
 
 
