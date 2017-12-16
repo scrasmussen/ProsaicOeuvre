@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+then
+   module list
+fi
+
+if [ "$1" = "load" ]
+then
+    module $1 $2
+fi
+
