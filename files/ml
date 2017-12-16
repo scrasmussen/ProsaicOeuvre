@@ -2,10 +2,16 @@
 if [ $# -eq 0 ]
 then
    module list
-fi
 
-if [ "$1" = "load" ]
+elif [ "$1" = "list" ]
+then
+    module list
+   
+elif [ "$1" = "load" ]
 then
     module $1 $2
+else
+    module load $1
 fi
+
 
