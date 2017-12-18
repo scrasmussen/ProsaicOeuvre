@@ -1,0 +1,1012 @@
+From 76cd9c1c7622ffd1284fe1dbaa020caad6578e7b Mon Sep 17 00:00:00 2001
+From: Soren Rasmussen <s.c.rasmussen@gmail.com>
+Date: Mon, 18 Dec 2017 14:34:16 -0800
+Subject: [PATCH] Teams patch
+
+---
+ gcc/fortran/array.c                          |  16 +++-
+ gcc/fortran/check.c                          |  14 +++
+ gcc/fortran/dump-parse-tree.c                |  16 ++++
+ gcc/fortran/expr.c                           |  20 ++++-
+ gcc/fortran/gfortran.h                       |   7 +-
+ gcc/fortran/intrinsic.c                      |   5 ++
+ gcc/fortran/intrinsic.h                      |   3 +
+ gcc/fortran/iresolve.c                       |  13 +++
+ gcc/fortran/iso-fortran-env.def              |   5 ++
+ gcc/fortran/match.c                          | 129 +++++++++++++++++++++++++++
+ gcc/fortran/match.h                          |   4 +
+ gcc/fortran/parse.c                          |  18 ++++
+ gcc/fortran/resolve.c                        |   4 +
+ gcc/fortran/simplify.c                       |  24 +++++
+ gcc/fortran/st.c                             |   4 +
+ gcc/fortran/trans-decl.c                     |  42 +++++++--
+ gcc/fortran/trans-intrinsic.c                |  22 ++++-
+ gcc/fortran/trans-stmt.c                     | 104 +++++++++++++++++++++
+ gcc/fortran/trans-stmt.h                     |   4 +
+ gcc/fortran/trans-types.c                    |   6 +-
+ gcc/fortran/trans.c                          |  16 ++++
+ gcc/fortran/trans.h                          |   5 ++
+ gcc/testsuite/gfortran.dg/teams_change_1.f90 |  15 ++++
+ gcc/testsuite/gfortran.dg/teams_end_1.f90    |  18 ++++
+ gcc/testsuite/gfortran.dg/teams_form_1.f90   |  12 +++
+ 27 files changed, 667 insertions(+), 14 deletions(-)
+ create mode 100644 .github/ISSUE_TEMPLATE.md
+ create mode 100644 README.md
+ create mode 100644 gcc/testsuite/gfortran.dg/teams_change_1.f90
+ create mode 100644 gcc/testsuite/gfortran.dg/teams_end_1.f90
+ create mode 100644 gcc/testsuite/gfortran.dg/teams_form_1.f90
+
+diff --git a/gcc/fortran/array.c b/gcc/fortran/array.c
+index 46642bb5d97..ae2a3157ad4 100644
+--- a/gcc/fortran/array.c
++++ b/gcc/fortran/array.c
+@@ -158,6 +158,7 @@ gfc_match_array_ref (gfc_array_ref *ar, gfc_array_spec *as, int init,
+   bool matched_bracket = false;
+   gfc_expr *tmp;
+   bool stat_just_seen = false;
++  bool team_just_seen = false;
+ 
+   memset (ar, '\0', sizeof (*ar));
+ 
+@@ -230,8 +231,21 @@ coarray:
+       if (m == MATCH_ERROR)
+ 	return MATCH_ERROR;
+ 
++      team_just_seen = false;
+       stat_just_seen = false;
+-      if (gfc_match(" , stat = %e",&tmp) == MATCH_YES && ar->stat == NULL)
++      if (gfc_match (" , team = %e", &tmp) == MATCH_YES && ar->stat == NULL)
++	{
++	  ar->team = tmp;
++	  team_just_seen = true;
++	}
++
++      if (ar->team && !team_just_seen)
++	{
++	  gfc_error ("TEAM= attribute in %C misplaced");
++	  return MATCH_ERROR;
++	}
++
++      if (gfc_match (" , stat = %e",&tmp) == MATCH_YES && ar->stat == NULL)
+ 	{
+ 	  ar->stat = tmp;
+ 	  stat_just_seen = true;
+diff --git a/gcc/fortran/check.c b/gcc/fortran/check.c
+index eda740793bb..6ce66dda4a3 100644
+--- a/gcc/fortran/check.c
++++ b/gcc/fortran/check.c
+@@ -1252,6 +1252,20 @@ gfc_check_failed_or_stopped_images (gfc_expr *team, gfc_expr *kind)
+ }
+ 
+ 
++bool
++gfc_check_get_team (gfc_expr *level)
++{
++  if (level)
++    {
++      gfc_error ("%qs argument of %qs intrinsic at %L not yet supported",
++		 gfc_current_intrinsic_arg[0]->name, gfc_current_intrinsic,
++		 &level->where);
++      return false;
++    }
++  return true;
++}
++
++
+ bool
+ gfc_check_atomic_cas (gfc_expr *atom, gfc_expr *old, gfc_expr *compare,
+ 		      gfc_expr *new_val,  gfc_expr *stat)
+diff --git a/gcc/fortran/dump-parse-tree.c b/gcc/fortran/dump-parse-tree.c
+index 5193c29186b..cc6fc8f849d 100644
+--- a/gcc/fortran/dump-parse-tree.c
++++ b/gcc/fortran/dump-parse-tree.c
+@@ -1869,6 +1869,22 @@ show_code_node (int level, gfc_code *c)
+       fputs ("FAIL IMAGE ", dumpfile);
+       break;
+ 
++    case EXEC_CHANGE_TEAM:
++      fputs ("CHANGE TEAM", dumpfile);
++      break;
++
++    case EXEC_END_TEAM:
++      fputs ("END TEAM", dumpfile);
++      break;
++
++    case EXEC_FORM_TEAM:
++      fputs ("FORM TEAM", dumpfile);
++      break;
++
++    case EXEC_SYNC_TEAM:
++      fputs ("SYNC TEAM", dumpfile);
++      break;
++
+     case EXEC_SYNC_ALL:
+       fputs ("SYNC ALL ", dumpfile);
+       if (c->expr2 != NULL)
+diff --git a/gcc/fortran/expr.c b/gcc/fortran/expr.c
+index 428fce1ad04..55d46354033 100644
+--- a/gcc/fortran/expr.c
++++ b/gcc/fortran/expr.c
+@@ -5006,7 +5006,25 @@ gfc_ref_this_image (gfc_ref *ref)
+ }
+ 
+ gfc_expr *
+-gfc_find_stat_co(gfc_expr *e)
++gfc_find_team_co (gfc_expr *e)
++{
++  gfc_ref *ref;
++
++  for (ref = e->ref; ref; ref = ref->next)
++    if (ref->type == REF_ARRAY && ref->u.ar.codimen > 0)
++      return ref->u.ar.team;
++
++  if (e->value.function.actual->expr)
++    for (ref = e->value.function.actual->expr->ref; ref;
++	 ref = ref->next)
++      if (ref->type == REF_ARRAY && ref->u.ar.codimen > 0)
++	return ref->u.ar.team;
++
++  return NULL;
++}
++
++gfc_expr *
++gfc_find_stat_co (gfc_expr *e)
+ {
+   gfc_ref *ref;
+ 
+diff --git a/gcc/fortran/gfortran.h b/gcc/fortran/gfortran.h
+index c5e62d7200a..0698628740d 100644
+--- a/gcc/fortran/gfortran.h
++++ b/gcc/fortran/gfortran.h
+@@ -263,7 +263,8 @@ enum gfc_statement
+   ST_OMP_TASKLOOP_SIMD, ST_OMP_END_TASKLOOP_SIMD, ST_OMP_ORDERED_DEPEND,
+   ST_PROCEDURE, ST_GENERIC, ST_CRITICAL, ST_END_CRITICAL,
+   ST_GET_FCN_CHARACTERISTICS, ST_LOCK, ST_UNLOCK, ST_EVENT_POST,
+-  ST_EVENT_WAIT,ST_FAIL_IMAGE,ST_NONE
++  ST_EVENT_WAIT, ST_FAIL_IMAGE, ST_FORM_TEAM, ST_CHANGE_TEAM,
++  ST_END_TEAM, ST_SYNC_TEAM, ST_NONE
+ };
+ 
+ /* Types of interfaces that we can have.  Assignment interfaces are
+@@ -455,6 +456,7 @@ enum gfc_isym_id
+   GFC_ISYM_GETGID,
+   GFC_ISYM_GETLOG,
+   GFC_ISYM_GETPID,
++  GFC_ISYM_GET_TEAM,
+   GFC_ISYM_GETUID,
+   GFC_ISYM_GMTIME,
+   GFC_ISYM_HOSTNM,
+@@ -1913,6 +1915,7 @@ typedef struct gfc_array_ref
+   int dimen;			/* # of components in the reference */
+   int codimen;
+   bool in_allocate;		/* For coarray checks. */
++  gfc_expr *team;
+   gfc_expr *stat;
+   locus where;
+   gfc_array_spec *as;
+@@ -2488,6 +2491,7 @@ enum gfc_exec_op
+   EXEC_OPEN, EXEC_CLOSE, EXEC_WAIT,
+   EXEC_READ, EXEC_WRITE, EXEC_IOLENGTH, EXEC_TRANSFER, EXEC_DT_END,
+   EXEC_BACKSPACE, EXEC_ENDFILE, EXEC_INQUIRE, EXEC_REWIND, EXEC_FLUSH,
++  EXEC_FORM_TEAM, EXEC_CHANGE_TEAM, EXEC_END_TEAM, EXEC_SYNC_TEAM,
+   EXEC_LOCK, EXEC_UNLOCK, EXEC_EVENT_POST, EXEC_EVENT_WAIT, EXEC_FAIL_IMAGE,
+   EXEC_OACC_KERNELS_LOOP, EXEC_OACC_PARALLEL_LOOP, EXEC_OACC_ROUTINE,
+   EXEC_OACC_PARALLEL, EXEC_OACC_KERNELS, EXEC_OACC_DATA, EXEC_OACC_HOST_DATA,
+@@ -3204,6 +3208,7 @@ bool gfc_is_coarray (gfc_expr *);
+ int gfc_get_corank (gfc_expr *);
+ bool gfc_has_ultimate_allocatable (gfc_expr *);
+ bool gfc_has_ultimate_pointer (gfc_expr *);
++gfc_expr* gfc_find_team_co (gfc_expr *);
+ gfc_expr* gfc_find_stat_co (gfc_expr *);
+ gfc_expr* gfc_build_intrinsic_call (gfc_namespace *, gfc_isym_id, const char*,
+ 				    locus, unsigned, ...);
+diff --git a/gcc/fortran/intrinsic.c b/gcc/fortran/intrinsic.c
+index cb18b21a90d..9175e3f9c76 100644
+--- a/gcc/fortran/intrinsic.c
++++ b/gcc/fortran/intrinsic.c
+@@ -1940,6 +1940,11 @@ add_functions (void)
+ 
+   make_generic ("getpid", GFC_ISYM_GETPID, GFC_STD_GNU);
+ 
++  add_sym_1 ("get_team", GFC_ISYM_GET_TEAM, CLASS_TRANSFORMATIONAL,
++	     ACTUAL_NO, BT_INTEGER, di, GFC_STD_F2008_TS,
++	     gfc_check_get_team, NULL, gfc_resolve_get_team,
++	     "level", BT_INTEGER, di, OPTIONAL);
++
+   add_sym_0 ("getuid", GFC_ISYM_GETUID, CLASS_IMPURE, ACTUAL_NO, BT_INTEGER,
+ 	     di, GFC_STD_GNU, NULL, NULL, gfc_resolve_getuid);
+ 
+diff --git a/gcc/fortran/intrinsic.h b/gcc/fortran/intrinsic.h
+index 62827887b3c..344b1c94a22 100644
+--- a/gcc/fortran/intrinsic.h
++++ b/gcc/fortran/intrinsic.h
+@@ -83,6 +83,7 @@ bool gfc_check_fn_r (gfc_expr *);
+ bool gfc_check_fn_rc (gfc_expr *);
+ bool gfc_check_fn_rc2008 (gfc_expr *);
+ bool gfc_check_fnum (gfc_expr *);
++bool gfc_check_get_team (gfc_expr *);
+ bool gfc_check_hostnm (gfc_expr *);
+ bool gfc_check_huge (gfc_expr *);
+ bool gfc_check_hypot (gfc_expr *, gfc_expr *);
+@@ -299,6 +300,7 @@ gfc_expr *gfc_simplify_float (gfc_expr *);
+ gfc_expr *gfc_simplify_floor (gfc_expr *, gfc_expr *);
+ gfc_expr *gfc_simplify_fraction (gfc_expr *);
+ gfc_expr *gfc_simplify_gamma (gfc_expr *);
++gfc_expr *gfc_simplify_get_team (gfc_expr *);
+ gfc_expr *gfc_simplify_huge (gfc_expr *);
+ gfc_expr *gfc_simplify_hypot (gfc_expr *, gfc_expr *);
+ gfc_expr *gfc_simplify_iachar (gfc_expr *, gfc_expr *);
+@@ -493,6 +495,7 @@ void gfc_resolve_gamma (gfc_expr *, gfc_expr *);
+ void gfc_resolve_getcwd (gfc_expr *, gfc_expr *);
+ void gfc_resolve_getgid (gfc_expr *);
+ void gfc_resolve_getpid (gfc_expr *);
++void gfc_resolve_get_team (gfc_expr *, gfc_expr *);
+ void gfc_resolve_getuid (gfc_expr *);
+ void gfc_resolve_hostnm (gfc_expr *, gfc_expr *);
+ void gfc_resolve_hypot (gfc_expr *, gfc_expr *, gfc_expr *);
+diff --git a/gcc/fortran/iresolve.c b/gcc/fortran/iresolve.c
+index 3226a88832d..eb0c73790a3 100644
+--- a/gcc/fortran/iresolve.c
++++ b/gcc/fortran/iresolve.c
+@@ -2944,6 +2944,19 @@ gfc_resolve_image_status (gfc_expr *f, gfc_expr *image ATTRIBUTE_UNUSED,
+ }
+ 
+ 
++/* Resolve get_team ().  */
++
++void
++gfc_resolve_get_team (gfc_expr *f, gfc_expr *level ATTRIBUTE_UNUSED)
++{
++  static char get_team[] = "_gfortran_caf_get_team";
++  f->rank = 0;
++  f->ts.type = BT_INTEGER;
++  f->ts.kind = gfc_default_integer_kind;
++  f->value.function.name = get_team;
++}
++
++
+ /* Resolve image_index (...).  */
+ 
+ void
+diff --git a/gcc/fortran/iso-fortran-env.def b/gcc/fortran/iso-fortran-env.def
+index 8e231a6330a..9cf4b1c4cfd 100644
+--- a/gcc/fortran/iso-fortran-env.def
++++ b/gcc/fortran/iso-fortran-env.def
+@@ -128,6 +128,11 @@ NAMED_DERIVED_TYPE (ISOFORTRAN_EVENT_TYPE, "event_type", \
+ 		    ?  get_int_kind_from_node (ptr_type_node)
+ 		    : gfc_default_integer_kind, GFC_STD_F2008_TS)
+ 
++NAMED_DERIVED_TYPE (ISOFORTRAN_TEAM_TYPE, "team_type", \
++		    flag_coarray == GFC_FCOARRAY_LIB
++		    ? get_int_kind_from_node (ptr_type_node)
++		    : gfc_default_integer_kind, GFC_STD_F2008_TS)
++
+ #undef NAMED_INTCST
+ #undef NAMED_KINDARRAY
+ #undef NAMED_FUNCTION
+diff --git a/gcc/fortran/match.c b/gcc/fortran/match.c
+index c5bdce21184..91f3107b8ca 100644
+--- a/gcc/fortran/match.c
++++ b/gcc/fortran/match.c
+@@ -1596,11 +1596,13 @@ gfc_match_if (gfc_statement *if_type)
+   match ("assign", gfc_match_assign, ST_LABEL_ASSIGNMENT)
+   match ("backspace", gfc_match_backspace, ST_BACKSPACE)
+   match ("call", gfc_match_call, ST_CALL)
++  match ("change team", gfc_match_change_team, ST_CHANGE_TEAM)
+   match ("close", gfc_match_close, ST_CLOSE)
+   match ("continue", gfc_match_continue, ST_CONTINUE)
+   match ("cycle", gfc_match_cycle, ST_CYCLE)
+   match ("deallocate", gfc_match_deallocate, ST_DEALLOCATE)
+   match ("end file", gfc_match_endfile, ST_END_FILE)
++  match ("end team", gfc_match_end_team, ST_END_TEAM)
+   match ("error stop", gfc_match_error_stop, ST_ERROR_STOP)
+   match ("event post", gfc_match_event_post, ST_EVENT_POST)
+   match ("event wait", gfc_match_event_wait, ST_EVENT_WAIT)
+@@ -1608,6 +1610,7 @@ gfc_match_if (gfc_statement *if_type)
+   match ("fail image", gfc_match_fail_image, ST_FAIL_IMAGE)
+   match ("flush", gfc_match_flush, ST_FLUSH)
+   match ("forall", match_simple_forall, ST_FORALL)
++  match ("form team", gfc_match_form_team, ST_FORM_TEAM)
+   match ("go to", gfc_match_goto, ST_GOTO)
+   match ("if", match_arithmetic_if, ST_ARITHMETIC_IF)
+   match ("inquire", gfc_match_inquire, ST_INQUIRE)
+@@ -1624,6 +1627,7 @@ gfc_match_if (gfc_statement *if_type)
+   match ("sync all", gfc_match_sync_all, ST_SYNC_CALL);
+   match ("sync images", gfc_match_sync_images, ST_SYNC_IMAGES);
+   match ("sync memory", gfc_match_sync_memory, ST_SYNC_MEMORY);
++  match ("sync team", gfc_match_sync_team, ST_SYNC_TEAM)
+   match ("unlock", gfc_match_unlock, ST_UNLOCK)
+   match ("where", match_simple_where, ST_WHERE)
+   match ("write", gfc_match_write, ST_WRITE)
+@@ -3344,6 +3348,131 @@ syntax:
+   return MATCH_ERROR;
+ }
+ 
++/* Match a FORM TEAM statement.  */
++
++match
++gfc_match_form_team (void)
++{
++  match m;
++  gfc_expr *teamid,*team;
++
++  if (!gfc_notify_std (GFC_STD_F2008_TS, "FORM TEAM statement at %C"))
++    return MATCH_ERROR;
++
++  if (gfc_match_char ('(') == MATCH_NO)
++    goto syntax;
++  
++  new_st.op = EXEC_FORM_TEAM;
++
++  if (gfc_match ("%e", &teamid) != MATCH_YES)
++    goto syntax;
++  m = gfc_match_char (',');
++  if (m == MATCH_ERROR)
++    goto syntax;
++  if (gfc_match ("%e", &team) != MATCH_YES)
++    goto syntax;
++
++  m = gfc_match_char (')');
++  if (m == MATCH_NO)
++    goto syntax;
++
++  new_st.expr1 = teamid;
++  new_st.expr2 = team;
++
++  return MATCH_YES;
++
++syntax:
++  gfc_syntax_error (ST_FORM_TEAM);
++
++  return MATCH_ERROR;
++}
++
++/* Match a CHANGE TEAM statement.  */
++
++match
++gfc_match_change_team (void)
++{
++  match m;
++  gfc_expr *team;
++
++  if (!gfc_notify_std (GFC_STD_F2008_TS, "CHANGE TEAM statement at %C"))
++    return MATCH_ERROR;
++
++  if (gfc_match_char ('(') == MATCH_NO)
++    goto syntax;
++  
++  new_st.op = EXEC_CHANGE_TEAM;
++
++  if (gfc_match ("%e", &team) != MATCH_YES)
++    goto syntax;
++
++  m = gfc_match_char (')');
++  if (m == MATCH_NO)
++    goto syntax;
++
++  new_st.expr1 = team;
++
++  return MATCH_YES;
++
++syntax:
++  gfc_syntax_error (ST_CHANGE_TEAM);
++
++  return MATCH_ERROR;
++}
++
++/* Match a END TEAM statement.  */
++
++match
++gfc_match_end_team (void)
++{
++  if (!gfc_notify_std (GFC_STD_F2008_TS, "END TEAM statement at %C"))
++    return MATCH_ERROR;
++
++  if (gfc_match_char ('(') == MATCH_YES)
++    goto syntax;
++  
++  new_st.op = EXEC_END_TEAM;
++
++  return MATCH_YES;
++
++syntax:
++  gfc_syntax_error (ST_END_TEAM);
++
++  return MATCH_ERROR;
++}
++
++/* Match a SYNC TEAM statement.  */
++
++match
++gfc_match_sync_team (void)
++{
++  match m;
++  gfc_expr *team;
++
++  if (!gfc_notify_std (GFC_STD_F2008_TS, "SYNC TEAM statement at %C"))
++    return MATCH_ERROR;
++
++  if (gfc_match_char ('(') == MATCH_NO)
++    goto syntax;
++  
++  new_st.op = EXEC_SYNC_TEAM;
++
++  if (gfc_match ("%e", &team) != MATCH_YES)
++    goto syntax;
++
++  m = gfc_match_char (')');
++  if (m == MATCH_NO)
++    goto syntax;
++
++  new_st.expr1 = team;
++
++  return MATCH_YES;
++
++syntax:
++  gfc_syntax_error (ST_SYNC_TEAM);
++
++  return MATCH_ERROR;
++}
+ 
+ /* Match LOCK/UNLOCK statement. Syntax:
+      LOCK ( lock-variable [ , lock-stat-list ] )
+diff --git a/gcc/fortran/match.h b/gcc/fortran/match.h
+index d6df349532c..4f8ba990b63 100644
+--- a/gcc/fortran/match.h
++++ b/gcc/fortran/match.h
+@@ -74,6 +74,10 @@ match gfc_match_event_post (void);
+ match gfc_match_event_wait (void);
+ match gfc_match_critical (void);
+ match gfc_match_fail_image (void);
++match gfc_match_change_team (void);
++match gfc_match_end_team (void);
++match gfc_match_form_team (void);
++match gfc_match_sync_team (void);
+ match gfc_match_block (void);
+ match gfc_match_associate (void);
+ match gfc_match_do (void);
+diff --git a/gcc/fortran/parse.c b/gcc/fortran/parse.c
+index 08bff3f8615..4385d168aa2 100644
+--- a/gcc/fortran/parse.c
++++ b/gcc/fortran/parse.c
+@@ -451,6 +451,7 @@ decode_statement (void)
+ 
+     case 'c':
+       match ("call", gfc_match_call, ST_CALL);
++      match ("change team", gfc_match_change_team, ST_CHANGE_TEAM);
+       match ("close", gfc_match_close, ST_CLOSE);
+       match ("continue", gfc_match_continue, ST_CONTINUE);
+       match ("contiguous", gfc_match_contiguous, ST_ATTR_DECL);
+@@ -470,6 +471,7 @@ decode_statement (void)
+ 
+     case 'e':
+       match ("end file", gfc_match_endfile, ST_END_FILE);
++      match ("end team", gfc_match_end_team, ST_END_TEAM);
+       match ("exit", gfc_match_exit, ST_EXIT);
+       match ("else", gfc_match_else, ST_ELSE);
+       match ("else where", gfc_match_elsewhere, ST_ELSEWHERE);
+@@ -491,6 +493,7 @@ decode_statement (void)
+       match ("fail image", gfc_match_fail_image, ST_FAIL_IMAGE);
+       match ("final", gfc_match_final_decl, ST_FINAL);
+       match ("flush", gfc_match_flush, ST_FLUSH);
++      match ("form team", gfc_match_form_team, ST_FORM_TEAM);
+       match ("format", gfc_match_format, ST_FORMAT);
+       break;
+ 
+@@ -558,6 +561,7 @@ decode_statement (void)
+       match ("sync all", gfc_match_sync_all, ST_SYNC_ALL);
+       match ("sync images", gfc_match_sync_images, ST_SYNC_IMAGES);
+       match ("sync memory", gfc_match_sync_memory, ST_SYNC_MEMORY);
++      match ("sync team", gfc_match_sync_team, ST_SYNC_TEAM);
+       break;
+ 
+     case 't':
+@@ -1502,6 +1506,8 @@ next_statement (void)
+   case ST_OMP_TARGET_EXIT_DATA: case ST_OMP_ORDERED_DEPEND: \
+   case ST_ERROR_STOP: case ST_SYNC_ALL: \
+   case ST_SYNC_IMAGES: case ST_SYNC_MEMORY: case ST_LOCK: case ST_UNLOCK: \
++  case ST_FORM_TEAM: case ST_CHANGE_TEAM: \
++  case ST_END_TEAM: case ST_SYNC_TEAM: \
+   case ST_EVENT_POST: case ST_EVENT_WAIT: case ST_FAIL_IMAGE: \
+   case ST_OACC_UPDATE: case ST_OACC_WAIT: case ST_OACC_CACHE: \
+   case ST_OACC_ENTER_DATA: case ST_OACC_EXIT_DATA
+@@ -1833,6 +1839,18 @@ gfc_ascii_statement (gfc_statement st)
+     case ST_FAIL_IMAGE:
+       p = "FAIL IMAGE";
+       break;
++    case ST_CHANGE_TEAM:
++      p = "CHANGE TEAM";
++      break;
++    case ST_END_TEAM:
++      p = "END TEAM";
++      break;
++    case ST_FORM_TEAM:
++      p = "FORM TEAM";
++      break;
++    case ST_SYNC_TEAM:
++      p = "SYNC TEAM";
++      break;
+     case ST_END_ASSOCIATE:
+       p = "END ASSOCIATE";
+       break;
+diff --git a/gcc/fortran/resolve.c b/gcc/fortran/resolve.c
+index f819b715861..d314abbb520 100644
+--- a/gcc/fortran/resolve.c
++++ b/gcc/fortran/resolve.c
+@@ -11103,6 +11103,10 @@ start:
+ 	  break;
+ 
+ 	case EXEC_FAIL_IMAGE:
++	case EXEC_FORM_TEAM:
++	case EXEC_CHANGE_TEAM:
++	case EXEC_END_TEAM:
++	case EXEC_SYNC_TEAM:
+ 	  break;
+ 
+ 	case EXEC_ENTRY:
+diff --git a/gcc/fortran/simplify.c b/gcc/fortran/simplify.c
+index 7c3fefe60f9..0be5fc71abf 100644
+--- a/gcc/fortran/simplify.c
++++ b/gcc/fortran/simplify.c
+@@ -2505,6 +2505,30 @@ gfc_simplify_failed_or_stopped_images (gfc_expr *team ATTRIBUTE_UNUSED,
+ }
+ 
+ 
++gfc_expr *
++gfc_simplify_get_team (gfc_expr *level ATTRIBUTE_UNUSED)
++{
++  if (flag_coarray == GFC_FCOARRAY_NONE)
++    {
++      gfc_current_locus = *gfc_current_intrinsic_where;
++      gfc_fatal_error ("Coarrays disabled at %C, use %<-fcoarray=%> to enable");
++      return &gfc_bad_expr;
++    }
++
++  if (flag_coarray == GFC_FCOARRAY_SINGLE)
++    {
++      gfc_expr *result;
++      result = gfc_get_array_expr (BT_INTEGER, gfc_default_integer_kind, &gfc_current_locus);
++      result->rank = 0;
++      return result;
++    }
++
++  /* For fcoarray = lib no simplification is possible, because it is not known
++     what images failed or are stopped at compile time.  */
++  return NULL;
++}
++
++
+ gfc_expr *
+ gfc_simplify_float (gfc_expr *a)
+ {
+diff --git a/gcc/fortran/st.c b/gcc/fortran/st.c
+index bffe50df7b8..a2699b7a074 100644
+--- a/gcc/fortran/st.c
++++ b/gcc/fortran/st.c
+@@ -121,6 +121,10 @@ gfc_free_statement (gfc_code *p)
+     case EXEC_EVENT_POST:
+     case EXEC_EVENT_WAIT:
+     case EXEC_FAIL_IMAGE:
++    case EXEC_CHANGE_TEAM:
++    case EXEC_END_TEAM:
++    case EXEC_FORM_TEAM:
++    case EXEC_SYNC_TEAM:
+       break;
+ 
+     case EXEC_BLOCK:
+diff --git a/gcc/fortran/trans-decl.c b/gcc/fortran/trans-decl.c
+index ada38b894c4..cac6cdae102 100644
+--- a/gcc/fortran/trans-decl.c
++++ b/gcc/fortran/trans-decl.c
+@@ -157,6 +157,11 @@ tree gfor_fndecl_caf_fail_image;
+ tree gfor_fndecl_caf_failed_images;
+ tree gfor_fndecl_caf_image_status;
+ tree gfor_fndecl_caf_stopped_images;
++tree gfor_fndecl_caf_form_team;
++tree gfor_fndecl_caf_change_team;
++tree gfor_fndecl_caf_end_team;
++tree gfor_fndecl_caf_sync_team;
++tree gfor_fndecl_caf_get_team;
+ tree gfor_fndecl_co_broadcast;
+ tree gfor_fndecl_co_max;
+ tree gfor_fndecl_co_min;
+@@ -3363,7 +3368,7 @@ gfc_build_intrinsic_function_decls (void)
+ 	    jtype = gfc_get_int_type (ikinds[jkind]);
+ 	    if (itype && jtype)
+ 	      {
+-		sprintf(name, PREFIX("pow_i%d_i%d"), ikinds[ikind],
++		sprintf (name, PREFIX("pow_i%d_i%d"), ikinds[ikind],
+ 			ikinds[jkind]);
+ 		gfor_fndecl_math_powi[jkind][ikind].integer =
+ 		  gfc_build_library_function_decl (get_identifier (name),
+@@ -3378,7 +3383,7 @@ gfc_build_intrinsic_function_decls (void)
+ 	    rtype = gfc_get_real_type (rkinds[rkind]);
+ 	    if (rtype && itype)
+ 	      {
+-		sprintf(name, PREFIX("pow_r%d_i%d"), rkinds[rkind],
++		sprintf (name, PREFIX("pow_r%d_i%d"), rkinds[rkind],
+ 			ikinds[ikind]);
+ 		gfor_fndecl_math_powi[rkind][ikind].real =
+ 		  gfc_build_library_function_decl (get_identifier (name),
+@@ -3390,7 +3395,7 @@ gfc_build_intrinsic_function_decls (void)
+ 	    ctype = gfc_get_complex_type (rkinds[rkind]);
+ 	    if (ctype && itype)
+ 	      {
+-		sprintf(name, PREFIX("pow_c%d_i%d"), rkinds[rkind],
++		sprintf (name, PREFIX("pow_c%d_i%d"), rkinds[rkind],
+ 			ikinds[ikind]);
+ 		gfor_fndecl_math_powi[rkind][ikind].cmplx =
+ 		  gfc_build_library_function_decl (get_identifier (name),
+@@ -3642,10 +3647,10 @@ gfc_build_builtin_function_decls (void)
+ 	boolean_type_node, pint_type);
+ 
+       gfor_fndecl_caf_send = gfc_build_library_function_decl_with_spec (
+-	get_identifier (PREFIX("caf_send")), ".R.RRRRRRW", void_type_node, 10,
++	get_identifier (PREFIX("caf_send")), ".R.RRRRRRWR", void_type_node, 11,
+ 	pvoid_type_node, size_type_node, integer_type_node, pvoid_type_node,
+ 	pvoid_type_node, pvoid_type_node, integer_type_node, integer_type_node,
+-	boolean_type_node, pint_type);
++	boolean_type_node, pint_type, pvoid_type_node);
+ 
+       gfor_fndecl_caf_sendget = gfc_build_library_function_decl_with_spec (
+ 	get_identifier (PREFIX("caf_sendget")), ".R.RRRR.RRRRRR",
+@@ -3769,6 +3774,33 @@ gfc_build_builtin_function_decls (void)
+ 	    void_type_node, 3, pvoid_type_node, ppvoid_type_node,
+ 	    integer_type_node);
+ 
++      gfor_fndecl_caf_form_team
++	= gfc_build_library_function_decl_with_spec (
++	    get_identifier (PREFIX("caf_form_team")), "RWR",
++	    void_type_node, 3, integer_type_node, ppvoid_type_node,
++	    integer_type_node);
++
++      gfor_fndecl_caf_change_team
++	= gfc_build_library_function_decl_with_spec (
++	    get_identifier (PREFIX("caf_change_team")), "RR",
++	    void_type_node, 2, ppvoid_type_node,
++	    integer_type_node);
++
++      gfor_fndecl_caf_end_team
++	= gfc_build_library_function_decl (
++	    get_identifier (PREFIX("caf_end_team")), void_type_node, 0);
++
++      gfor_fndecl_caf_get_team
++	= gfc_build_library_function_decl_with_spec (
++	    get_identifier (PREFIX("caf_get_team")), "R",
++	    void_type_node, 1, integer_type_node);
++
++      gfor_fndecl_caf_sync_team
++	= gfc_build_library_function_decl_with_spec (
++	    get_identifier (PREFIX("caf_sync_team")), "RR",
++	    void_type_node, 2, ppvoid_type_node,
++	    integer_type_node);
++
+       gfor_fndecl_caf_image_status
+ 	= gfc_build_library_function_decl_with_spec (
+ 	    get_identifier (PREFIX("caf_image_status")), "RR",
+diff --git a/gcc/fortran/trans-intrinsic.c b/gcc/fortran/trans-intrinsic.c
+index c4aad1d3452..353894d2290 100644
+--- a/gcc/fortran/trans-intrinsic.c
++++ b/gcc/fortran/trans-intrinsic.c
+@@ -1846,11 +1846,11 @@ gfc_conv_intrinsic_caf_get (gfc_se *se, gfc_expr *expr, tree lhs, tree lhs_kind,
+ 
+ static tree
+ conv_caf_send (gfc_code *code) {
+-  gfc_expr *lhs_expr, *rhs_expr, *tmp_stat;
++  gfc_expr *lhs_expr, *rhs_expr, *tmp_stat, *tmp_team;
+   gfc_se lhs_se, rhs_se;
+   stmtblock_t block;
+   tree caf_decl, token, offset, image_index, tmp, lhs_kind, rhs_kind;
+-  tree may_require_tmp, src_stat, dst_stat;
++  tree may_require_tmp, src_stat, dst_stat, dst_team;
+   tree lhs_type = NULL_TREE;
+   tree vec = null_pointer_node, rhs_vec = null_pointer_node;
+   symbol_attribute lhs_caf_attr, rhs_caf_attr;
+@@ -1866,6 +1866,7 @@ conv_caf_send (gfc_code *code) {
+   lhs_caf_attr = gfc_caf_attr (lhs_expr);
+   rhs_caf_attr = gfc_caf_attr (rhs_expr);
+   src_stat = dst_stat = null_pointer_node;
++  dst_team = null_pointer_node;
+ 
+   /* LHS.  */
+   gfc_init_se (&lhs_se, NULL);
+@@ -2077,6 +2078,18 @@ conv_caf_send (gfc_code *code) {
+       gfc_add_block_to_block (&block, &stat_se.post);
+     }
+ 
++  tmp_team = gfc_find_team_co (lhs_expr);
++
++  if (tmp_team)
++    {
++      gfc_se team_se;
++      gfc_init_se (&team_se, NULL);
++      gfc_conv_expr_reference (&team_se, tmp_team);
++      dst_team = team_se.expr;
++      gfc_add_block_to_block (&block, &team_se.pre);
++      gfc_add_block_to_block (&block, &team_se.post);
++    }
++
+   if (!gfc_is_coindexed (rhs_expr))
+     {
+       if (lhs_caf_attr.alloc_comp || lhs_caf_attr.pointer_comp)
+@@ -2092,10 +2105,10 @@ conv_caf_send (gfc_code *code) {
+ 				     may_require_tmp, dst_realloc, src_stat);
+ 	  }
+       else
+-	tmp = build_call_expr_loc (input_location, gfor_fndecl_caf_send, 10,
++	tmp = build_call_expr_loc (input_location, gfor_fndecl_caf_send, 11,
+ 				   token, offset, image_index, lhs_se.expr, vec,
+ 				   rhs_se.expr, lhs_kind, rhs_kind,
+-				   may_require_tmp, src_stat);
++				   may_require_tmp, src_stat, dst_team);
+     }
+   else
+     {
+@@ -9569,6 +9582,7 @@ gfc_is_intrinsic_libcall (gfc_expr * expr)
+ 
+     case GFC_ISYM_CSHIFT:
+     case GFC_ISYM_EOSHIFT:
++    case GFC_ISYM_GET_TEAM:
+     case GFC_ISYM_FAILED_IMAGES:
+     case GFC_ISYM_STOPPED_IMAGES:
+     case GFC_ISYM_PACK:
+diff --git a/gcc/fortran/trans-stmt.c b/gcc/fortran/trans-stmt.c
+index df29b78e3f1..06251365dc9 100644
+--- a/gcc/fortran/trans-stmt.c
++++ b/gcc/fortran/trans-stmt.c
+@@ -696,6 +696,110 @@ gfc_trans_fail_image (gfc_code *code ATTRIBUTE_UNUSED)
+     }
+ }
+ 
++/* Translate the FORM TEAM statement.  */
++
++tree
++gfc_trans_form_team (gfc_code *code)
++{
++  if (flag_coarray == GFC_FCOARRAY_LIB)
++    {
++      gfc_se argse;
++      tree team_id,team_type;
++      gfc_init_se (&argse, NULL);
++      gfc_conv_expr_val (&argse, code->expr1);
++      team_id = fold_convert (integer_type_node, argse.expr);
++      gfc_init_se (&argse, NULL);
++      gfc_conv_expr_val (&argse, code->expr2);
++      team_type = gfc_build_addr_expr (ppvoid_type_node, argse.expr);
++
++      return build_call_expr_loc (input_location,
++				  gfor_fndecl_caf_form_team, 3,
++				  team_id, team_type,
++				  build_int_cst (integer_type_node, 0));
++    }
++  else
++    {
++      const char *name = gfc_get_string (PREFIX ("exit_i%d"), 4);
++      gfc_symbol *exsym = gfc_get_intrinsic_sub_symbol (name);
++      tree tmp = gfc_get_symbol_decl (exsym);
++      return build_call_expr_loc (input_location, tmp, 1, integer_zero_node);
++    }
++}
++
++/* Translate the CHANGE TEAM statement.  */
++
++tree
++gfc_trans_change_team (gfc_code *code)
++{
++  if (flag_coarray == GFC_FCOARRAY_LIB)
++    {
++      gfc_se argse;
++      tree team_type;
++
++      gfc_init_se (&argse, NULL);
++      gfc_conv_expr_val (&argse, code->expr1);
++      team_type = gfc_build_addr_expr (ppvoid_type_node, argse.expr);
++
++      return build_call_expr_loc (input_location,
++				  gfor_fndecl_caf_change_team, 2, team_type,
++				  build_int_cst (integer_type_node, 0));
++    }
++  else
++    {
++      const char *name = gfc_get_string (PREFIX ("exit_i%d"), 4);
++      gfc_symbol *exsym = gfc_get_intrinsic_sub_symbol (name);
++      tree tmp = gfc_get_symbol_decl (exsym);
++      return build_call_expr_loc (input_location, tmp, 1, integer_zero_node);
++    }
++}
++
++/* Translate the END TEAM statement.  */
++
++tree
++gfc_trans_end_team (gfc_code *code ATTRIBUTE_UNUSED)
++{
++  if (flag_coarray == GFC_FCOARRAY_LIB)
++    {
++      return build_call_expr_loc (input_location,
++				  gfor_fndecl_caf_end_team, 1,
++				  build_int_cst (pchar_type_node, 0));
++    }
++  else
++    {
++      const char *name = gfc_get_string (PREFIX ("exit_i%d"), 4);
++      gfc_symbol *exsym = gfc_get_intrinsic_sub_symbol (name);
++      tree tmp = gfc_get_symbol_decl (exsym);
++      return build_call_expr_loc (input_location, tmp, 1, integer_zero_node);
++    }
++}
++
++/* Translate the SYNC TEAM statement.  */
++
++tree
++gfc_trans_sync_team (gfc_code *code)
++{
++  if (flag_coarray == GFC_FCOARRAY_LIB)
++    {
++      gfc_se argse;
++      tree team_type;
++
++      gfc_init_se (&argse, NULL);
++      gfc_conv_expr_val (&argse, code->expr1);
++      team_type = gfc_build_addr_expr (ppvoid_type_node, argse.expr);
++
++      return build_call_expr_loc (input_location,
++				  gfor_fndecl_caf_sync_team, 2,
++				  team_type,
++				  build_int_cst (integer_type_node, 0));
++    }
++  else
++    {
++      const char *name = gfc_get_string (PREFIX ("exit_i%d"), 4);
++      gfc_symbol *exsym = gfc_get_intrinsic_sub_symbol (name);
++      tree tmp = gfc_get_symbol_decl (exsym);
++      return build_call_expr_loc (input_location, tmp, 1, integer_zero_node);
++    }
++}
+ 
+ tree
+ gfc_trans_lock_unlock (gfc_code *code, gfc_exec_op op)
+diff --git a/gcc/fortran/trans-stmt.h b/gcc/fortran/trans-stmt.h
+index 0a39e26c218..0e0615ba282 100644
+--- a/gcc/fortran/trans-stmt.h
++++ b/gcc/fortran/trans-stmt.h
+@@ -58,6 +58,10 @@ tree gfc_trans_lock_unlock (gfc_code *, gfc_exec_op);
+ tree gfc_trans_event_post_wait (gfc_code *, gfc_exec_op);
+ tree gfc_trans_fail_image (gfc_code *);
+ tree gfc_trans_forall (gfc_code *);
++tree gfc_trans_form_team (gfc_code *);
++tree gfc_trans_change_team (gfc_code *);
++tree gfc_trans_end_team (gfc_code *);
++tree gfc_trans_sync_team (gfc_code *);
+ tree gfc_trans_where (gfc_code *);
+ tree gfc_trans_allocate (gfc_code *);
+ tree gfc_trans_deallocate (gfc_code *);
+diff --git a/gcc/fortran/trans-types.c b/gcc/fortran/trans-types.c
+index 6868329575b..c962a6dd4b0 100644
+--- a/gcc/fortran/trans-types.c
++++ b/gcc/fortran/trans-types.c
+@@ -2490,12 +2490,14 @@ gfc_get_derived_type (gfc_symbol * derived, int codimen)
+       || (flag_coarray == GFC_FCOARRAY_LIB
+ 	  && derived->from_intmod == INTMOD_ISO_FORTRAN_ENV
+ 	  && (derived->intmod_sym_id == ISOFORTRAN_LOCK_TYPE
+-	      || derived->intmod_sym_id == ISOFORTRAN_EVENT_TYPE)))
++	      || derived->intmod_sym_id == ISOFORTRAN_EVENT_TYPE
++	      || derived->intmod_sym_id == ISOFORTRAN_TEAM_TYPE)))
+     return ptr_type_node;
+ 
+   if (flag_coarray != GFC_FCOARRAY_LIB
+       && derived->from_intmod == INTMOD_ISO_FORTRAN_ENV
+-      && derived->intmod_sym_id == ISOFORTRAN_EVENT_TYPE)
++      && (derived->intmod_sym_id == ISOFORTRAN_EVENT_TYPE
++	  || derived->intmod_sym_id == ISOFORTRAN_TEAM_TYPE))
+     return gfc_get_int_type (gfc_default_integer_kind);
+ 
+   if (derived && derived->attr.flavor == FL_PROCEDURE
+diff --git a/gcc/fortran/trans.c b/gcc/fortran/trans.c
+index 8c1733448f4..ca64822d23e 100644
+--- a/gcc/fortran/trans.c
++++ b/gcc/fortran/trans.c
+@@ -1972,6 +1972,22 @@ trans_code (gfc_code * code, tree cond)
+ 	  res = gfc_trans_forall (code);
+ 	  break;
+ 
++	case EXEC_FORM_TEAM:
++	  res = gfc_trans_form_team (code);
++	  break;
++
++	case EXEC_CHANGE_TEAM:
++	  res = gfc_trans_change_team (code);
++	  break;
++
++	case EXEC_END_TEAM:
++	  res = gfc_trans_end_team (code);
++	  break;
++
++	case EXEC_SYNC_TEAM:
++	  res = gfc_trans_sync_team (code);
++	  break;
++
+ 	case EXEC_WHERE:
+ 	  res = gfc_trans_where (code);
+ 	  break;
+diff --git a/gcc/fortran/trans.h b/gcc/fortran/trans.h
+index c970ace86f9..088348d410d 100644
+--- a/gcc/fortran/trans.h
++++ b/gcc/fortran/trans.h
+@@ -837,6 +837,11 @@ extern GTY(()) tree gfor_fndecl_caf_fail_image;
+ extern GTY(()) tree gfor_fndecl_caf_failed_images;
+ extern GTY(()) tree gfor_fndecl_caf_image_status;
+ extern GTY(()) tree gfor_fndecl_caf_stopped_images;
++extern GTY(()) tree gfor_fndecl_caf_form_team;
++extern GTY(()) tree gfor_fndecl_caf_change_team;
++extern GTY(()) tree gfor_fndecl_caf_end_team;
++extern GTY(()) tree gfor_fndecl_caf_get_team;
++extern GTY(()) tree gfor_fndecl_caf_sync_team;
+ extern GTY(()) tree gfor_fndecl_co_broadcast;
+ extern GTY(()) tree gfor_fndecl_co_max;
+ extern GTY(()) tree gfor_fndecl_co_min;
+diff --git a/gcc/testsuite/gfortran.dg/teams_change_1.f90 b/gcc/testsuite/gfortran.dg/teams_change_1.f90
+new file mode 100644
+index 00000000000..a53d63a7161
+--- /dev/null
++++ b/gcc/testsuite/gfortran.dg/teams_change_1.f90
+@@ -0,0 +1,15 @@
++! { dg-do run }
++! { dg-options "-fcoarray=single" }
++!
++! Tests if change team worked
++!
++  use iso_fortran_env, only : team_type
++  implicit none
++  type(team_type) :: team
++  integer :: orig_i
++
++  orig_i = this_image ()
++  form team (orig_i + 1,team)
++  change team (team)
++  if ( orig_i + 1 .NE. this_image() ) call abort
++end
+diff --git a/gcc/testsuite/gfortran.dg/teams_end_1.f90 b/gcc/testsuite/gfortran.dg/teams_end_1.f90
+new file mode 100644
+index 00000000000..dc6f9e4725a
+--- /dev/null
++++ b/gcc/testsuite/gfortran.dg/teams_end_1.f90
+@@ -0,0 +1,18 @@
++! { dg-do run }
++! { dg-options "-fcoarray=single" }
++!
++! Tests if end team reverts this_image value
++!
++  use iso_fortran_env, only : team_type
++  implicit none
++  type(team_type) :: team
++  integer :: orig_i
++
++  orig_i = this_image ()
++  form team (orig_i + 1,team)
++  change team (team)
++  end team
++  if ( orig_i .NE. this_image () ) call abort
++end
++
++
+diff --git a/gcc/testsuite/gfortran.dg/teams_form_1.f90 b/gcc/testsuite/gfortran.dg/teams_form_1.f90
+new file mode 100644
+index 00000000000..a2107529f8e
+--- /dev/null
++++ b/gcc/testsuite/gfortran.dg/teams_form_1.f90
+@@ -0,0 +1,12 @@
++! { dg-do run }
++! { dg-options "-fcoarray=single" }
++!
++!
++  use iso_fortran_env, only : team_type
++  implicit none
++  type(team_type) :: team
++
++  form team (this_image(),team)
++end
++
++
+-- 
+2.14.1
+
