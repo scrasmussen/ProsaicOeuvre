@@ -1,3 +1,16 @@
+# License Cost
+As outline in
+https://mocktheorytest.com/resources/whats-the-real-cost-of-getting-a-motorbike-licence/
+
+*CBT: £100-140
+*Theory Test: £31
+A1 Training: £400-600
+*Practical Off/On Road Test: £15.50 and ~£75
+A2 Training: £500-1100
+*2nd Pactical on road: ~£75
+I don't think I need the training, might be good??
+
+
 # Cost
 Bell Moto 3 £250: dope old school helmet
 Googles £70
