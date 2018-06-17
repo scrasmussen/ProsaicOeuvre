@@ -1,3 +1,8 @@
+# Motorcycle
+4,250 Mutt RS-13 250 https://muttmotorcycles.com/pages/mutt-rs-13-250
+9,000 Yamaha SCR
+
+
 # License Cost
 As outline in
 https://mocktheorytest.com/resources/whats-the-real-cost-of-getting-a-motorbike-licence/
