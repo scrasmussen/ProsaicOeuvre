@@ -1,0 +1,7 @@
+# General Setup
+
+alias emacs='emacs -nw'
+PS1="C:\>"
+
+### Best Linux Setup
+https://github.com/grassmunk/Chicago95
