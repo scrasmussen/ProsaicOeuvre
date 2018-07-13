@@ -1,5 +1,9 @@
 # games to play
 
+### word around town
+* Dune 2000
+
+
 ### perfect video games : goo.gl/tj3HNx
 * tecmo super bowl : NES
 * earthbound ? Super NES
