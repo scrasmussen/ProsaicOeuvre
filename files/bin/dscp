@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+if [ $1 = "p"  ]; then
+  scp -r s280353@delta.central.cranfield.ac.uk:/mnt/gpfs0/home/s280353/test/mld2p4-tests/tau-gpu/runs/profile.* \
+                                               $HOME/Documents/src/profile
+else
+  scp -r s280353@delta.central.cranfield.ac.uk:/mnt/gpfs0/home/s280353/transfer/* /home/artless/Documents/src/res/hpc-test
+fi

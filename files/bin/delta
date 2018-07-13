@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -t s280353@hpcgate.cranfield.ac.uk ssh s280353@delta.central.cranfield.ac.uk
