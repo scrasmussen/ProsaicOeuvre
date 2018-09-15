@@ -5,11 +5,9 @@
 
 
 ### perfect video games : goo.gl/tj3HNx
-* tecmo super bowl : NES
 * earthbound ? Super NES
 ** Doom
 * River Raid : Atari 2600
-** Super Mario Bros. : NES
 ### should play in your lifetime : goo.gl/qPJP6h
 * Pokemon, The Witcher 3, BioShock, Minecraft, The Elder Scrolls 3,
   Civilization, Portal, Warcraft 3, Diablo 2, Tetris
@@ -42,8 +40,5 @@
 * prince of persia
 
 # emulators to use
-NES
-Super NES
-PSX
 
 # misc

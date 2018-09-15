@@ -1,5 +1,9 @@
 # n o t e s
 
+o si, seguro : yes, for sure
+bueno bye
+hijole
+
 Mosin-Nagant
 
 ### to apply patch

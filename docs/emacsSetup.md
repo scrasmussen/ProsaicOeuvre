@@ -19,3 +19,10 @@
               (set-selective-display
                 (if selective-display nil (or level 1))))
 ```
+```
+;; remove trailing whitespace
+(add-hook 'before-save-hook 'my-prog-nuke-trailing-whitespace)
+(defun my-prog-nuke-trailing-whitespace ()
+  (when (derived-mode-p 'prog-mode)
+        (delete-trailing-whitespace)))
+```
