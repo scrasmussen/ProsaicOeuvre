@@ -1,0 +1,15 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: showall
+
+* Chinese questions
+
+** Vocabulary
+
+*** Noun :drill:
+  :PROPERTIES:
+  :DRILL_TYPE_CARD: twosided
+  :END:
+Translate this word
+**** Chinese
+
+**** English
