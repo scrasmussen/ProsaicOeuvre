@@ -1,0 +1,37 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: showall
+
+* Vocab questions
+
+** Vocabulary
+
+*** Adjective                                                         :drill:
+    SCHEDULED: <2018-09-20 Thu>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-09-16 Sun 12:32]
+  :END:
+Define this word
+**** English
+apoplectic
+**** Definition
+overcome with anger; extremely indignant
+**** Example sentence
+Mark was apoplectic with rage at the decision
+
+# *** Adjectiv, Noun, Verb
+#   :PROPERTIES:
+#   :DRILL_TYPE: twosided
+#   :END:
+# Define the word
+# **** English
+# **** Definition
+# **** Example sentence
