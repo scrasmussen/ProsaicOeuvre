@@ -7,9 +7,21 @@
 
 *** Noun :drill:
   :PROPERTIES:
-  :DRILL_TYPE_CARD: twosided
+  :DRILL_CARD_TYPE: twosided
   :END:
 Translate this word
-**** Chinese
-
+**** Chines
+jiăo
 **** English
+**** Example sentence
+
+
+
+# *** Noun,Verb,Adjective :drill:
+#   :PROPERTIES:
+#   :DRILL_CARD_TYPE: twosided
+#   :END:
+# Translate this word
+# **** Chinese
+# **** English
+# **** Example sentence

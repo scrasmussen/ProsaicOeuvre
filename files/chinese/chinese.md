@@ -1,4 +1,11 @@
+Emacs Pinyin
+`M-x set-input-method chinese-sisheng
+This works but my 
+
+To find out the trnt
+
 org-capture
+
 
 (require 'package)
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)

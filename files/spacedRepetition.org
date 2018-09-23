@@ -5,19 +5,19 @@
 
 ** Vocabulary
 
-*** Adjective                                                         :drill:
-    SCHEDULED: <2018-09-20 Thu>
+*** Adjective :drill:
+    SCHEDULED: <2018-09-27 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
-  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_LAST_INTERVAL: 4.2751
   :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-09-16 Sun 12:32]
+  :DRILL_TOTAL_REPEATS: 10
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.9
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-09-23 Sun 13:58]
   :END:
 Define this word
 **** English
@@ -27,9 +27,34 @@ overcome with anger; extremely indignant
 **** Example sentence
 Mark was apoplectic with rage at the decision
 
-# *** Adjectiv, Noun, Verb
+
+*** Adjective :drill:
+    SCHEDULED: <2018-09-27 Thu>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       e52dcdd5-23f4-4c37-8d36-9b9b3e47ad62
+  :DRILL_LAST_INTERVAL: 3.8295
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-09-23 Sun 14:14]
+  :END:
+Define the phrase
+**** English
+sui generis
+**** Definition
+Latin phrase "of its own kind; in a class by itself; unique"
+**** Example sentence
+the sui generis nature of animals
+
+
+
+# *** Adjectiv, Noun, Verb :drill:
 #   :PROPERTIES:
-#   :DRILL_TYPE: twosided
+#   :DRILL_CARD_TYPE: twosided, multisided
 #   :END:
 # Define the word
 # **** English
