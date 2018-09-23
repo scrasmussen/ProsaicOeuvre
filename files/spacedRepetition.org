@@ -50,9 +50,30 @@ Latin phrase "of its own kind; in a class by itself; unique"
 **** Example sentence
 the sui generis nature of animals
 
+*** Noun                                                              :drill:
+    SCHEDULED: <2018-09-27 Thu>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       e4f76d52-7774-4136-ac32-a62fb3afac17
+  :DRILL_LAST_INTERVAL: 3.8544
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-09-23 Sun 15:11]
+  :END:
+Define the word
+**** English
+Anathema
+**** Definition
+something or someone that one vehemently dislikes.
+**** Example sentence
+Cutting-edge young people were calling themselves neo-liberal, adopting a term that had been anathema only a few years earlier.
 
 
-# *** Adjectiv, Noun, Verb :drill:
+# *** Adjective, Noun, Verb :drill:
 #   :PROPERTIES:
 #   :DRILL_CARD_TYPE: twosided, multisided
 #   :END:
