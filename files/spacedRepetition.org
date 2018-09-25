@@ -66,16 +66,141 @@ the sui generis nature of animals
   :END:
 Define the word
 **** English
-Anathema
+anathema
 **** Definition
 something or someone that one vehemently dislikes.
 **** Example sentence
-Cutting-edge young people were calling themselves neo-liberal, adopting a term that had been anathema only a few years earlier.
+Cutting-edge young people were calling themselves neo-liberal, adopting a term
+that had been anathema only a few years earlier.
+
+*** Adjective :drill:
+    SCHEDULED: <2018-09-30 Sun>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       df98658b-d200-455f-85ea-58e8e90a6196
+  :DRILL_LAST_INTERVAL: 4.7015
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-09-25 Tue 13:13]
+  :END:
+Define the word
+**** English
+erudite
+**** Definition
+Having or showing great knowledge or learning.
+**** Example sentence
+As a result of having studied abroad several years, Helen has become quite
+erudite on the subject of art history.
+
+*** Noun                                                        :drill:
+    SCHEDULED: <2018-09-29 Sat>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       fecbd2de-fd88-43ca-81fc-8a302b234284
+  :DRILL_LAST_INTERVAL: 4.2145
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-09-25 Tue 13:31]
+  :END:
+Define the word
+**** English
+quince
+**** Definition
+The fuit of a central Asian tree of the rose famiy that resembles a hard-fleshed
+yellow apple. Is used especially in preserves.
+
+
+*** Adjective, Noun, Verb :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided, multisided
+  :ID:       4219193b-7b44-41c2-822a-981de05feeb3
+  :END:
+Define the word
+**** English
+irony
+**** Definition
+A pretense of ignorance and of willingness to learn from another assumed in
+order to make the other's false conceptions conspicuous by adroit questioning
+-- called also Socratic irony
+
+The us of words to express something other than and especially the opposite of
+the literal meaning
+
+*** Adjective :drill:
+    SCHEDULED: <2018-09-29 Sat>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       4a82cb00-118c-4a69-87f3-70e5837b7697
+  :DRILL_LAST_INTERVAL: 3.9199
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-09-25 Tue 13:34]
+  :END:
+Define the word
+**** English
+lymphatic
+**** Definition
+of, relation to, or produced by lymph
+
+lacking physical or mental energy; sluggish
+
+*** Adjective                                                         :drill:
+    SCHEDULED: <2018-09-29 Sat>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
+  :DRILL_LAST_INTERVAL: 3.8075
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-09-25 Tue 13:32]
+  :END:
+Define the word
+**** English
+insipid
+**** Definition
+lacking taste or savor; tasteless
+
+lacking in qualities that interest, stimulate, or challenge; dull, flat
+**** Example sentence
+The soup was rather insipid
+
+*** Adjective                                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       80e1435a-f047-4c85-b4c8-0553b9de165c
+  :END:
+Define the word
+**** English
+savor
+**** Definition
+the taste or smell of something
+
+a particular flavor or smell
+
+a distinctive quality
+**** Example sentence
+Without her love, life has lost its savor for me.
 
 
 # *** Adjective, Noun, Verb :drill:
 #   :PROPERTIES:
-#   :DRILL_CARD_TYPE: twosided, multisided
+#   :DRILL_CARD_TYPE: twosided
 #   :END:
 # Define the word
 # **** English
