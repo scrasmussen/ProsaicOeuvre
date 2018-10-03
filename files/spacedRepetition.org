@@ -51,17 +51,18 @@ Latin phrase "of its own kind; in a class by itself; unique"
 the sui generis nature of animals
 
 *** Noun                                                              :drill:
+    SCHEDULED: <2018-10-06 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e4f76d52-7774-4136-ac32-a62fb3afac17
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 7
-  :DRILL_FAILURE_COUNT: 6
-  :DRILL_AVERAGE_QUALITY: 1.285
+  :DRILL_LAST_INTERVAL: 3.4681
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.555
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:23]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
   :END:
 Define the word
 **** English
@@ -161,12 +162,12 @@ lacking physical or mental energy; sluggish
   :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 7
-  :DRILL_FAILURE_COUNT: 6
-  :DRILL_AVERAGE_QUALITY: 1.285
+  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_FAILURE_COUNT: 8
+  :DRILL_AVERAGE_QUALITY: 1.332
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:23]
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
   :END:
 Define the word
 **** English
@@ -261,17 +262,18 @@ and preunderstandings.
 
 
 *** Noun                                                              :drill:
+    SCHEDULED: <2018-10-07 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       4f31c516-439a-46df-9737-6ff82947c4d5
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_LAST_INTERVAL: 3.5937
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 10
   :DRILL_FAILURE_COUNT: 9
-  :DRILL_AVERAGE_QUALITY: 1.221
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 12:24]
+  :DRILL_AVERAGE_QUALITY: 1.399
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:46]
   :END:
 Define the word
 **** English
@@ -317,6 +319,14 @@ directly relate to being, in particular becoming, existence, reality.]
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       2f0293bf-b1e9-4e87-9c1a-818e5e9cbdab
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
   :END:
 Define the word
 **** English
@@ -324,6 +334,51 @@ precocity
 **** Definition
 intelligence achieved far ahead of normal development schedules
 **** Example sentence
+There is a limited branch of children whose precocity has led them to be deemed genuises.
+
+*** Adjective :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       71b134e4-084c-4c64-ab68-661818dd23f4
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :END:
+Define the word
+**** English
+unflappable
+**** Definition
+having or showing calmness in a crisis
+**** Example sentence
+Gary was unflappable in his handling of the buses getting stuck in the mud.
+
+
+
+*** Noun                                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       ef491477-ccb8-4db2-972f-5ab9f773b089
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.5
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :END:
+Define the word
+**** English
+verisimilitude
+**** Definition
+the appearance of being true or real.
+**** Example sentence
+The verisimilitude of her performance is gripping.
 
 
 # *** Adjective, Noun, Verb :drill:
