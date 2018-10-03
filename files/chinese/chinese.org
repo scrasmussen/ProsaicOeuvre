@@ -8,6 +8,7 @@
 *** Noun :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       cfc3122f-f189-4991-a02a-d4a34014bf64
   :END:
 Translate this word
 **** Chines
