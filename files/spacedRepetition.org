@@ -157,17 +157,18 @@ of, relation to, or produced by lymph
 lacking physical or mental energy; sluggish
 
 *** Adjective                                                         :drill:
+    SCHEDULED: <2018-10-09 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 9
-  :DRILL_FAILURE_COUNT: 8
-  :DRILL_AVERAGE_QUALITY: 1.332
+  :DRILL_LAST_INTERVAL: 4.7757
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 11
+  :DRILL_FAILURE_COUNT: 9
+  :DRILL_AVERAGE_QUALITY: 1.545
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
   :END:
 Define the word
 **** English
@@ -316,17 +317,18 @@ The study of signs and symbols and their use or interpretation
 directly relate to being, in particular becoming, existence, reality.]
 
 *** Noun                                                        :drill:
+    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       2f0293bf-b1e9-4e87-9c1a-818e5e9cbdab
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :DRILL_LAST_INTERVAL: 4.1147
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 1.4
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
   :END:
 Define the word
 **** English
@@ -337,17 +339,18 @@ intelligence achieved far ahead of normal development schedules
 There is a limited branch of children whose precocity has led them to be deemed genuises.
 
 *** Adjective :drill:
+    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       71b134e4-084c-4c64-ab68-661818dd23f4
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_LAST_INTERVAL: 3.9452
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_AVERAGE_QUALITY: 2.667
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:09]
   :END:
 Define the word
 **** English
@@ -357,20 +360,19 @@ having or showing calmness in a crisis
 **** Example sentence
 Gary was unflappable in his handling of the buses getting stuck in the mud.
 
-
-
 *** Noun                                                              :drill:
+    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ef491477-ccb8-4db2-972f-5ab9f773b089
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.5
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :DRILL_LAST_INTERVAL: 4.3415
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
   :END:
 Define the word
 **** English
@@ -381,6 +383,81 @@ the appearance of being true or real.
 The verisimilitude of her performance is gripping.
 
 
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+obscurantism
+**** Definition
+the practice of deliberately preventing the facts of full details of
+something from becoming known.
+**** Example sentence
+He wages war on such ecclesiastical systems as seemed to him to favour
+obscurantism, and to put the claims of a sect above those of human
+society.
+
+*** Adjective, Noun, Verb :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+ecclesiastical
+**** Definition
+relating to the Christian church or its clergy
+**** Example sentence
+He wages war on such ecclesiastical systems as seemed to him to favour
+obscurantism, and to put the claims of a sect above those of human
+society.
+
+
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+interlocutor
+**** Definition
+one who takes part in dialogue or conversation
+**** Example sentence
+A person is poor interlocutor if he responds to media questions with
+one word answers.
+
+*** Idiom                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+in common parlance
+**** Definition
+used by many people in ordinary conversation
+expressed in words that most people use
+**** Example sentence
+dated terms that were once common parlance
+
+*** Adjective, Noun, Verb :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+parlance
+**** Definition
+a particular way of speaking or using words; especially a way common to
+those with a particular job or interest
+**** Example sentence
+The legal parlance used by attorneys has its roots in the Latin language.
+
+# *** Fact
+#   :PROPERTIES:
+#   :DRILL_CARD_TYPE: hide1cloze, show1cloze
+#   :END:
+# Something [like] this
+
 # *** Adjective, Noun, Verb :drill:
 #   :PROPERTIES:
 #   :DRILL_CARD_TYPE: twosided
@@ -389,9 +466,3 @@ The verisimilitude of her performance is gripping.
 # **** English
 # **** Definition
 # **** Example sentence
-
-# *** Fact
-#   :PROPERTIES:
-#   :DRILL_CARD_TYPE: hide1cloze, show1cloze
-#   :END:
-# Something [like] this
