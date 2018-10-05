@@ -6,18 +6,17 @@
 ** Vocabulary
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-05 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
-  :DRILL_LAST_INTERVAL: 3.6908
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 14
-  :DRILL_FAILURE_COUNT: 10
-  :DRILL_AVERAGE_QUALITY: 1.785
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 15
+  :DRILL_FAILURE_COUNT: 11
+  :DRILL_AVERAGE_QUALITY: 1.733
   :DRILL_EASE: 2.08
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:22]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
   :END:
 Define this word
 **** English
@@ -29,18 +28,17 @@ Mark was apoplectic with rage at the decision
 
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-05 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e52dcdd5-23f4-4c37-8d36-9b9b3e47ad62
-  :DRILL_LAST_INTERVAL: 4.2839
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 6
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 1.715
   :DRILL_EASE: 2.22
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:23]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
   :END:
 Define the phrase
 **** English
@@ -74,18 +72,18 @@ Cutting-edge young people were calling themselves neo-liberal, adopting a term
 that had been anathema only a few years earlier.
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-17 Wed>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       df98658b-d200-455f-85ea-58e8e90a6196
-  :DRILL_LAST_INTERVAL: 3.8779
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_LAST_INTERVAL: 11.6217
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 5
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.75
+  :DRILL_AVERAGE_QUALITY: 3.0
   :DRILL_EASE: 2.6
-  :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 10:30]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
   :END:
 Define the word
 **** English
@@ -97,18 +95,18 @@ As a result of having studied abroad several years, Helen has become quite
 erudite on the subject of art history.
 
 *** Noun                                                        :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-19 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       fecbd2de-fd88-43ca-81fc-8a302b234284
-  :DRILL_LAST_INTERVAL: 4.4886
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_LAST_INTERVAL: 13.7128
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 6
   :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.2
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:21]
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 Define the word
 **** English
@@ -135,18 +133,18 @@ The us of words to express something other than and especially the opposite of
 the literal meaning
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-14 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       4a82cb00-118c-4a69-87f3-70e5837b7697
-  :DRILL_LAST_INTERVAL: 3.5112
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_LAST_INTERVAL: 9.1233
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 6
   :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.6
+  :DRILL_AVERAGE_QUALITY: 2.833
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 10:37]
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 Define the word
 **** English
@@ -181,18 +179,18 @@ lacking in qualities that interest, stimulate, or challenge; dull, flat
 The soup was rather insipid
 
 *** Adjective                                                         :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-16 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       80e1435a-f047-4c85-b4c8-0553b9de165c
-  :DRILL_LAST_INTERVAL: 3.7081
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_LAST_INTERVAL: 10.6458
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 3
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.5
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 10:38]
+  :DRILL_AVERAGE_QUALITY: 3.333
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 Define the word
 **** English
@@ -208,18 +206,18 @@ Without her love, life has lost its savor for me.
 
 
 *** Adjective, Noun, Verb :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-17 Wed>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       448993f4-e5af-4d00-a36c-7a4c52aa00f3
-  :DRILL_LAST_INTERVAL: 4.2065
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 11.7676
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
   :DRILL_AVERAGE_QUALITY: 5.0
-  :DRILL_EASE: 2.6
+  :DRILL_EASE: 2.7
   :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 10:29]
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
   :END:
 Define the word
 **** English
@@ -283,35 +281,35 @@ semiotics
 The study of signs and symbols and their use or interpretation
 
 *** Fact :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-15 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       55faead9-1faf-45df-9400-719b832bcc0e
-  :DRILL_LAST_INTERVAL: 3.6445
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_LAST_INTERVAL: 10.4872
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 3
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.5
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:22]
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
   :END:
 [Epistemology] is the branch of philosophy concerned with the theory of
 [knowledge].
 
 *** Fact :drill:
-    SCHEDULED: <2018-10-05 Fri>
+    SCHEDULED: <2018-10-16 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       fd88df70-8678-424c-a897-42b347a0002c
-  :DRILL_LAST_INTERVAL: 4.0504
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_LAST_INTERVAL: 10.8056
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 4
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.333
+  :DRILL_AVERAGE_QUALITY: 2.75
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 16:22]
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 [Ontology] is the philosophical study of [being. It studies concepts that
 directly relate to being, in particular becoming, existence, reality.]
@@ -386,6 +384,7 @@ The verisimilitude of her performance is gripping.
 *** Noun                                                        :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       0112f1c2-b988-48db-a6a4-48877adce953
   :END:
 Define the word
 **** English
@@ -399,8 +398,18 @@ obscurantism, and to put the claims of a sect above those of human
 society.
 
 *** Adjective, Noun, Verb :drill:
+    SCHEDULED: <2018-10-10 Wed>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       e961da54-db55-4e60-b344-9b7a00100860
+  :DRILL_LAST_INTERVAL: 4.7876
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 Define the word
 **** English
@@ -416,6 +425,15 @@ society.
 *** Noun                                                        :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       92440648-6112-4c8f-9a0a-e05313b9a8f5
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
   :END:
 Define the word
 **** English
@@ -429,6 +447,7 @@ one word answers.
 *** Idiom                                                             :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       ac519bac-9307-4807-bb99-dd6304d3ae54
   :END:
 Define the word
 **** English
@@ -442,6 +461,7 @@ dated terms that were once common parlance
 *** Adjective, Noun, Verb :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       a67c32cc-99ce-420e-9013-05298215e078
   :END:
 Define the word
 **** English
@@ -452,17 +472,113 @@ those with a particular job or interest
 **** Example sentence
 The legal parlance used by attorneys has its roots in the Latin language.
 
+*** Adjective :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       8c9463bd-afaa-42c8-8cc2-fc44f75ef34b
+  :END:
+Define the word
+**** English
+fervent
+**** Definition
+having or displaying a passionate intensity
+**** Example sentence
+In the fervent mind you always find the camouflaged beast of prey.
+
+*** Fact
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :END:
+In Greek mythology, a [satyr], also known as a [silenos], is a male
+nature spirit with ears and a tail resembling those of a horse.
+
+*** Noun                                                        :drill:
+    SCHEDULED: <2018-10-09 Tue>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       e1d06f2f-5094-474e-975c-d8d6730d444d
+  :DRILL_LAST_INTERVAL: 3.886
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
+  :END:
+Define the word
+**** English
+drivel
+**** Definition
+silly nonsense
+
+*** Adjective :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       d4cbfb59-d109-4cb9-ba43-68dedd3095bb
+  :END:
+Define the word
+**** English
+ribald
+**** Definition
+referring to sexual matters in an amusingly rude or irrevernt way
+**** Example sentence
+The jokes were too ribald for the children's show.
+
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+malediction
+**** Definition
+a magical word or phrase uttered with the intention of bringing about
+evil or destruction; a curse.
+**** Example sentence
+The longing to become a source of events affects each man like a mental
+disorder or a desired malediction.
+
+*** Adjective                                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+manque/
+**** Definition
+having failed to become what one might have been; unfulfilled
+**** Example sentence
+I see in him a tyrant manque/ an approximate executioner.
+
+*** Verb
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+impute
+**** Definition
+to lay the responsibility or blame for (something) often falsely or
+unjustly.
+
+to credit or ascribe (something) to a person or cause; attribute
+**** Example sentence
+Yet to them we can impute none of history's great convulsions
+
 # *** Fact
 #   :PROPERTIES:
 #   :DRILL_CARD_TYPE: hide1cloze, show1cloze
 #   :END:
 # Something [like] this
 
-# *** Adjective, Noun, Verb :drill:
-#   :PROPERTIES:
-#   :DRILL_CARD_TYPE: twosided
-#   :END:
-# Define the word
-# **** English
-# **** Definition
-# **** Example sentence
+*** Adjective, Noun, Verb
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+**** Definition
+**** Example sentence
