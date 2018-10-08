@@ -11,12 +11,12 @@
   :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 15
-  :DRILL_FAILURE_COUNT: 11
-  :DRILL_AVERAGE_QUALITY: 1.733
+  :DRILL_TOTAL_REPEATS: 16
+  :DRILL_FAILURE_COUNT: 12
+  :DRILL_AVERAGE_QUALITY: 1.687
   :DRILL_EASE: 2.08
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
+  :DRILL_LAST_REVIEWED: [2018-10-08 Mon 10:10]
   :END:
 Define this word
 **** English
@@ -428,12 +428,12 @@ society.
   :ID:       92440648-6112-4c8f-9a0a-e05313b9a8f5
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
   :DRILL_AVERAGE_QUALITY: 1.0
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
+  :DRILL_LAST_REVIEWED: [2018-10-08 Mon 10:10]
   :END:
 Define the word
 **** English
@@ -528,6 +528,7 @@ The jokes were too ribald for the children's show.
 *** Noun                                                        :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       7f135b35-5f14-4491-acf2-3c4420494c62
   :END:
 Define the word
 **** English
@@ -542,6 +543,7 @@ disorder or a desired malediction.
 *** Adjective                                                         :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       7f9ec970-a040-4a7d-87f6-c779981825db
   :END:
 Define the word
 **** English
@@ -566,6 +568,64 @@ unjustly.
 to credit or ascribe (something) to a person or cause; attribute
 **** Example sentence
 Yet to them we can impute none of history's great convulsions
+
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       697fe722-2239-4da7-b5c8-e7600a942a9c
+  :END:
+Define the word
+**** English
+conflagration
+**** Definition
+an extensive fire that destroys a great deal of land or property
+**** Example sentence
+the conflagration spread rapidly through the wooden buildings
+
+*** Adjective                                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       85a1586e-44e6-4f4f-b53c-debc26ebba5d
+  :END:
+Define the word
+**** English
+nascent
+**** Definition
+coming or having recently come into existence
+**** Example sentence
+her nascent singing career
+
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       06a40333-0522-405f-aa65-9fc1e20cf16c
+  :END:
+Define the word
+**** English
+aphorism
+**** Definition
+a concise statement of a principle
+
+a terse formulation of a truth or sentiment
+**** Example sentence
+These are dazzling chapters, packed with perfectly chosen anecdotes and
+pithy with aphorism. -John Keegan
+
+*** Adjective                                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       30bf1409-79d6-4346-a3b6-862f176b5eba
+  :END:
+Define the word
+**** English
+terse
+**** Definition
+using few words
+
+smoothly elegant; polished
+**** Example sentence
+dismissed me with a terse "no"
+
 
 # *** Fact
 #   :PROPERTIES:
