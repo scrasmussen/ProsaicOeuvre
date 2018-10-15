@@ -11,12 +11,12 @@
   :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 16
-  :DRILL_FAILURE_COUNT: 12
-  :DRILL_AVERAGE_QUALITY: 1.687
+  :DRILL_TOTAL_REPEATS: 18
+  :DRILL_FAILURE_COUNT: 14
+  :DRILL_AVERAGE_QUALITY: 1.611
   :DRILL_EASE: 2.08
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-08 Mon 10:10]
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:14]
   :END:
 Define this word
 **** English
@@ -28,17 +28,18 @@ Mark was apoplectic with rage at the decision
 
 
 *** Adjective :drill:
+    SCHEDULED: <2018-10-19 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e52dcdd5-23f4-4c37-8d36-9b9b3e47ad62
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 7
-  :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 1.715
+  :DRILL_LAST_INTERVAL: 4.2167
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_FAILURE_COUNT: 6
+  :DRILL_AVERAGE_QUALITY: 2.001
   :DRILL_EASE: 2.22
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:56]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the phrase
 **** English
@@ -49,18 +50,18 @@ Latin phrase "of its own kind; in a class by itself; unique"
 the sui generis nature of animals
 
 *** Noun                                                              :drill:
-    SCHEDULED: <2018-10-06 Sat>
+    SCHEDULED: <2018-10-19 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e4f76d52-7774-4136-ac32-a62fb3afac17
-  :DRILL_LAST_INTERVAL: 3.4681
+  :DRILL_LAST_INTERVAL: 3.5246
   :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 9
-  :DRILL_FAILURE_COUNT: 7
-  :DRILL_AVERAGE_QUALITY: 1.555
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:50]
+  :DRILL_TOTAL_REPEATS: 11
+  :DRILL_FAILURE_COUNT: 8
+  :DRILL_AVERAGE_QUALITY: 1.635
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -133,18 +134,17 @@ The us of words to express something other than and especially the opposite of
 the literal meaning
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-14 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       4a82cb00-118c-4a69-87f3-70e5837b7697
-  :DRILL_LAST_INTERVAL: 9.1233
-  :DRILL_REPEATS_SINCE_FAIL: 3
-  :DRILL_TOTAL_REPEATS: 6
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.833
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 2.714
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:17]
   :END:
 Define the word
 **** English
@@ -155,18 +155,18 @@ of, relation to, or produced by lymph
 lacking physical or mental energy; sluggish
 
 *** Adjective                                                         :drill:
-    SCHEDULED: <2018-10-09 Tue>
+    SCHEDULED: <2018-10-26 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
-  :DRILL_LAST_INTERVAL: 4.7757
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 11
+  :DRILL_LAST_INTERVAL: 11.0209
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 12
   :DRILL_FAILURE_COUNT: 9
-  :DRILL_AVERAGE_QUALITY: 1.545
+  :DRILL_AVERAGE_QUALITY: 1.75
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:17]
   :END:
 Define the word
 **** English
@@ -230,18 +230,18 @@ in regards to race.
 Kanye has been in a sunken place
 
 *** Adjective, Noun, Verb :drill:
-    SCHEDULED: <2018-10-06 Sat>
+    SCHEDULED: <2018-10-18 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       bf6b6df7-fe1a-4379-851d-e6d61c9542a7
-  :DRILL_LAST_INTERVAL: 4.8265
+  :DRILL_LAST_INTERVAL: 3.2413
   :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 4.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-01 Mon 10:29]
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -261,18 +261,18 @@ and preunderstandings.
 
 
 *** Noun                                                              :drill:
-    SCHEDULED: <2018-10-07 Sun>
+    SCHEDULED: <2018-10-19 Fri>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       4f31c516-439a-46df-9737-6ff82947c4d5
-  :DRILL_LAST_INTERVAL: 3.5937
+  :DRILL_LAST_INTERVAL: 4.447
   :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 10
-  :DRILL_FAILURE_COUNT: 9
-  :DRILL_AVERAGE_QUALITY: 1.399
+  :DRILL_TOTAL_REPEATS: 12
+  :DRILL_FAILURE_COUNT: 10
+  :DRILL_AVERAGE_QUALITY: 1.666
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-03 Wed 15:46]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -315,18 +315,17 @@ The study of signs and symbols and their use or interpretation
 directly relate to being, in particular becoming, existence, reality.]
 
 *** Noun                                                        :drill:
-    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       2f0293bf-b1e9-4e87-9c1a-818e5e9cbdab
-  :DRILL_LAST_INTERVAL: 4.1147
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 1.4
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 1.333
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:16]
   :END:
 Define the word
 **** English
@@ -337,18 +336,17 @@ intelligence achieved far ahead of normal development schedules
 There is a limited branch of children whose precocity has led them to be deemed genuises.
 
 *** Adjective :drill:
-    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       71b134e4-084c-4c64-ab68-661818dd23f4
-  :DRILL_LAST_INTERVAL: 3.9452
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 2.0
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:09]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -359,18 +357,17 @@ having or showing calmness in a crisis
 Gary was unflappable in his handling of the buses getting stuck in the mud.
 
 *** Noun                                                              :drill:
-    SCHEDULED: <2018-10-08 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ef491477-ccb8-4db2-972f-5ab9f773b089
-  :DRILL_LAST_INTERVAL: 4.3415
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 4
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 1.667
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-04 Thu 16:11]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -385,6 +382,14 @@ The verisimilitude of her performance is gripping.
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       0112f1c2-b988-48db-a6a4-48877adce953
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:19]
   :END:
 Define the word
 **** English
@@ -398,18 +403,18 @@ obscurantism, and to put the claims of a sect above those of human
 society.
 
 *** Adjective, Noun, Verb :drill:
-    SCHEDULED: <2018-10-10 Wed>
+    SCHEDULED: <2018-11-01 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e961da54-db55-4e60-b344-9b7a00100860
-  :DRILL_LAST_INTERVAL: 4.7876
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 16.7014
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
   :DRILL_AVERAGE_QUALITY: 5.0
-  :DRILL_EASE: 2.6
+  :DRILL_EASE: 2.7
   :DRILL_LAST_QUALITY: 5
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:17]
   :END:
 Define the word
 **** English
@@ -428,12 +433,12 @@ society.
   :ID:       92440648-6112-4c8f-9a0a-e05313b9a8f5
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 1.25
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-10-08 Mon 10:10]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:15]
   :END:
 Define the word
 **** English
@@ -448,6 +453,14 @@ one word answers.
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ac519bac-9307-4807-bb99-dd6304d3ae54
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
   :END:
 Define the word
 **** English
@@ -476,6 +489,14 @@ The legal parlance used by attorneys has its roots in the Latin language.
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       8c9463bd-afaa-42c8-8cc2-fc44f75ef34b
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
   :END:
 Define the word
 **** English
@@ -493,18 +514,17 @@ In Greek mythology, a [satyr], also known as a [silenos], is a male
 nature spirit with ears and a tail resembling those of a horse.
 
 *** Noun                                                        :drill:
-    SCHEDULED: <2018-10-09 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e1d06f2f-5094-474e-975c-d8d6730d444d
-  :DRILL_LAST_INTERVAL: 3.886
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-10-05 Fri 10:57]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:17]
   :END:
 Define the word
 **** English
@@ -544,6 +564,14 @@ disorder or a desired malediction.
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       7f9ec970-a040-4a7d-87f6-c779981825db
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
   :END:
 Define the word
 **** English
@@ -573,6 +601,14 @@ Yet to them we can impute none of history's great convulsions
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       697fe722-2239-4da7-b5c8-e7600a942a9c
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
   :END:
 Define the word
 **** English
@@ -599,6 +635,14 @@ her nascent singing career
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       06a40333-0522-405f-aa65-9fc1e20cf16c
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:19]
   :END:
 Define the word
 **** English
@@ -615,6 +659,14 @@ pithy with aphorism. -John Keegan
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       30bf1409-79d6-4346-a3b6-862f176b5eba
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
   :END:
 Define the word
 **** English
@@ -626,12 +678,81 @@ smoothly elegant; polished
 **** Example sentence
 dismissed me with a terse "no"
 
+*** Noun                                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       74fce9f7-7057-43a9-80d2-bc32a6e473ef
+  :END:
+Define the word
+**** English
+vagary
+**** Definition
+an erratic, unpredictable, or extravagent manifestation, action, or
+notion
+**** Example sentence
+the vagaries of a rather eccentric, elderly lady
 
-# *** Fact
-#   :PROPERTIES:
-#   :DRILL_CARD_TYPE: hide1cloze, show1cloze
-#   :END:
-# Something [like] this
+*** Noun                                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       db2fb4b1-66a4-45b2-a87f-2ebb586ed306
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:18]
+  :END:
+Define the word
+**** English
+aesthete
+**** Definition
+one having or affecting sensitivity to the beautiful especially in art
+**** Example sentence
+He regards art critics as a bunch of pretentious aesthetes.
+
+*** Adjective                                                         :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       157669e3-5ec0-4e21-94ca-e6cdcd0e27dc
+  :END:
+Define the word
+**** English
+soporific
+**** Definition
+causing or tending to cause sleep
+tending to dull awareness or alertness
+**** Example sentence
+the soporific heat of the summer
+
+*** Fact                                                              :drill:
+    SCHEDULED: <2018-10-20 Sat>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze
+  :ID:       9c6819e6-3c7e-4448-ab76-6fcf451ac5da
+  :DRILL_LAST_INTERVAL: 4.6004
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-10-15 Mon 14:19]
+  :END:
+The headquarters of the Shanghai Public Security Bureau (PSB), a concrete building known as
+["803"]
+
+
+
+*** Fact
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :END:
+Something [like] this
+
 
 *** Adjective, Noun, Verb
 # :drill:
