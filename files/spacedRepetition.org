@@ -744,7 +744,51 @@ the soporific heat of the summer
 The headquarters of the Shanghai Public Security Bureau (PSB), a concrete building known as
 ["803"]
 
+*** Noun                                                        :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+acrimonious
+**** Definition
+angry and bitter: caustic: harsh or biting, especially in words
+**** Example sentence
+Soon after his acrimonious split with N.W.A., Ice Cube knew he had to
+make an album.
+For them a thousand acrimonies have crowned a shudder of pleasure as if
+they had no right to acknowledged contentments.
 
+
+*** Verb
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+expiate
+**** Definition
+/obsolete/: to put an end to
+a. to extinguish the guilt incurred by
+b. to make amends for
+**** Example sentence
+Some men pay for all their joys, expiate all their pleasures, are accountable
+for all their intervals of oblivion: they will never be indebted for a single
+moment of happiness.
+
+*** Adjective                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+ascetic
+**** Definition
+1. practicing strict self-denial as a measure of personal and especially spiritual
+discipline
+2. austere in appearance, manner, or attitude
+**** Example sentence
 
 *** Fact
 # :drill:

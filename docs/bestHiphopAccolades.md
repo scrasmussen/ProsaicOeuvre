@@ -6,6 +6,7 @@ In no particular order at this time:
 * Q-tip
 * Notorious B.I.G.
 * Kendrick Lamar
+* Vince Staples
 
 
 * which Wu-Tang rapper?
