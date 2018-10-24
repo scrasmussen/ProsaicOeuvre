@@ -7,6 +7,7 @@ In no particular order at this time:
 * Notorious B.I.G.
 * Kendrick Lamar
 * Vince Staples
+* Eminem
 
 
 * which Wu-Tang rapper?
@@ -15,10 +16,10 @@ Probably: it's what everyone says, probably but need more convincing to be sure
 * Rakim
 * Nas
 * where does KRS-One rest?
-* need to listen to more Slick Rick, Big Daddy Kane, Big Pun, ?
+* need to listen to more Slick Rick, Big Daddy Kane, Big Pun, Killer Mike?
 Can't be sure, need to do head up battles
 * Lil Wayne
-* Eminem
+
 
 
 # Best hip-hop albums of all time
