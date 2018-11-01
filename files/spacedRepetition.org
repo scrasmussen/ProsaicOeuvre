@@ -790,6 +790,20 @@ discipline
 2. austere in appearance, manner, or attitude
 **** Example sentence
 
+*** Verb                                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+misconstrue
+**** Definition
+to interpret (something, such as a statement or action) wrongly
+**** Example sentence
+I instantly turned away, lest he should see and misconstrue my emotion.
+- Anne Bronte
+
+
 *** Fact
 # :drill:
   :PROPERTIES:
