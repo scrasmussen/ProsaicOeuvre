@@ -1,0 +1,30 @@
+* Notes
+
+
+** Unstoppable Force
+*** Music likes
+Little Dragon
+Grimes
+*** plans
+Thanksgiving | next Thursday
+Xmas : leaving 8.12.18
+Opera | someday plan
+[[https://www.seetickets.com/event/all-points-east/victoria-park/1285763?aff=id1bandsintown#][Little Dragon and Danny Brown]] | 24.5.2019
+*** S H A R E
+**** The Knife
+
+* n o t e s
+
+o si, seguro : yes, for sure
+bueno bye
+hijole
+
+Mosin-Nagant
+
+
+** patching
+*** to apply patch
+patch -p1 -i 0001-Commit-for-patch.patch
+
+*** to make patch
+https://stackoverflow.com/questions/616556/how-do-you-squash-commits-into-one-patch-with-git-format-patch
