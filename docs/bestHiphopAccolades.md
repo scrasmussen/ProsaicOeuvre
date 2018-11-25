@@ -16,6 +16,7 @@ Probably: it's what everyone says, probably but need more convincing to be sure
 * Tupac
 * Rakim
 * Nas
+* Dizzee Rascal
 * where does KRS-One rest?
 * Andre 3K
 * need to listen to more Slick Rick, Big Daddy Kane, Big Pun, Killer Mike?
