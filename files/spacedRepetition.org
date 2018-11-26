@@ -919,6 +919,34 @@ Dem gyal know that we boasy
   :END:
 [Eris] is the Greek goddess of strife and discord.
 
+*** Adjective, Noun, Verb
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+adjutant
+**** Definition
+a. staff officer who assists the commanding officer and is responsible, especially
+for correspondence
+b. one who helps
+**** Example sentence
+The senator's adjutants and aides always arrived ahead of him.
+
+*** Adjective
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+nang
+**** Definition
+good
+**** Example sentence
+That's propa nang, you get me?
+
 
 *** Fact
 # :drill:
