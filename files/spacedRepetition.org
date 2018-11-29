@@ -935,7 +935,7 @@ b. one who helps
 The senator's adjutants and aides always arrived ahead of him.
 
 *** Adjective
-# :drill:
+:drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :END:
@@ -946,6 +946,32 @@ nang
 good
 **** Example sentence
 That's propa nang, you get me?
+
+*** Idiom
+:drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+dog's breakfast
+**** Definition
+a complete mess
+
+
+*** Idiom
+:drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+dog's dinner
+dressed up like a dog's dinner
+**** Definition
+a) a complete mess
+b) dressed up, usually excessively
+
 
 
 *** Fact
