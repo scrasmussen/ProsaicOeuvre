@@ -984,7 +984,95 @@ coup d'e2tat
 a coup, a putsch, golpe, or an overthrow.
 **** Example sentence
 
+*** Verb
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+ensconce
+**** Definition
+establish or settle (someone) in a comfortable, safe, or secret place
+**** Example sentence
+Despite all odds, outlaw country has become an ensconced genre coceit in country
+music.
 
+*** Noun
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+dalliance
+**** Definition
+I. play, especially amorous play
+II. frivolous action; trifling
+**** Example sentence
+had dalliances with several women before getting married.
+had a brief dalliance with acting.
+
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+amorous
+**** Definition
+I. strongly moved by love and especially sexual love
+II. being in love
+III. indicative of love
+**** Example sentence
+amorous of the girl
+
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+frivolous
+**** Definition
+I. of little weight or importance
+II. having no sound basis
+III. lacking in seriousness
+IV. marked by unbecoming levity
+**** Example sentence
+She thinks window shopping is a frivolous activity.
+
+*** Noun
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+levity
+**** Definition
+I. excessive or unseemly frivolity
+II. lack of steadiness; changeableness
+**** Example sentence
+the levity of the brisk fire
+
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+trifling
+**** Definition
+lacking in significance or solid worth; such as
+a) frivolous
+b) trivial
+c) lazy, shiftless  e.g. a trifling fellow
+**** Example sentence
+Fortunately, the storm caused trifling damage to the boat.
 
 *** Fact
 # :drill:
