@@ -1085,7 +1085,7 @@ c) lazy, shiftless  e.g. a trifling fellow
 Fortunately, the storm caused trifling damage to the boat.
 
 *** Adjective
-# :drill:
+  :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :END:
@@ -1097,8 +1097,100 @@ given to or characterized by deception or falsehood or divergance from absolute 
 **** Example sentence
 mendacious tales of his adventures
 
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+intrepid
+**** Definition
+characterized by resolute fearlessness, fortitude, and endurance
+**** Example sentence
+But hey, maybe some intrepid soul could figure out how to 3D print extra parts
+or rewrite the firmware or ... something.
 
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+souse
+**** Definition
+I. pickle
+II. a) to plunge into liquid  b) drench, saturate
+III. drunk
+**** Example sentence
+She came home soused
 
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+churlish
+**** Definition
+I. of, resembling, or characteristic of a churl: vulgar
+II. marked by a lack of civility or graciousness: surly
+III. difficult to work with or deal with: intractable
+**** Example sentence
+Eunice ignored the churlish notes that arrived regularly from her own
+fashion-conscious mother, criticizing her haphazard attire and her unruly hair.
+
+*** Noun
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+churl
+**** Definition
+I. CEORL
+II. a medieval peasant
+III. rustic, countryman
+IV. a) a rude ill-bred person b) a stingy morose person
+**** Example sentence
+
+*** Fact
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :END:
+A [ceorl] was a freeman of the lowest rank in Anglo-Saxon England
+
+*** Verb
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+do one
+**** Definition
+a dissappearing act, fuck off, leave, depart
+**** Example sentence
+Come on, let's go do one
+
+*** Adjective
+  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+**** English
+prosaic
+**** Definition
+I. a) characteristic of prose as distinguished from poetry: factual
+   b) dull, unimaginative
+II. everyday, ordinary
+**** Example sentence
+heroic characters wasted in prosaic lives
 
 *** Fact
 # :drill:
