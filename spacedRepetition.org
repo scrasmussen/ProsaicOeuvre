@@ -1192,12 +1192,23 @@ II. everyday, ordinary
 **** Example sentence
 heroic characters wasted in prosaic lives
 
-*** Fact
-# :drill:
+*** Adjective, Noun, Verb
+  :drill:
   :PROPERTIES:
-  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :DRILL_CARD_TYPE: twosided
   :END:
-Something [like] this
+Define the word
+**** English
+facile
+**** Definition
+I a) easily accomplished or attained
+  b) shallow, simplistic
+  c) readily manifested and often lacking sincerity or depth
+III. use or comprehended with ease
+**** Example sentence
+
+
+* -----------------------------------------------------------------------------------------------
 
 *** Adjective, Noun, Verb
 # :drill:
@@ -1208,3 +1219,10 @@ Define the word
 **** English
 **** Definition
 **** Example sentence
+
+*** Fact
+# :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :END:
+Something [like] this
