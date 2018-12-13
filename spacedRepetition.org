@@ -1,76 +1,75 @@
 # -*- mode: org; coding: utf-8 -*-
 #+STARTUP: showall
 
-* Vocab questions
-
-** Vocabulary
-
-*** Adjective :drill:leech:
+* Vocab
+** Adjective                                                          :drill:
+   SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 20
+  :DRILL_LAST_INTERVAL: 4.3859
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 21
   :DRILL_FAILURE_COUNT: 16
-  :DRILL_AVERAGE_QUALITY: 1.55
-  :DRILL_EASE: 2.08
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-11-06 Tue 13:35]
+  :DRILL_AVERAGE_QUALITY: 1.714
+  :DRILL_EASE: 2.18
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 15:12]
   :END:
 Define this word
-**** English
+*** English
 apoplectic
-**** Definition
+*** Definition
 overcome with anger; extremely indignant
-**** Example sentence
+*** Example sentence
 Mark was apoplectic with rage at the decision
 
-
-*** Adjective :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e52dcdd5-23f4-4c37-8d36-9b9b3e47ad62
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 11
-  :DRILL_FAILURE_COUNT: 8
-  :DRILL_AVERAGE_QUALITY: 1.91
-  :DRILL_EASE: 2.22
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:13]
+  :DRILL_LAST_INTERVAL: 2.8736
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 15
+  :DRILL_FAILURE_COUNT: 11
+  :DRILL_AVERAGE_QUALITY: 1.867
+  :DRILL_EASE: 2.08
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the phrase
-**** English
+*** English
 sui generis
-**** Definition
+*** Definition
 Latin phrase "of its own kind; in a class by itself; unique"
-**** Example sentence
+*** Example sentence
 the sui generis nature of animals
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e4f76d52-7774-4136-ac32-a62fb3afac17
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 13
-  :DRILL_FAILURE_COUNT: 10
-  :DRILL_AVERAGE_QUALITY: 1.537
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
+  :DRILL_LAST_INTERVAL: 3.9937
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 17
+  :DRILL_FAILURE_COUNT: 13
+  :DRILL_AVERAGE_QUALITY: 1.587
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 anathema
-**** Definition
+*** Definition
 something or someone that one vehemently dislikes.
-**** Example sentence
+*** Example sentence
 Cutting-edge young people were calling themselves neo-liberal, adopting a term
 that had been anathema only a few years earlier.
 
-*** Adjective :drill:
+** Adjective                                                          :drill:
     SCHEDULED: <2018-12-22 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -85,27 +84,27 @@ that had been anathema only a few years earlier.
   :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
   :END:
 Define the word
-**** English
+*** English
 erudite
-**** Definition
+*** Definition
 Having or showing great knowledge or learning.
-**** Example sentence
+*** Example sentence
 As a result of having studied abroad several years, Helen has become quite
 erudite on the subject of art history.
 
-*** Noun                                                        :drill:
-    SCHEDULED: <2018-12-13 Thu>
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-27 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       fecbd2de-fd88-43ca-81fc-8a302b234284
-  :DRILL_LAST_INTERVAL: 3.9728
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_LAST_INTERVAL: 14.1324
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 9
   :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 2.625
-  :DRILL_EASE: 2.6
-  :DRILL_LAST_QUALITY: 4
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:11]
+  :DRILL_AVERAGE_QUALITY: 2.889
+  :DRILL_EASE: 2.7
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:02]
   :END:
 Define the word
 **** English
@@ -114,16 +113,15 @@ quince
 The fruit of a central Asian tree of the rose famiy that resembles a hard-fleshed
 yellow apple. Is used especially in preserves.
 
-
-*** Adjective, Noun, Verb :drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided, multisided
   :ID:       4219193b-7b44-41c2-822a-981de05feeb3
   :END:
 Define the word
-**** English
+*** English
 irony
-**** Definition
+*** Definition
 A pretense of ignorance and of willingness to learn from another assumed in
 order to make the other's false conceptions conspicuous by adroit questioning
 -- called also Socratic irony
@@ -131,7 +129,7 @@ order to make the other's false conceptions conspicuous by adroit questioning
 The us of words to express something other than and especially the opposite of
 the literal meaning
 
-*** Adjective :drill:
+** Adjective                                                          :drill:
     SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -146,37 +144,38 @@ the literal meaning
   :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
   :END:
 Define the word
-**** English
+*** English
 lymphatic
-**** Definition
+*** Definition
 of, relation to, or produced by lymph
 
 lacking physical or mental energy; sluggish
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 14
-  :DRILL_FAILURE_COUNT: 11
-  :DRILL_AVERAGE_QUALITY: 1.714
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:13]
+  :DRILL_LAST_INTERVAL: 3.6826
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 17
+  :DRILL_FAILURE_COUNT: 13
+  :DRILL_AVERAGE_QUALITY: 1.764
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 insipid
-**** Definition
+*** Definition
 lacking taste or savor; tasteless
 
 lacking in qualities that interest, stimulate, or challenge; dull, flat
-**** Example sentence
+*** Example sentence
 The soup was rather insipid
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
     SCHEDULED: <2019-02-23 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -191,19 +190,18 @@ The soup was rather insipid
   :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
   :END:
 Define the word
-**** English
+*** English
 savor
-**** Definition
+*** Definition
 the taste or smell of something
 
 a particular flavor or smell
 
 a distinctive quality
-**** Example sentence
+*** Example sentence
 Without her love, life has lost its savor for me.
 
-
-*** Adjective, Noun, Verb :drill:
+** Noun                                                               :drill:
     SCHEDULED: <2018-12-18 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -218,65 +216,68 @@ Without her love, life has lost its savor for me.
   :DRILL_LAST_REVIEWED: [2018-11-06 Tue 13:37]
   :END:
 Define the word
-**** English
+*** English
 sunken place
-**** Definition
+*** Definition
 The antithesis of being woke.
 A place of slumber recarding systematic and idiosyncratic injuct and oppression
 in regards to race.
-**** Example sentence
+*** Example sentence
 Kanye has been in a sunken place
 
-*** Adjective, Noun, Verb :drill:
+** Verb                                                               :drill:
+    SCHEDULED: <2018-12-18 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       bf6b6df7-fe1a-4379-851d-e6d61c9542a7
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_LAST_INTERVAL: 4.9434
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
   :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_AVERAGE_QUALITY: 2.857
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:01]
   :END:
 Define the word
-**** English
+*** English
 temp check
-**** Definition
+*** Definition
 When someone who has no intention of following up with a conversation sends a
 short message, to see if you will reply
-**** Example sentence
+*** Example sentence
 
-*** Fact
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
+  :ID:       04d20f58-deaa-4f58-a86a-69d4c7d97a96
   :END:
 [Hermeneutics] is the theory and methodology of [interpretation].
 It include both verbal and non-verbal communication, semiotics, presuppositions,
 and preunderstandings.
 
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       4f31c516-439a-46df-9737-6ff82947c4d5
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 14
+  :DRILL_LAST_INTERVAL: 4.0155
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 15
   :DRILL_FAILURE_COUNT: 12
-  :DRILL_AVERAGE_QUALITY: 1.642
+  :DRILL_AVERAGE_QUALITY: 1.799
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:11]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:02]
   :END:
 Define the word
-**** English
+*** English
 semiotics
-**** Definition
+*** Definition
 The study of signs and symbols and their use or interpretation
 
-*** Fact :drill:
+** Fact                                                               :drill:
     SCHEDULED: <2019-02-09 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
@@ -293,111 +294,115 @@ The study of signs and symbols and their use or interpretation
 [Epistemology] is the branch of philosophy concerned with the theory of
 [knowledge].
 
-*** Fact :drill:
+** Fact                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       fd88df70-8678-424c-a897-42b347a0002c
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_LAST_INTERVAL: 4.2346
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
   :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 2.667
+  :DRILL_AVERAGE_QUALITY: 2.857
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 13:59]
   :END:
 [Ontology] is the philosophical study of [being. It studies concepts that
 directly relate to being, in particular becoming, existence, reality.]
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       2f0293bf-b1e9-4e87-9c1a-818e5e9cbdab
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 10
-  :DRILL_FAILURE_COUNT: 9
-  :DRILL_AVERAGE_QUALITY: 1.299
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:12]
+  :DRILL_LAST_INTERVAL: 3.8039
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 14
+  :DRILL_FAILURE_COUNT: 12
+  :DRILL_AVERAGE_QUALITY: 1.356
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 precocity
-**** Definition
+*** Definition
 intelligence achieved far ahead of normal development schedules
-**** Example sentence
+*** Example sentence
 There is a limited branch of children whose precocity has led them to be deemed genuises.
 
-*** Adjective :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       71b134e4-084c-4c64-ab68-661818dd23f4
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 8
-  :DRILL_FAILURE_COUNT: 6
-  :DRILL_AVERAGE_QUALITY: 2.125
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
+  :DRILL_LAST_INTERVAL: 3.8067
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 11
+  :DRILL_FAILURE_COUNT: 8
+  :DRILL_AVERAGE_QUALITY: 2.091
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 unflappable
-**** Definition
+*** Definition
 having or showing calmness in a crisis
-**** Example sentence
+*** Example sentence
 Gary was unflappable in his handling of the buses getting stuck in the mud.
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ef491477-ccb8-4db2-972f-5ab9f773b089
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 10
-  :DRILL_FAILURE_COUNT: 9
+  :DRILL_LAST_INTERVAL: 3.6597
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 15
+  :DRILL_FAILURE_COUNT: 13
   :DRILL_AVERAGE_QUALITY: 1.4
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:13]
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 verisimilitude
-**** Definition
+*** Definition
 the appearance of being true or real.
-**** Example sentence
+*** Example sentence
 The verisimilitude of her performance is gripping.
 
-
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       0112f1c2-b988-48db-a6a4-48877adce953
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 4
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 1.75
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
+  :DRILL_LAST_INTERVAL: 4.1895
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:08]
   :END:
 Define the word
-**** English
+*** English
 obscurantism
-**** Definition
+*** Definition
 the practice of deliberately preventing the facts of full details of
 something from becoming known.
-**** Example sentence
+*** Example sentence
 He wages war on such ecclesiastical systems as seemed to him to favour
 obscurantism, and to put the claims of a sect above those of human
 society.
 
-*** Adjective, Noun, Verb :drill:
+** Adjective                                                          :drill:
     SCHEDULED: <2019-01-21 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -412,253 +417,288 @@ society.
   :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
   :END:
 Define the word
-**** English
+*** English
 ecclesiastical
-**** Definition
+*** Definition
 relating to the Christian church or its clergy
-**** Example sentence
+*** Example sentence
 He wages war on such ecclesiastical systems as seemed to him to favour
 obscurantism, and to put the claims of a sect above those of human
 society.
 
-
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       92440648-6112-4c8f-9a0a-e05313b9a8f5
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 6
-  :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 1.667
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
+  :DRILL_LAST_INTERVAL: 3.8347
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 10
+  :DRILL_FAILURE_COUNT: 8
+  :DRILL_AVERAGE_QUALITY: 1.601
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 interlocutor
-**** Definition
+*** Definition
 one who takes part in dialogue or conversation
-**** Example sentence
+*** Example sentence
 A person is poor interlocutor if he responds to media questions with
 one word answers.
 
-*** Idiom                                                             :drill:
+** Idiom                                                              :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       ac519bac-9307-4807-bb99-dd6304d3ae54
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_LAST_INTERVAL: 4.2168
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 6
   :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 1.4
+  :DRILL_AVERAGE_QUALITY: 1.833
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:12]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:02]
   :END:
 Define the word
-**** English
+*** English
 in common parlance
-**** Definition
+*** Definition
 used by many people in ordinary conversation
 expressed in words that most people use
-**** Example sentence
+*** Example sentence
 dated terms that were once common parlance
 
-*** Adjective, Noun, Verb :drill:
+** Noun                                                               :drill:
+   SCHEDULED: <2018-12-22 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       a67c32cc-99ce-420e-9013-05298215e078
+  :DRILL_LAST_INTERVAL: 8.8199
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 15:01]
   :END:
 Define the word
-**** English
+*** English
 parlance
-**** Definition
+*** Definition
 a particular way of speaking or using words; especially a way common to
 those with a particular job or interest
-**** Example sentence
+*** Example sentence
 The legal parlance used by attorneys has its roots in the Latin language.
 
-*** Adjective :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       8c9463bd-afaa-42c8-8cc2-fc44f75ef34b
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 1.2
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:13]
+  :DRILL_LAST_INTERVAL: 2.5113
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.499
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 fervent
-**** Definition
+*** Definition
 having or displaying a passionate intensity
-**** Example sentence
+*** Example sentence
 In the fervent mind you always find the camouflaged beast of prey.
 
-*** Fact
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
+  :ID:       8e601fd6-b514-4276-a963-b63cb3757fee
   :END:
 In Greek mythology, a [satyr], also known as a [silenos], is a male
 nature spirit with ears and a tail resembling those of a horse.
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       e1d06f2f-5094-474e-975c-d8d6730d444d
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_LAST_INTERVAL: 4.1255
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
   :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_AVERAGE_QUALITY: 2.286
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:12]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:02]
   :END:
 Define the word
-**** English
+*** English
 drivel
-**** Definition
+*** Definition
 silly nonsense
 
-*** Adjective :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       d4cbfb59-d109-4cb9-ba43-68dedd3095bb
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:16]
+  :DRILL_LAST_INTERVAL: 3.4472
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 ribald
-**** Definition
+*** Definition
 referring to sexual matters in an amusingly rude or irrevernt way
-**** Example sentence
+*** Example sentence
 The jokes were too ribald for the children's show.
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       7f135b35-5f14-4491-acf2-3c4420494c62
+  :DRILL_LAST_INTERVAL: 3.9738
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 malediction
-**** Definition
+*** Definition
 a magical word or phrase uttered with the intention of bringing about
 evil or destruction; a curse.
-**** Example sentence
+*** Example sentence
 The longing to become a source of events affects each man like a mental
 disorder or a desired malediction.
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       7f9ec970-a040-4a7d-87f6-c779981825db
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 4
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:12]
+  :DRILL_LAST_INTERVAL: 4.4547
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 6
+  :DRILL_AVERAGE_QUALITY: 1.286
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 manque/
-**** Definition
+*** Definition
 having failed to become what one might have been; unfulfilled
-**** Example sentence
+*** Example sentence
 I see in him a tyrant manque/ an approximate executioner.
 
-*** Verb
-# :drill:
+** Verb                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       e734d6ec-664b-4658-ac8a-fd905083c799
   :END:
 Define the word
-**** English
+*** English
 impute
-**** Definition
+*** Definition
 to lay the responsibility or blame for (something) often falsely or
 unjustly.
 
 to credit or ascribe (something) to a person or cause; attribute
-**** Example sentence
+*** Example sentence
 Yet to them we can impute none of history's great convulsions
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-18 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       697fe722-2239-4da7-b5c8-e7600a942a9c
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 5
-  :DRILL_AVERAGE_QUALITY: 1.2
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:13]
+  :DRILL_LAST_INTERVAL: 4.5314
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.499
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 conflagration
-**** Definition
+*** Definition
 an extensive fire that destroys a great deal of land or property
-**** Example sentence
+*** Example sentence
 the conflagration spread rapidly through the wooden buildings
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       85a1586e-44e6-4f4f-b53c-debc26ebba5d
+  :DRILL_LAST_INTERVAL: 4.4226
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:04]
   :END:
 Define the word
-**** English
+*** English
 nascent
-**** Definition
+*** Definition
 coming or having recently come into existence
-**** Example sentence
+*** Example sentence
 her nascent singing career
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       06a40333-0522-405f-aa65-9fc1e20cf16c
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 1.8
-  :DRILL_EASE: 2.6
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
+  :DRILL_LAST_INTERVAL: 3.3672
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 6
+  :DRILL_AVERAGE_QUALITY: 1.875
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 aphorism
-**** Definition
+*** Definition
 a concise statement of a principle
 
 a terse formulation of a truth or sentiment
-**** Example sentence
+*** Example sentence
 These are dazzling chapters, packed with perfectly chosen anecdotes and
 pithy with aphorism. -John Keegan
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
     SCHEDULED: <2018-12-22 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -673,555 +713,657 @@ pithy with aphorism. -John Keegan
   :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:15]
   :END:
 Define the word
-**** English
+*** English
 terse
-**** Definition
+*** Definition
 using few words
 
 smoothly elegant; polished
-**** Example sentence
+*** Example sentence
 dismissed me with a terse "no"
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-18 Tue>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       74fce9f7-7057-43a9-80d2-bc32a6e473ef
+  :DRILL_LAST_INTERVAL: 4.8124
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:02]
   :END:
 Define the word
-**** English
+*** English
 vagary
-**** Definition
+*** Definition
 an erratic, unpredictable, or extravagent manifestation, action, or
 notion
-**** Example sentence
+*** Example sentence
 the vagaries of a rather eccentric, elderly lady
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       db2fb4b1-66a4-45b2-a87f-2ebb586ed306
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 4
-  :DRILL_FAILURE_COUNT: 3
+  :DRILL_LAST_INTERVAL: 3.537
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 5
   :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:14]
+  :DRILL_EASE: 2.22
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
   :END:
 Define the word
-**** English
+*** English
 aesthete
-**** Definition
+*** Definition
 one having or affecting sensitivity to the beautiful especially in art
-**** Example sentence
+*** Example sentence
 He regards art critics as a bunch of pretentious aesthetes.
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       157669e3-5ec0-4e21-94ca-e6cdcd0e27dc
+  :DRILL_LAST_INTERVAL: 4.0359
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 soporific
-**** Definition
+*** Definition
 causing or tending to cause sleep
 tending to dull awareness or alertness
-**** Example sentence
+*** Example sentence
 the soporific heat of the summer
 
-*** Fact                                                              :drill:
+** Fact                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       9c6819e6-3c7e-4448-ab76-6fcf451ac5da
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.333
-  :DRILL_EASE: 2.6
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:12]
+  :DRILL_LAST_INTERVAL: 3.5727
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 2.4
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:04]
   :END:
 The headquarters of the Shanghai Public Security Bureau (PSB), a concrete building known as
 ["803"]
 
-*** Noun                                                        :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       40fd167e-3f5e-4e61-8ed4-8fb47445f2f5
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-09 Sun 13:16]
+  :DRILL_LAST_INTERVAL: 3.8174
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.75
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 acrimonious
-**** Definition
+*** Definition
 angry and bitter: caustic: harsh or biting, especially in words
-**** Example sentence
+*** Example sentence
 Soon after his acrimonious split with N.W.A., Ice Cube knew he had to
 make an album.
 For them a thousand acrimonies have crowned a shudder of pleasure as if
 they had no right to acknowledged contentments.
 
 
-*** Verb
-# :drill:
+** Verb                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       5169615b-90c3-4907-bfb0-1cfbcf793dba
   :END:
 Define the word
-**** English
+*** English
 expiate
-**** Definition
+*** Definition
 /obsolete/: to put an end to
 a. to extinguish the guilt incurred by
 b. to make amends for
-**** Example sentence
+*** Example sentence
 Some men pay for all their joys, expiate all their pleasures, are accountable
 for all their intervals of oblivion: they will never be indebted for a single
 moment of happiness.
 
-*** Adjective                                             :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       83d92250-d3e1-4769-83b9-ebc98c056940
+  :DRILL_LAST_INTERVAL: 3.4161
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:09]
   :END:
 Define the word
-**** English
+*** English
 ascetic
-**** Definition
+*** Definition
 1. practicing strict self-denial as a measure of personal and especially spiritual
 discipline
 2. austere in appearance, manner, or attitude
-**** Example sentence
+*** Example sentence
 
-*** Verb                                                              :drill:
+** Verb                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       0ccc8307-1620-4ddd-bba7-3c068b7d54a5
+  :DRILL_LAST_INTERVAL: 4.2783
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:03]
   :END:
 Define the word
-**** English
+*** English
 misconstrue
-**** Definition
+*** Definition
 to interpret (something, such as a statement or action) wrongly
-**** Example sentence
+*** Example sentence
 I instantly turned away, lest he should see and misconstrue my emotion.
 - Anne Bronte
 
-*** Adjective                                                         :drill:
+** Adjective                                                          :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       017d6f2c-9cfa-4b72-8685-f40fd4339e78
+  :DRILL_LAST_INTERVAL: 3.9214
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:04]
   :END:
 Define the word
-**** English
+*** English
 haute
-**** Definition
+*** Definition
 fashionably elegant or high-class
-**** Example sentence
+*** Example sentence
 a store filled with haute kisch
 
-*** Noun                                                              :drill:
+** Noun                                                               :drill:
+    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       72738c3f-7bf4-47df-9595-24c4425d70b5
+  :DRILL_LAST_INTERVAL: 3.6704
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:08]
   :END:
 Define the word
-**** English
+*** English
 under the jail
-**** Definition
+*** Definition
 life imprisonment, in response to an egregious criminal act or outlandishly antisocial behavior
 
-*** Noun
-# :drill:
+** Noun                                                               :drill:
+   SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       135ef90e-9966-4ed9-90b3-cb1be8fc453e
+  :DRILL_LAST_INTERVAL: 3.1475
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 15:05]
   :END:
 Define the word
-**** English
+*** English
 skeng
-**** Definition
+*** Definition
 A knife / blade weapong
-**** Example sentence
+*** Example sentence
 And if she's deader than me dat gyal can't know me, probably had a skeng on me
 coz the boys in the other side know me.
 
-*** Noun
-# :drill:
+** Noun                                                               :drill:
+   SCHEDULED: <2018-12-16 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       51899130-a00a-4b55-99e4-765d9387a7fb
+  :DRILL_LAST_INTERVAL: 3.2201
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 15:05]
   :END:
 Define the word
-**** English
+*** English
 leng
-**** Definition
+*** Definition
 hand gun, machine gun
-**** Example sentence
+*** Example sentence
 I saw them Hackney boys so I pulled out my leng and started shooting at them.
 
-** Fact
-:drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE:  show1cloze
+  :ID:       5981bf71-1f57-403c-af05-8ad785708900
   :END:
 KC is [Knuff Ced]
 
-** Fact
-:drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE:  show1cloze
+  :ID:       a882522b-b81b-4978-8791-391160670a4d
   :END:
 KY is [Know Yuse]
 
-** Fact
-:drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE:  show1cloze
+  :ID:       8570b99e-3172-421b-ac39-4f2de1fadb04
   :END:
 OW is [Oll Wright]
 
-** Fact
-:drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE:  show1cloze
+  :ID:       fd57935b-9a92-4e82-9183-44f1b360e7f0
   :END:
 
 OK is [Oll Korrect]
 
-*** Noun
-:drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       88200d60-d294-415b-950c-d4da41fa87c6
   :END:
 Define the word
-**** English
+*** English
 neeky, neek
-**** Definition
+*** Definition
 Cross between nerd and geek, not street wise
 Uncool but [successful]
 
-*** Adjective
-:drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       df4918a4-6f47-4d9d-989a-710c3f801c26
   :END:
 Define the word
-**** English
+*** English
 boasy
-**** Definition
+*** Definition
 extremely boastful or over the top
-**** Example sentence
+*** Example sentence
 Dem gyal know that we boasy
 
-*** Fact
-  :drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :ID:       68896ef2-5385-4c3c-a89f-987a4ed984ff
   :END:
 [Eris] is the Greek goddess of strife and discord.
 
-*** Adjective, Noun, Verb
-  :drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       ab5d9167-f35b-4b5f-8ce0-1f92913df883
   :END:
 Define the word
-**** English
+*** English
 adjutant
-**** Definition
+*** Definition
 a. staff officer who assists the commanding officer and is responsible, especially
 for correspondence
 b. one who helps
-**** Example sentence
+*** Example sentence
 The senator's adjutants and aides always arrived ahead of him.
 
-*** Adjective
-:drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       d6b7e308-6f33-4269-8cd4-23afa8386849
   :END:
 Define the word
-**** English
+*** English
 nang
-**** Definition
+*** Definition
 good
-**** Example sentence
+*** Example sentence
 That's propa nang, you get me?
 
-*** Idiom
-:drill:
+** Idiom                                                              :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       881f3ca3-e564-4964-bc7b-90e06ee8862b
   :END:
 Define the word
-**** English
+*** English
 dog's breakfast
-**** Definition
+*** Definition
 a complete mess
 
 
-*** Idiom
-:drill:
+** Idiom                                                              :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       89c05bd8-4cd1-4144-902c-2f74ff59402e
   :END:
 Define the word
-**** English
+*** English
 dog's dinner
 dressed up like a dog's dinner
-**** Definition
+*** Definition
 a) a complete mess
 b) dressed up, usually excessively
 
-*** Adjective, Noun, Verb
-  :drill:
+** Phrase                                                             :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       9325318f-2f09-4e3c-97c1-8d0ae1c2b1f8
   :END:
 Define the word
-**** English
+*** English
 coup d'e2tat
-**** Definition
+*** Definition
 a coup, a putsch, golpe, or an overthrow.
-**** Example sentence
+*** Example sentence
 
-*** Verb
-  :drill:
+** Verb                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       b17fffd5-1d3c-4947-adcf-c0bb9092095b
   :END:
 Define the word
-**** English
+*** English
 ensconce
-**** Definition
+*** Definition
 establish or settle (someone) in a comfortable, safe, or secret place
-**** Example sentence
+*** Example sentence
 Despite all odds, outlaw country has become an ensconced genre coceit in country
 music.
 
-*** Noun
-  :drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       94c82f21-9f4f-428a-b45e-ce085191f72d
   :END:
 Define the word
-**** English
+*** English
 dalliance
-**** Definition
+*** Definition
 I. play, especially amorous play
 II. frivolous action; trifling
-**** Example sentence
+*** Example sentence
 had dalliances with several women before getting married.
 had a brief dalliance with acting.
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       3bc89593-3bd8-46b7-87d6-3a74873d1641
   :END:
 Define the word
-**** English
+*** English
 amorous
-**** Definition
+*** Definition
 I. strongly moved by love and especially sexual love
 II. being in love
 III. indicative of love
-**** Example sentence
+*** Example sentence
 amorous of the girl
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       e21ca26b-f137-4765-815f-fd8fe65f70b5
   :END:
 Define the word
-**** English
+*** English
 frivolous
-**** Definition
+*** Definition
 I. of little weight or importance
 II. having no sound basis
 III. lacking in seriousness
 IV. marked by unbecoming levity
-**** Example sentence
+*** Example sentence
 She thinks window shopping is a frivolous activity.
 
-*** Noun
-  :drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       14f024d3-9001-45f5-bc07-25c895200e49
   :END:
 Define the word
-**** English
+*** English
 levity
-**** Definition
+*** Definition
 I. excessive or unseemly frivolity
 II. lack of steadiness; changeableness
-**** Example sentence
+*** Example sentence
 the levity of the brisk fire
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       07430dbd-1f92-4055-99ff-8820dcd242fe
   :END:
 Define the word
-**** English
+*** English
 trifling
-**** Definition
+*** Definition
 lacking in significance or solid worth; such as
 a) frivolous
 b) trivial
 c) lazy, shiftless  e.g. a trifling fellow
-**** Example sentence
+*** Example sentence
 Fortunately, the storm caused trifling damage to the boat.
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       55953a4a-be4a-4e01-9547-462197ea33d3
   :END:
 Define the word
-**** English
+*** English
 mendacious
-**** Definition
+*** Definition
 given to or characterized by deception or falsehood or divergance from absolute truth
-**** Example sentence
+*** Example sentence
 mendacious tales of his adventures
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       2ca4619a-5f6c-4738-a0d6-1c29226b5063
   :END:
 Define the word
-**** English
+*** English
 intrepid
-**** Definition
+*** Definition
 characterized by resolute fearlessness, fortitude, and endurance
-**** Example sentence
+*** Example sentence
 But hey, maybe some intrepid soul could figure out how to 3D print extra parts
 or rewrite the firmware or ... something.
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       02088caa-4b69-4ebb-8de7-3c898e2ff52d
   :END:
 Define the word
-**** English
+*** English
 souse
-**** Definition
+*** Definition
 I. pickle
 II. a) to plunge into liquid  b) drench, saturate
 III. drunk
-**** Example sentence
+*** Example sentence
 She came home soused
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       47fa35b6-107e-4572-8b10-a0ce379a78d2
   :END:
 Define the word
-**** English
+*** English
 churlish
-**** Definition
+*** Definition
 I. of, resembling, or characteristic of a churl: vulgar
 II. marked by a lack of civility or graciousness: surly
 III. difficult to work with or deal with: intractable
-**** Example sentence
+*** Example sentence
 Eunice ignored the churlish notes that arrived regularly from her own
 fashion-conscious mother, criticizing her haphazard attire and her unruly hair.
 
-*** Noun
-  :drill:
+** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       ec1e779b-7f5a-4c4c-ba77-09d0d6269847
   :END:
 Define the word
-**** English
+*** English
 churl
-**** Definition
+*** Definition
 I. CEORL
 II. a medieval peasant
 III. rustic, countryman
 IV. a) a rude ill-bred person b) a stingy morose person
-**** Example sentence
+*** Example sentence
 
-*** Fact
-  :drill:
+** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :ID:       560298fe-391e-4d94-968f-04c3961b2e03
   :END:
 A [ceorl] was a freeman of the lowest rank in Anglo-Saxon England
 
-*** Verb
-  :drill:
+** Verb                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       9d29d126-b355-421c-840a-b79868c87767
   :END:
 Define the word
-**** English
+*** English
 do one
-**** Definition
+*** Definition
 a dissappearing act, fuck off, leave, depart
-**** Example sentence
+*** Example sentence
 Come on, let's go do one
 
-*** Adjective
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       a734d7dc-a73b-4b38-8298-4665d3067bb3
   :END:
 Define the word
-**** English
+*** English
 prosaic
-**** Definition
+*** Definition
 I. a) characteristic of prose as distinguished from poetry: factual
    b) dull, unimaginative
 II. everyday, ordinary
-**** Example sentence
+*** Example sentence
 heroic characters wasted in prosaic lives
 
-*** Adjective, Noun, Verb
-  :drill:
+** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       0798bd07-cbc0-40bd-99f6-5907ed3d79ab
   :END:
 Define the word
-**** English
+*** English
 facile
-**** Definition
+*** Definition
 I a) easily accomplished or attained
   b) shallow, simplistic
   c) readily manifested and often lacking sincerity or depth
 III. use or comprehended with ease
-**** Example sentence
+*** Example sentence
 
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       fa5a0c39-641c-4e86-ad38-14f9ecb4e632
+  :END:
+Define the word
+*** English
+jingoism
+*** Definition
+extreme chauvinism or nationalism marked especially by a belligerent foreign policy
+patriotism in the form of aggressive foreign policy
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       57afd80f-82d4-4235-a9df-a6a1ae5e94e7
+  :END:
+Define the word
+*** English
+pugilism
+*** Definition
+boxing
+*** Example sentence
+
+Some see that same pugilism as a negative, especially when he's used it to
+deliver sharp upper cuts to top Republican leaders who had once been in his
+corner and now harshly criticize him as an ungrateful opportunist.
 
 * -----------------------------------------------------------------------------------------------
 
-*** Adjective, Noun, Verb
-# :drill:
+** Adjective, Noun, Verb
+#  :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :END:
 Define the word
-**** English
-**** Definition
-**** Example sentence
+*** English
+*** Definition
+*** Example sentence
 
-*** Fact
-# :drill:
+** Fact
+#  :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze, show1cloze
   :END:
