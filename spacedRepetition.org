@@ -1366,6 +1366,31 @@ somnolence
 A strong desire to sleep. the quality or state of being drowsy
 *** Example sentence
 
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+berk
+*** Definition
+British slang for a stupid person; fool
+Shortened from Berkeley or Berkshire Hunt rhyming slang for cunt
+*** Example sentence
+He's such a berk
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+anacreontic
+*** Definition
+a poem in the manner of Anacreon
+especially: a drinking song or light lyric
+*** Example sentence
+
 
 * -----------------------------------------------------------------------------------------------
 
