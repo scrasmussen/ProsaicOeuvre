@@ -1,5 +1,5 @@
 createdAt: "2018-12-23T19:21:09.935Z"
-updatedAt: "2018-12-24T01:45:57.622Z"
+updatedAt: "2018-12-24T21:15:26.916Z"
 type: "MARKDOWN_NOTE"
 folder: "5201fb241aae7a5e7a9b"
 title: "f18 Installation"
@@ -7,10 +7,45 @@ content: '''
   # f18 Installation
   
   ### Prereqs
-  From [f18 git](https:\\\\github.com\\flang-compiler\\f18\\)
+  From [f18 git](https:\\\\github.com\\flang-compiler\\f18)
   * GCC 7.2., 7.3, 8.1, 8.2
-  * Clang 6.0
+  * Clang 6.0'
   
+  ### Build Instructions
+  Instructions at git [README](https://github.com/flang-compiler/f18/blob/master/README.md)
+  
+  ```
+  cd where/you/want/to/build
+  export Clang_DIR=<CLANG_DIR>/lib/cmake/clang
+  ./configure.sh
+  make
+  ```
+  
+  ### Config File
+  Modify this `configure.sh` file for your system:
+  ```
+  #!/bin/bash
+  
+  # README states that this version will work
+  # ml cmake-3.13.2 gcc/7.3 zlib-1.2.11 llvm
+  
+  RUN="cmake ../git \\
+      -DCMAKE_C_COMPILER=/packages/gcc/7.3/bin/gcc \\
+      -DCMAKE_CXX_COMPILER=/packages/gcc/7.3/bin/g++ \\
+      -DCMAKE_INSTALL_PREFIX=/home/users/scrasmussen/local/f18/git-122318 \\
+      -DCMAKE_BUILD_TYPE=Debug \\
+      -DCMAKE_CXX_FLAGS=-std=c++17 \\
+      -LA"
+  
+  echo "$RUN"
+  eval "$RUN"
+  ```
+  
+  ##### Issues
+  *  **NOTE: initial issues, probably because I was using  cmake 3.12.0, switching to cmake 3.13.2 fixed issue**
+  Issue caused by `project(f18 CXX)`, line 34 in `CMakeLists.txt`. I think `cmake 3.12.0` couldn't handle some test directories, after `3.13.2` fixed the issue I went back to `3.12.0` and wasn't able to replicate.
+  * **NOTE: Setting `CMAKE_CXX_COMPILER` to Clang 6.0.1 doesn't work, GCC 7.3 works**
+  `#include <optional>`, file not found
   
   ## LLVM and Clang Install
   1. [Download Source](https:\\\\releases.llvm.org\\download.html) 
@@ -28,18 +63,18 @@ content: '''
   ```Shell
   #!\\bin\\bash
   
-  # ml gcc\\7.3 cmake-3.12 zlib-1.2.11
+  # ml gcc/7.3 cmake-3.12 zlib-1.2.11
   # This is run from an `llvm-build` directory
   # NOTE: because of the "Unix Makefiles" string I haven't
   #            been able to figure out how to use ${HOME},
   #            thus I'm using absolute paths
   
-  RUN='cmake ..\\llvm-6.0.1.src \\
+  RUN='cmake ../llvm-6.0.1.src \\
   -G "Unix Makefiles" \\
   -DLLVM_BUILD_TESTS=ON \\
-  -DCMAKE_C_COMPILER=\\packages\\gcc\\7.3\\bin\\gcc \\
-  -DCMAKE_CXX_COMPILER=\\packages\\gcc\\7.3\\bin\\c++ \\
-  -DCMAKE_INSTALL_PREFIX=\\home\\users\\scrasmussen\\local\\llvm\\6.0.1-gcc-7.3'
+  -DCMAKE_C_COMPILER=/packages/gcc/7.3/bin/gcc \\
+  -DCMAKE_CXX_COMPILER=/packages/gcc/7.3/bin/g++ \\
+  -DCMAKE_INSTALL_PREFIX=/home/users/scrasmussen/local/llvm/6.0.1-gcc-7.3'
   
   echo "$RUN"
   eval "$RUN"
