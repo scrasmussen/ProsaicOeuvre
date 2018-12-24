@@ -1,0 +1,124 @@
+createdAt: "2018-11-26T15:40:39.505Z"
+updatedAt: "2018-12-24T01:47:52.774Z"
+type: "MARKDOWN_NOTE"
+folder: "5201fb241aae7a5e7a9b"
+title: "ROSE Installation"
+content: '''
+  # ROSE Installation
+  
+  | Method   |  Status  | 
+  |----------------------|-------------|
+  | binary                        |  `Fail`  |
+  | src with ml `boost`      | `Fail`  |
+  | src with `boost` src      | `Fail` |
+  | tag rls with `boost` src  | `Fail` at build, furthest gotten |
+  
+  ## installation that worked
+  ### ROSE src, boost src
+  ##### module used: autoconf\\2.69 java\\1.7 boost-1.61.0-src
+  Boost config command. Possible reason for working this time:
+  a) **no serialization**
+  b) used default **4.8.5 gcc**
+  
+  ```
+  .\\bootstrap.sh --prefix=\\home\\users\\scrasmussen\\local\\boost\\1.61.0 --with-libraries=chrono,date_time,filesystem,iostreams,program_options,random,regex,signals,system,thread,wave
+  .\\b2 --prefix=$BOOST_ROOT -sNO_BZIP2=1 install  cxxflags="-std=c++11"
+  ```
+  
+  ROSE config command after `.\\build` in `src`
+  
+  ```
+  FC=gfortran CC=gcc CXX=g++  \\home\\users\\scrasmussen\\src\\rose\\rose-git\\configure   --with-CXX_DEBUG=-g   --with-C_OPTIMIZE=-O0   --with-CXX_OPTIMIZE=-O0      --with-boost= --prefix=\\home\\users\\scrasmussen\\local\\ROSE\\0.9.9.0-ofp-boost-1.61-java-1.7-email --enable-languages=c,c++,fortran --with-gfortran=gfortran --with-alternate-backend-fortran-compiler=gfortran
+  ```
+  
+  Now the problem is when trying a test like
+  
+  ```
+  DEL:\\>identityTranslator --help
+  identityTranslator: error while loading shared libraries: libjvm.so: cannot open shared object file: No such file or directory
+  ```
+  
+  Where is libjvm.so?
+  Needed to add `\\usr\\local\\packages\\java\\1.7\\jre\\lib\\amd64\\server\\libjvm.so` to `LD_LIBRARY_PATH`
+  
+  
+  
+  -------------------------------
+  
+  
+  ## binary install [failed]
+  * note: had to create the path manually with `mkdir -p`. This worked the second time though with different install path, maybe it can create one directory.
+  
+  
+  ```shell
+  D:\\>bash .\\rose-installer  -v --prefix=$HOME\\local\\rose\\0.9.9.171-bin-install
+  D:\\>uname -a
+  Linux delphi 3.10.0-327.36.3.el7.x86_64 #1 SMP Mon Oct 24 16:09:20 UTC 2016 x86_64 x86_64 x86_64 GNU\\Linux
+  ```
+  
+  Installs everything ok, but it seems it can't install the Fortran front end.
+  
+  ``` shell
+  D:\\>identityTranslator --version
+  ROSE (version: 0.9.9.171)
+    --- using ROSE SCM version:
+        --- ID: 13d6f3d9cd593503a0d50bb8a393df4e146677db
+        --- Timestamp: 2018-01-06 01:28:48 UTC
+    --- using EDG C\\C++ front-end version: edg-4.12
+    --- using OFP Fortran parser version: unknown (OFP is disabled)
+    --- using Boost version: 1.65.1 (\\net\\wci-cl1.llnl.gov\\vol\\home\\reus1\\ROSE-git-clones\\ROSE-rzgenie-2018.01.08.23.15.27\\BOOST-install\\1.65.1)
+    --- using backend C compiler: gcc version: 4.8
+    --- using backend C compiler path (as specified at configure time): gcc
+    --- using backend C++ compiler: g++ version: 4.8
+    --- using backend C++ compiler path (as specified at configure time): g++
+    --- using original build tree path: \\net\\wci-cl1.llnl.gov\\vol\\home\\reus1\\ROSE-git-clones\\ROSE-rzgenie-2018.01.08.23.15.27\\ROSE\\rose-build
+    --- using instalation path: \\net\\wci-cl1.llnl.gov\\vol\\home\\reus1\\ROSE-git-clones\\ROSE-rzgenie-2018.01.08.23.15.27\\ROSE-install
+    --- using GNU readline version: unknown (readline is disabled)
+    --- using libmagic version: unknown (libmagic is disabled)
+    --- using yaml-cpp version: unknown (yaml-cpp is disabled)
+  ```
+  
+  ## From source [testing]
+  Needed autoconf, need to build `rose` project before installing
+  
+  ```
+  D:\\>cd rose
+  D:\\>ml boost\\1.61
+  D:\\>ml autoconf
+  D:\\>.\\build
+  ```
+  
+  Then `cd` to where `rose-config-ofp.sh` script is and run it.
+  Fails `configure: Count not link against boost_regex !` thought other boost libraries are found.
+  
+  ## From source tag 0.9.9.0 my boost from src
+  actually build but when I got to the build process
+  
+  ```
+  make[3]: Entering directory `\\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src'
+    CXXLD    rose-config
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::wave::grammars::defined_grammar_gen<boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > > >::parse_operator_defined(boost::wave::util::unput_queue_iterator<std::_List_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> > > const&, boost::wave::util::unput_queue_iterator<std::_List_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> > > const&, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> >&)'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::re_detail_106100::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::find()'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::re_detail_106100::cpp_regex_traits_implementation<char>::transform_primary[abi:cxx11](char const*, char const*) const'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::re_detail_106100::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::match()'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::wave::grammars::cpp_grammar_gen<boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> > >::parse_cpp_grammar(boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > > const&, boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > > const&, boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > const&, bool&, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >&, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> >&)'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::wave::grammars::defined_grammar_gen<boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > > >::parse_operator_defined(boost::wave::util::unput_queue_iterator<boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> > > const&, boost::wave::util::unput_queue_iterator<boost::wave::cpplexer::lex_iterator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> > > const&, std::__cxx11::list<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::fast_pool_allocator<boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > >, boost::default_user_allocator_new_delete, std::mutex, 32u, 0u> >&)'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::re_detail_106100::perl_matcher<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<boost::sub_match<__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::construct_init(boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > > const&, boost::regex_constants::_match_flags)'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::re_detail_106100::cpp_regex_traits_implementation<char>::transform[abi:cxx11](char const*, char const*) const'
+  \\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src\\.libs\\librose.so: undefined reference to `boost::wave::cpplexer::new_lexer_gen<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > >, boost::wave::cpplexer::lex_token<boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > > >::new_lexer(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, boost::wave::util::file_position<boost::wave::util::flex_string<char, std::char_traits<char>, std::allocator<char>, boost::wave::util::CowString<boost::wave::util::AllocatorStringStorage<char, std::allocator<char> >, char*> > > const&, boost::wave::language_support)'
+  collect2: error: ld returned 1 exit status
+  make[3]: *** [rose-config] Error 1
+  make[3]: Leaving directory `\\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src'
+  make[2]: *** [all-recursive] Error 1
+  make[2]: Leaving directory `\\storage\\users\\scrasmussen\\src\\ROSE\\rose-build\\src'
+  make[1]: *** [all-recursive] Error 1
+  make[1]: Leaving directory `\\storage\\users\\scrasmussen\\src\\ROSE\\rose-build'
+  ```
+  
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
