@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+if [ "$EUID" -ne 0 ]
+then echo "Please run as root to install packages"
+     exit
+fi
+
+sudo apt install emacs25-nox
+
+
