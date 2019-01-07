@@ -496,17 +496,18 @@ those with a particular job or interest
 The legal parlance used by attorneys has its roots in the Latin language.
 
 ** Adjective                                                          :drill:
+   SCHEDULED: <2019-01-12 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       8c9463bd-afaa-42c8-8cc2-fc44f75ef34b
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 9
+  :DRILL_LAST_INTERVAL: 4.8446
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 10
   :DRILL_FAILURE_COUNT: 8
-  :DRILL_AVERAGE_QUALITY: 1.444
+  :DRILL_AVERAGE_QUALITY: 1.7
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 15:34]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -591,18 +592,17 @@ The longing to become a source of events affects each man like a mental
 disorder or a desired malediction.
 
 ** Adjective                                                          :drill:
-    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       7f9ec970-a040-4a7d-87f6-c779981825db
-  :DRILL_LAST_INTERVAL: 4.4547
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 7
-  :DRILL_FAILURE_COUNT: 6
-  :DRILL_AVERAGE_QUALITY: 1.286
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_FAILURE_COUNT: 7
+  :DRILL_AVERAGE_QUALITY: 1.25
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2018-12-13 Thu 14:10]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -855,12 +855,12 @@ moment of happiness.
   :ID:       83d92250-d3e1-4769-83b9-ebc98c056940
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 4
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 1.75
+  :DRILL_TOTAL_REPEATS: 5
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 1.6
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 15:34]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -942,12 +942,12 @@ life imprisonment, in response to an egregious criminal act or outlandishly anti
   :ID:       135ef90e-9966-4ed9-90b3-cb1be8fc453e
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 15:34]
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -964,12 +964,12 @@ coz the boys in the other side know me.
   :ID:       51899130-a00a-4b55-99e4-765d9387a7fb
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 15:34]
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -1294,12 +1294,12 @@ Come on, let's go do one
   :ID:       a734d7dc-a73b-4b38-8298-4665d3067bb3
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2018-12-16 Sun 15:35]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-01-07 Mon 12:25]
   :END:
 Define the word
 *** English
@@ -1369,6 +1369,7 @@ A strong desire to sleep. the quality or state of being drowsy
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       457c0a44-0d24-49f2-a804-b705dd3c4e51
   :END:
 Define the word
 *** English
@@ -1382,6 +1383,7 @@ He's such a berk
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       cf94ef43-c56c-47e8-bc85-9267f0826c07
   :END:
 Define the word
 *** English
@@ -1389,7 +1391,47 @@ anacreontic
 *** Definition
 a poem in the manner of Anacreon
 especially: a drinking song or light lyric
-*** Example sentence
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       308eba5f-d486-4ec2-9089-387449473bbf
+  :END:
+Define the word
+*** English
+God's Acre
+*** Definition
+A church cemetery
+
+** Phrase                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       98e9e2d2-8dba-47d1-8ad8-25b345ccf26b
+  :END:
+Define the word
+*** English
+A total goat rodeo
+*** Definition
+something is fucked
+
+** Phrase                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       65eb90ca-0525-409f-a187-d6c0222ec549
+  :END:
+Define the word
+*** Yiddish
+Ven der putz shteht, ligt der sechel in drerd
+*** Definition
+When the prick stands up the brains get buried in the ground.
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide2cloze
+  :ID:       f68f81c1-f60b-4ecf-ad23-ac01fb7fd55d
+  :END:
+[Plough Monday] is the traditional start of the English agricultural year.
+It is generally the first [Monday] after Twelfth Day (Epiphany), 6 January.
 
 
 * -----------------------------------------------------------------------------------------------

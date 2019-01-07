@@ -7,3 +7,5 @@ N=$'\n'
 # fi
 
 # add (setq visible-bell 1)
+
+# how to automatically do meta package-install?
