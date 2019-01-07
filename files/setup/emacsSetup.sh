@@ -5,3 +5,5 @@ N=$'\n'
 # if ! grep -q "^ps stuff" "${HOME}/.emacs"; then
 #     echo "${N}"
 # fi
+
+# add (setq visible-bell 1)
