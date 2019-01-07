@@ -1,6 +1,3 @@
-(eval-when-compile
-  (add-to-list 'load-path "/root/.emacs.d/use-package/")
-  (require 'use-package))
 (require 'package)
 (add-to-list 'package-archives
              '("org" . "https://orgmode.org/elpa/") t)
