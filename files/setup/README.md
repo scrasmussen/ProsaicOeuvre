@@ -4,11 +4,15 @@
 ### Powershell
 Automated process for
 - [ ] Change caps to ctrl
-- [ ] automatically turn on WSL and install Ubuntu 
-### WSL
-- [ ] sudo apt install script
-* emacs25-nox
-- [ ] emacs setup script
-- [ ] tmux setup script
-* add set-option -g prefix C-q
-* https://github.com/tmux-plugins/tpm
+- [ ] automatically turn on WSL and install Ubuntu
+#### installation
+- [ ] calibre
+- [ ] expressvpn
+- [ ] google chrome
+- [ ] my office
+- [ ] spotify
+- [ ] sticky password
+- [ ] sumatra
+#### uninstall
+- [ ] fitbit
+- [ ] solitaire
