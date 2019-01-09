@@ -4,6 +4,6 @@ then echo "Please run as root to install packages"
      exit
 fi
 
+sudo apt update
 sudo apt install emacs25-nox
-
-
+sudo apt install tmux

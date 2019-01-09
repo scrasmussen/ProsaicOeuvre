@@ -1433,6 +1433,63 @@ When the prick stands up the brains get buried in the ground.
 [Plough Monday] is the traditional start of the English agricultural year.
 It is generally the first [Monday] after Twelfth Day (Epiphany), 6 January.
 
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+hoary
+*** Definition
+I. grey or white with or as if with age
+II. extremely old
+*** Example sentence
+rehearses the hoary recommendation
+bowed with hoary head
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+myopic
+*** Definition
+I. nearsighted
+II. lacking in foresight or discernment: narrow in perspective
+*** Example sentence
+helps drive the intense,and myopic, opposition that many antiracist activists
+and commentators express to Bernie Sanders.
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+pernicious
+*** Definition
+I. highly injurious or destructive: deadly
+II. archaic: wicked
+*** Example sentence
+something more distasteful and pernicious than just a set of interchangeable
+thematic variations on the maudlin human-interest narrative of uplift and
+overcoming.
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+maudlin
+*** Definition
+I. drunk enough to be emotionally silly
+II. weakly and effusively sentimental
+*** Example sentence
+something more distasteful and pernicious than just a set of interchangeable
+thematic variations on the maudlin human-interest narrative of uplift and
+overcoming.
 
 * -----------------------------------------------------------------------------------------------
 
