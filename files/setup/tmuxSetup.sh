@@ -18,6 +18,12 @@ if ! grep -q "^$mode_keys" "${config_file}"; then
     sed -i "1s/^/$mode_keys \n/" $config_file
 fi
 
+# turn off automatic renaming of shell
+turnoff_rename="set-option -g allow-rename off"
+if ! grep -q "^$turnoff_rename" "${config_file}"; then
+    sed -i "1s/^/$turnoff_rename \n/" $config_file
+fi
+
 # clone plugin manager repo
 if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
     git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
