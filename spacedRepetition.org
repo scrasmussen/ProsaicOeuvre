@@ -1517,6 +1517,33 @@ self proclaimed, so-called
 *** Eymology
 French, literally, saying oneself
 
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+scintillating
+*** Definition
+brilliantly lively, stimulating, or witty
+*** Example sentence
+The scintillating, seductive tonal language became a Russian hallmarkg
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+parochial
+*** Definition
+I. of or relating to the church parish
+II. confined or restricted as if within the borders of a parish
+    limited in scope or range
+*** Example sentence
+Basic homeostasis remains a somewhat parochial affair, focused on the temple
+that human subjectivity has designed and erected -- the self.
+
 * -----------------------------------------------------------------------------------------------
 
 ** Adjective, Noun, Verb
