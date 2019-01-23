@@ -30,6 +30,12 @@ if ! grep -q "^$scroll" "${config_file}"; then
   sed -i "1s/^/$scroll \n/" $config_file
 fi
 
+# turn on aggressive resizing
+resize="setw -g aggressive-resize on"
+if ! grep -q "^$resize" "${config_file}"; then
+  sed -i "1s/^/$resize \n/" $config_file
+fi
+
 # clone plugin manager repo
 if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
   git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
