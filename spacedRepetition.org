@@ -1552,6 +1552,18 @@ organisms must constantly adapt, evolve, and proliferate not merely to gain
 reproductive advantage, but also simply to survive while pitted against
 ever-evolving opposing organisms in a constantly changing environment.
 
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+outre3
+*** Definition
+violating convention or propriety : bizarre
+*** Example sentence
+...hear his sensible tones expressing some surprise at an outrageous choice of
+shot or an outre hairstyle.
 
 * -----------------------------------------------------------------------------------------------
 
