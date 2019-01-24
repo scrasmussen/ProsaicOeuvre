@@ -1565,6 +1565,38 @@ violating convention or propriety : bizarre
 ...hear his sensible tones expressing some surprise at an outrageous choice of
 shot or an outre hairstyle.
 
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+plebiscite
+*** Definition
+the direct vote of all the members of an electorate on an important public
+question such as a change in the constitution.
+*** Example sentence
+the administration will hold a plebiscite for the approval of constitutional
+reforms.
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+recalcitrance
+*** Definition
+the state of being obstinately defiant of authority or restraint
+
+recalcitrant : adjective
+a: difficult to manage or operate
+b: not responsive to treatment
+c: resistant
+*** Example sentence
+the responsibility of that outcome would rest iwth the recalcitrance of the
+Brexiter fanatics
+
 * -----------------------------------------------------------------------------------------------
 
 ** Adjective, Noun, Verb

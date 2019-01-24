@@ -1,5 +1,5 @@
 createdAt: "2018-11-26T15:40:39.505Z"
-updatedAt: "2018-12-24T01:47:52.774Z"
+updatedAt: "2019-01-22T10:44:16.162Z"
 type: "MARKDOWN_NOTE"
 folder: "5201fb241aae7a5e7a9b"
 title: "ROSE Installation"
@@ -16,6 +16,8 @@ content: '''
   ## installation that worked
   ### ROSE src, boost src
   ##### module used: autoconf\\2.69 java\\1.7 boost-1.61.0-src
+  
+  #### Install Boost
   Boost config command. Possible reason for working this time:
   a) **no serialization**
   b) used default **4.8.5 gcc**
@@ -25,13 +27,17 @@ content: '''
   .\\b2 --prefix=$BOOST_ROOT -sNO_BZIP2=1 install  cxxflags="-std=c++11"
   ```
   
+  #### Install ROSE
   ROSE config command after `.\\build` in `src`
   
   ```
   FC=gfortran CC=gcc CXX=g++  \\home\\users\\scrasmussen\\src\\rose\\rose-git\\configure   --with-CXX_DEBUG=-g   --with-C_OPTIMIZE=-O0   --with-CXX_OPTIMIZE=-O0      --with-boost= --prefix=\\home\\users\\scrasmussen\\local\\ROSE\\0.9.9.0-ofp-boost-1.61-java-1.7-email --enable-languages=c,c++,fortran --with-gfortran=gfortran --with-alternate-backend-fortran-compiler=gfortran
   ```
   
-  Now the problem is when trying a test like
+  Now `cd` to ROSE build directory and `make`, `make install`
+  
+  
+  Had a problem when testing with
   
   ```
   DEL:\\>identityTranslator --help
@@ -45,6 +51,18 @@ content: '''
   
   -------------------------------
   
+  ### Delta Issues
+  Problem finding certain boost libraries
+  `filesystem, iostreams`
+  
+  uninstalled 
+  
+  ```
+      h63dtxk boost@1.61.0%gcc~atomic+chrono~clanglibcpp cxxstd=11 +date_time~debug~exception+filesystem~graph~icu+iostreams~locale~log~math~mpi+multithreaded~numpy patches=2ab6c72d03dec6a4ae20220a9dfd5c8c572c5294252155b85c6874d97c323199 ~pic+program_options~python+random+regex~serialization~shared+signals~singlethreaded+system~taggedlayout~test+thread~timer~versionedlayout+wave
+  kjd
+  ```
+  
+  -------------------------------
   
   ## binary install [failed]
   * note: had to create the path manually with `mkdir -p`. This worked the second time though with different install path, maybe it can create one directory.
@@ -114,6 +132,11 @@ content: '''
   make[1]: *** [all-recursive] Error 1
   make[1]: Leaving directory `\\storage\\users\\scrasmussen\\src\\ROSE\\rose-build'
   ```
+  
+  
+  ## Delta
+  Used spack to install boost but it doesn't auto include `export BOOST=/path/to/boost`
+  
   
   
   
