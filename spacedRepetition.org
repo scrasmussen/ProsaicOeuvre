@@ -1597,6 +1597,80 @@ c: resistant
 the responsibility of that outcome would rest iwth the recalcitrance of the
 Brexiter fanatics
 
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+bellicose
+*** Definition
+favoring or inclined to start quarrels or wars
+*** Example sentence
+In a bellicose speach in which he spelled out how the UK could "enhance its
+lethality" after Brexit.
+
+** Verb                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+stultify
+*** Definition
+I. to lose enthusiasm, to have a dulling or inhibiting effect on
+II. to cause or appear to be stupid, foolish, or absurdly illogical
+*** Example sentence
+Women, more than men, tend to feel stultified by long-term exclusivity—despite
+having been taught that they were designed for it.
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+limerence
+*** Definition
+a state of mind which results from a romantic attraction to another person and
+typically includes obsessive thoughts and fantasies and a desire to form or
+maintain a relationship with the object of love and have one's feelings
+reciprocated.
+*** Example sentence
+She wants to want John and be wanted by him in that
+can’t-get-enough-of-each-other-way experts call “limerence”—the initial period
+of a relationship when it’s all new and hot.
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+sapiosexual
+*** Definition
+a person who is sexually attracted to intelligence or the human mind before
+appearance
+*** Example sentence
+
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :END:
+[Horace] was the leading Roman lyric poet during the time of Augustus. Notable
+works are Odes, the only lyrical Latin poetry worth reading and
+"The Art of Poetry".
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :END:
+[Political economy] is the study of production and trade and their relations
+with law, custom and government; and with the distribution of national income
+and wealth
+
+
 * -----------------------------------------------------------------------------------------------
 
 ** Adjective, Noun, Verb
