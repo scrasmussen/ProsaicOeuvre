@@ -1,5 +1,11 @@
 # Setup Process
 
+## By Hand Install
+
+* [[https://sourceforge.net/projects/xming/][Xming]] for X Server
+This needs to be installed on Windows Side and `export DISPLAY:=0` run in `cl`.
+
+
 ## Windows 10
 ### Powershell
 Automated process for
