@@ -1670,6 +1670,26 @@ works are Odes, the only lyrical Latin poetry worth reading and
 with law, custom and government; and with the distribution of national income
 and wealth
 
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+vim
+*** Definition
+robust energy and enthusiasm
+*** Example sentence
+But like the socialism of old, it suffers from a faith in the incorruptibility
+of collective action and an unwarranted suspicion of individual vim.
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Pareto principle] states that 80% of the progress comes from 20% of the effort.
+From the observation that 80% of the Italian land was owned by 20% of the
+population.
+
 
 * -----------------------------------------------------------------------------------------------
 
@@ -1686,6 +1706,5 @@ Define the word
 ** Fact
 #  :drill:
   :PROPERTIES:
-  :DRILL_CARD_TYPE: hide1cloze, show1cloze
   :END:
 Something [like] this

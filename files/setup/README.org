@@ -2,7 +2,7 @@
 
 ## By Hand Install
 
-* [[https://sourceforge.net/projects/xming/][Xming]] for X Server
+- [[https://sourceforge.net/projects/xming/][Xming]] for X Server
 This needs to be installed on Windows Side and `export DISPLAY:=0` run in `cl`.
 
 
@@ -18,10 +18,9 @@ Automated process for
 - [ ] my office
 - [ ] spotify
 - [ ] sticky password
-- [ ] sumatra
+- [ ] [[https://www.sumatrapdfreader.org/download-free-pdf-viewer.html][sumatra 3.1]]
 #### uninstall
 - [ ] fitbit
 - [ ] solitaire
 ### STUFF TO LOOK INTO
 - [ ] Sublime and [[https://github.com/sublime-emacs/sublemacspro][Emacs keybindings]] and [[https://latextools.readthedocs.io][latextools]] and Miktex
-- [ ]
