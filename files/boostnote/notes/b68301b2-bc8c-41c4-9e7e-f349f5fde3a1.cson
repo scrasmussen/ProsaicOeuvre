@@ -1,0 +1,38 @@
+createdAt: "2019-03-07T10:27:41.533Z"
+updatedAt: "2019-03-07T10:57:49.792Z"
+type: "MARKDOWN_NOTE"
+folder: "5201fb241aae7a5e7a9b"
+title: "eCOS"
+tags: []
+content: '''
+  # eCOS
+  
+  ## Steps
+  1. configurationsetup 
+  2. arrayallocation
+  3. gridgeneration
+  4. set initial and boundary conditions
+  5. compute primitive variables
+  6. START `DO` LOOP
+  
+  ```
+  do i,j:
+      NU_X = DMI2_PV stuff
+      NU_Y = DMI2_PV stuff
+      reconstructions(PV,...)
+  ```
+  
+  
+  ## TODO
+  Put reconstruction cases in their own module
+  Corrays will be:
+  ```
+  (nx/nproc+ighostcells) x (ny/nproc+jghostcells)
+  ```
+  
+  dim2_Xim12_PVL only  vector  of size 7
+  FLUX only vector of size 4
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
