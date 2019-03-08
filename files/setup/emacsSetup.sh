@@ -9,3 +9,6 @@ N=$'\n'
 # add (setq visible-bell 1)
 
 # how to automatically do meta package-install?
+
+# fix indendation
+# https://www.emacswiki.org/emacs/IndentingC#toc1

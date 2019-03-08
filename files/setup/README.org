@@ -24,3 +24,9 @@ Automated process for
 - [ ] solitaire
 ### STUFF TO LOOK INTO
 - [ ] Sublime and [[https://github.com/sublime-emacs/sublemacspro][Emacs keybindings]] and [[https://latextools.readthedocs.io][latextools]] and Miktex
+
+## EMACS
+- [ ] Automatic setup of all things emacs
+- [ ] Add melpa and other for packages
+- [ ] Add [[https://raw.githubusercontent.com/Kitware/CMake/master/Auxiliary/cmake-mode.el][cmake major mode]]
+- [ ] Add [[https://github.com/jordonbiondo/column-enforce-mode/][column enforce mode]]
