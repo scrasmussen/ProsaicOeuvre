@@ -11,14 +11,16 @@ ________________________________________________________________________________
 *** X-Men: Deadly Genesis
 *** X-Men: No More Humans
 * Master List
-** Episode 1
+:Episode-1:
 1. God Loves Man Kills
 2. Wolverine & the X-Men #17 (Doop)
 3. God Loves Man Kills II
-** Episode 2
+:END:
+:Episode-2:
 1. God Loves Man Kills
 2. Wolverine & the X-Men #17 (Doop)
-3. God Loves Man Kills II
-4.
-5.
-6.
+3. Giant-Size X-men #1
+4. X-Men: Deadly Genesis
+5. God Loves Man Kills II
+???. X-Men: No More Humans
+:END:
