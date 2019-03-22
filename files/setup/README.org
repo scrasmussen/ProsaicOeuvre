@@ -5,6 +5,9 @@
 - [[https://sourceforge.net/projects/xming/][Xming]] for X Server
 This needs to be installed on Windows Side and `export DISPLAY:=0` run in `cl`.
 
+## Linux
+### .bashrc
+- [ ] [[https://askubuntu.com/questions/33774/how-do-i-remap-the-caps-lock-and-ctrl-keys][caps is ctrl]]
 
 ## Windows 10
 ### Powershell
@@ -23,7 +26,8 @@ Automated process for
 - [ ] fitbit
 - [ ] solitaire
 ### STUFF TO LOOK INTO
-- [ ] Sublime and [[https://github.com/sublime-emacs/sublemacspro][Emacs keybindings]] and [[https://latextools.readthedocs.io][latextools]] and Miktex
+- [ ] Sublime and [[https://github.com/sublime-emacs/sublemacspro][Emacs keybindings]]
+- [ ] [[https://latextools.readthedocs.io][latextools]] and Miktex? I'm trying latexmk
 
 ## EMACS
 - [ ] Automatic setup of all things emacs

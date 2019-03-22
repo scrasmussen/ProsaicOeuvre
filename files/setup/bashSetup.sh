@@ -19,6 +19,10 @@ if ! grep -q "^$less_alias" "${bashrc}"; then
   sed -i -e "\$a$less_alias" $bashrc
 fi
 
+# caps is ctrl
+setxkbmap -layout us -option ctrl:nocaps
+# edit /etc/default/keyboard so XKBOPTIONS="ctrl:nocaps"
+
 
 C=/mnt/c/Users/Artless/Documents
 U=$C/unix

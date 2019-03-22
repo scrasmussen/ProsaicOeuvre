@@ -1690,6 +1690,59 @@ of collective action and an unwarranted suspicion of individual vim.
 From the observation that 80% of the Italian land was owned by 20% of the
 population.
 
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+carte blanche
+*** Definition
+A French phrase meaning, "unlimited discretionary power to act; unrestricted authority"
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+jalopy
+*** Definition
+a dilapidated old vehicle
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+offal
+*** Definition
+1. the waste or by-product of a process
+2. rubbish
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+effete
+*** Definition
+1. no longer fertile
+2. having lost character, vitality, or strength
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+hifalutin
+*** Definition
+1. pretentious, fancy
+2. expressed in or marked by the use of language that is elaborated or
+   heightened by artificial or empty means: pompous
 
 * -----------------------------------------------------------------------------------------------
 
