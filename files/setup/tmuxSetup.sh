@@ -6,6 +6,10 @@
 N=$'\n'
 config_file="$HOME/.tmux.conf"
 
+if [ ! -f $config_file ]; then
+    touch $config_file
+fi
+
 # change tmux command to C-q
 tmux_prefix="set-option -g prefix C-q"
 if ! grep -q "^$tmux_prefix" "${config_file}"; then
