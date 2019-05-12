@@ -2,6 +2,18 @@
 #+STARTUP: showall
 
 * Vocab
+** Adjective, Noun, Verb                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       ba758775-f698-4674-9500-63a2db41134f
+  :END:
+Define the word
+*** English
+On the gripping hand
+*** Definition
+A three armed varient of, on the other hand. From Larry Niven and Jerry
+Pournelle's The Gripping Hand
+
 ** Adjective                                                          :drill:
    SCHEDULED: <2018-12-17 Mon>
   :PROPERTIES:
@@ -157,12 +169,12 @@ lacking physical or mental energy; sluggish
   :ID:       ae472f6f-1fb1-4149-8963-edcfb690a34b
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 18
-  :DRILL_FAILURE_COUNT: 14
-  :DRILL_AVERAGE_QUALITY: 1.722
+  :DRILL_TOTAL_REPEATS: 19
+  :DRILL_FAILURE_COUNT: 15
+  :DRILL_AVERAGE_QUALITY: 1.684
   :DRILL_EASE: 2.22
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:57]
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 Define the word
 *** English
@@ -294,17 +306,18 @@ The study of signs and symbols and their use or interpretation
 [knowledge].
 
 ** Fact                                                               :drill:
+   SCHEDULED: <2019-05-16 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       fd88df70-8678-424c-a897-42b347a0002c
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 8
+  :DRILL_LAST_INTERVAL: 3.8573
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 9
   :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 2.75
+  :DRILL_AVERAGE_QUALITY: 2.889
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:58]
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 [Ontology] is the philosophical study of [being. It studies concepts that
 directly relate to being, in particular becoming, existence, reality.]
@@ -336,12 +349,12 @@ There is a limited branch of children whose precocity has led them to be deemed 
   :ID:       71b134e4-084c-4c64-ab68-661818dd23f4
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 12
-  :DRILL_FAILURE_COUNT: 9
-  :DRILL_AVERAGE_QUALITY: 2.083
+  :DRILL_TOTAL_REPEATS: 13
+  :DRILL_FAILURE_COUNT: 10
+  :DRILL_AVERAGE_QUALITY: 2.0
   :DRILL_EASE: 2.22
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:58]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 Define the word
 *** English
@@ -591,12 +604,12 @@ disorder or a desired malediction.
   :ID:       7f9ec970-a040-4a7d-87f6-c779981825db
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 9
-  :DRILL_FAILURE_COUNT: 8
-  :DRILL_AVERAGE_QUALITY: 1.222
+  :DRILL_TOTAL_REPEATS: 10
+  :DRILL_FAILURE_COUNT: 9
+  :DRILL_AVERAGE_QUALITY: 1.2
   :DRILL_EASE: 2.36
   :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:56]
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:03]
   :END:
 Define the word
 *** English
@@ -788,12 +801,12 @@ the soporific heat of the summer
   :ID:       9c6819e6-3c7e-4448-ab76-6fcf451ac5da
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 6
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 2.167
+  :DRILL_TOTAL_REPEATS: 7
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 2.143
   :DRILL_EASE: 2.46
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:57]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 The headquarters of the Shanghai Public Security Bureau (PSB), a concrete building known as
 ["803"]
@@ -887,17 +900,18 @@ I instantly turned away, lest he should see and misconstrue my emotion.
 - Anne Bronte
 
 ** Adjective                                                          :drill:
+   SCHEDULED: <2019-05-16 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       017d6f2c-9cfa-4b72-8685-f40fd4339e78
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_LAST_INTERVAL: 4.2805
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 4
   :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:57]
+  :DRILL_AVERAGE_QUALITY: 2.25
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 Define the word
 *** English
@@ -932,12 +946,12 @@ life imprisonment, in response to an egregious criminal act or outlandishly anti
   :ID:       135ef90e-9966-4ed9-90b3-cb1be8fc453e
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 4
-  :DRILL_AVERAGE_QUALITY: 1.6
+  :DRILL_TOTAL_REPEATS: 6
+  :DRILL_FAILURE_COUNT: 5
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2019-01-21 Mon 11:56]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-05-12 Sun 14:02]
   :END:
 Define the word
 *** English
@@ -1555,6 +1569,7 @@ ever-evolving opposing organisms in a constantly changing environment.
 ** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       db141390-7d90-4318-af12-71db8bfdf5f3
   :END:
 Define the word
 *** English
@@ -1568,6 +1583,7 @@ shot or an outre hairstyle.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       f3e58ce8-4aa0-41a5-aa69-1e5a57081b92
   :END:
 Define the word
 *** English
@@ -1582,6 +1598,7 @@ reforms.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       e97854c5-db5f-454d-802d-52ed143f27bc
   :END:
 Define the word
 *** English
@@ -1600,6 +1617,7 @@ Brexiter fanatics
 ** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       d12176eb-3ec6-4f8b-a8c5-e0781fe8fd80
   :END:
 Define the word
 *** English
@@ -1613,6 +1631,7 @@ lethality" after Brexit.
 ** Verb                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       d489dcc9-d8c5-4a6e-9f8d-3efa1769e9bf
   :END:
 Define the word
 *** English
@@ -1627,6 +1646,7 @@ having been taught that they were designed for it.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       d6c9ef49-9225-4f35-adc2-48cd555e5f03
   :END:
 Define the word
 *** English
@@ -1644,6 +1664,7 @@ of a relationship when it’s all new and hot.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       4f399370-d3d5-4ead-a1f7-8998418a6e0c
   :END:
 Define the word
 *** English
@@ -1657,6 +1678,7 @@ appearance
 ** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :ID:       e45816a2-7982-4152-9d3d-fe005314a098
   :END:
 [Horace] was the leading Roman lyric poet during the time of Augustus. Notable
 works are Odes, the only lyrical Latin poetry worth reading and
@@ -1665,6 +1687,7 @@ works are Odes, the only lyrical Latin poetry worth reading and
 ** Fact                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze, show1cloze
+  :ID:       f37e69d3-b5e2-42f0-bff2-8f0613b8a911
   :END:
 [Political economy] is the study of production and trade and their relations
 with law, custom and government; and with the distribution of national income
@@ -1673,6 +1696,7 @@ and wealth
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       14310c63-5360-4b59-bcf5-1d5cdac1419d
   :END:
 Define the word
 *** English
@@ -1685,6 +1709,7 @@ of collective action and an unwarranted suspicion of individual vim.
 
 ** Fact                                                               :drill:
   :PROPERTIES:
+  :ID:       196fb70a-0dc5-4fe0-8b19-ef391521e6ab
   :END:
 [Pareto principle] states that 80% of the progress comes from 20% of the effort.
 From the observation that 80% of the Italian land was owned by 20% of the
@@ -1693,6 +1718,7 @@ population.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       124e6330-95c2-42f6-aadc-75c5f42d7e16
   :END:
 Define the word
 *** English
@@ -1703,6 +1729,7 @@ A French phrase meaning, "unlimited discretionary power to act; unrestricted aut
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       c6b3f38a-4e8e-4495-832d-c21ef92a98b9
   :END:
 Define the word
 *** English
@@ -1713,6 +1740,7 @@ a dilapidated old vehicle
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       aebcfde9-c543-4dd1-9a48-b0c60ade2d62
   :END:
 Define the word
 *** English
@@ -1724,6 +1752,7 @@ offal
 ** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       ef96b5c5-69a3-4d5b-a4f3-1a15fe6cf46c
   :END:
 Define the word
 *** English
@@ -1735,6 +1764,7 @@ effete
 ** Adjective                                                          :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       9abd4ba5-c85d-40ee-9054-868c12846d37
   :END:
 Define the word
 *** English
@@ -1743,6 +1773,17 @@ hifalutin
 1. pretentious, fancy
 2. expressed in or marked by the use of language that is elaborated or
    heightened by artificial or empty means: pompous
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       71b3230a-f7f4-474c-9e4c-b8f3b324ffa2
+  :END:
+Define the word
+*** English
+sycophant
+*** Definition
+a servile self-seeking flatterer
 
 * -----------------------------------------------------------------------------------------------
 
