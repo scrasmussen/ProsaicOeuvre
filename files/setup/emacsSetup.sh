@@ -36,8 +36,6 @@ add "(add-to-list 'load-path \"${columnEnforce_dir}\")"
 add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 
 
-
-
 # --- TODO ---
 # how to automatically do meta package-install?
 # fix indendation
