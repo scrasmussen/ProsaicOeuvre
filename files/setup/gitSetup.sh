@@ -11,6 +11,7 @@ git config --global user.email ${email}
 
 if [[ $1 == "-print" ]]; then
   run "cat ~/.ssh/id_rsa.pub"
+  printf "\nNow go to https://github.com/settings/keys and add that key\n"
 fi
 
 # https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -24,7 +25,7 @@ if [[ $1 == "-ssh"  ]]; then
   run 'ssh-add ~/.ssh/id_rsa'
 fi
 
-if [[ $1 == "-help"  ]]; then
+if [[ $1 == "-help" ]] || [[ $# -eq 0 ]] ; then
   echo "-help    : show options"
   echo "-print   : print ssh key for adding to github"
   echo "-ssh     : adding ssh key to ssh-agent"
