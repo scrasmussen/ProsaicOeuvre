@@ -3,8 +3,17 @@
 #  * make the command line into a function
 #  * look at google shell style guide
 
+set -e -x
+
 N=$'\n'
 config_file="$HOME/.tmux.conf"
+
+function add(){
+  echo $1
+  if ! grep -q "^$1" "${config_file}"; then
+    echo "${N}$1" >> ${config_file}
+  fi
+}
 
 if [ ! -f $config_file ]; then
     touch $config_file
@@ -67,3 +76,4 @@ if ! grep -q "^$command" "${config_file}"; then
 fi
 
 echo "Fin"
+echo "Now enter tmux-prefix + `I`"

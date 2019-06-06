@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e -x
 N=$'\n'
 config_file="$HOME/.emacs"
 
