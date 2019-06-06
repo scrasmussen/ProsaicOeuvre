@@ -33,7 +33,7 @@ columnEnforce_file=~/.emacs.d/columnEnforce/column-enforce-mode.el
 [[ -f ${columnEnforce_file} ]] || wget -P ${columnEnforce_dir} ${url}
 emacs -batch -f batch-byte-compile ${columnEnforce_file}
 add "(add-to-list 'load-path \"${columnEnforce_dir}\")"
-add "(require \"column-enforce-mode\")"
+add "(require 'column-enforce-mode)"
 add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 
 
