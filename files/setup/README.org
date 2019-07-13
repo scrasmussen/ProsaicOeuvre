@@ -37,5 +37,6 @@ Automated process for
 ## EMACS
 - [ ] Automatic setup of all things emacs
 - [ ] Add melpa and other for packages
+- [ ] install org package and org-plus-contrib
 - [ ] Add [[https://raw.githubusercontent.com/Kitware/CMake/master/Auxiliary/cmake-mode.el][cmake major mode]]
 - [ ] Add [[https://github.com/jordonbiondo/column-enforce-mode/][column enforce mode]]
