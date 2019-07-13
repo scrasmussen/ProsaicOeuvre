@@ -1,0 +1,304 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: overview
+* -----------------------------------------------------------------------------------------------
+
+** Adjective, Noun, Verb
+#  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+*** Definition
+*** Example sentence
+
+** Fact
+#  :drill:
+  :PROPERTIES:
+  :END:
+Something [like] this
+
+* Vocab
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       7492a706-0c5b-461b-97a2-39dc65d37cc4
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:00]
+  :END:
+Define the word
+*** English
+apophenia
+*** Definition
+the tendency to perceive a connection or meaningful pattern between unrelated
+or random things
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       4e7c977c-7ca5-4198-8ffa-e1a65a6bc7ca
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 11:59]
+  :END:
+Define the word
+*** English
+obsequious
+*** Definition
+marked by or exhibiting a fawning attentiveness
+*** Example sentence
+Damocles was an obsequious courtier in the court of Dionysius II of Syracuse, a
+4th century BC tyrant of Syracuse, Sicily.
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :ID:       ea78b238-1b2a-47d5-b228-e141a90940e6
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 11:58]
+  :END:
+The [Sword of Damocles] is an allusion to the imminent and ever-present peril
+faced by those in positions of power.
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       4a0ef0ce-321b-4c18-a3c0-3393672263c0
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 11:59]
+  :END:
+Define the word
+*** English
+constancy
+*** Definition
+1. a : steadfastness of mind under duress : fortitude
+   b : fidelity, loyalty
+2    : a state of being constant or unchanging
+*** Example sentence
+"For people are happy not in hilarity or sensuality or laughter, nor in games,
+ the comrades of levity, but often even in sadness through firmness and
+ constancy" - Cicero
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       e65d8942-48fc-475c-bc05-590f0d09f1a9
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:10]
+  :END:
+Define the word
+*** English
+appurtenance
+*** Definition
+1. appurtenances: accessory objects
+3. a subordinate part or adjunct
+
+** Noun                                                               :drill:
+   SCHEDULED: <2019-07-17 Wed>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       867dd73d-3b1e-4f65-9729-d125bb8ee8fe
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:01]
+  :END:
+Define the word
+*** Latin
+ars
+*** Definition
+1. art, skill
+2. craft, power
+
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       20ba116b-c8a1-4065-8d73-413df4417282
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:10]
+  :END:
+Define the word
+*** English
+satiety
+*** Definition
+1 : the quality or state of being fed or gratified to or beyond capacity
+2 : the revulsion or disgust caused by the overindulgence or excess
+*** Example sentence
+[list] those... whoe have... awaited death resolutetly or sought it voluntarily,
+and sought it not only to flee the ills of this life, but some siply to flee
+satiety with living and others for the hope of a better condition elsewhere, I
+should never [be] done. - Michel de Montaigne
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       cd31ee48-713f-4231-80a3-71d01905c813
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:01]
+  :END:
+Define the word
+*** English
+austere
+*** Definition
+1. a : stern and cold in appearance or manner
+   b : somber, grave
+2. morally strict
+3. markedly simple or unadorned
+4. giving little or no scope for pleasure
+*** Example sentence
+It was common to see fathers and mothers doing away with themselves, and, what
+is a still more austere example, through love and compassion throwing their
+children into wells to escape the law. - Michel de Montaigne
+
+** Adverb                                                             :drill:
+   SCHEDULED: <2019-07-17 Wed>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       5cc6a124-6f59-4daa-ada6-c82194c50c57
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:00]
+  :END:
+Define the word
+*** English
+pell-mell
+*** Definition
+I. in mingled confusion or disorder
+II. in confused haste
+*** Example sentence
+An incident not unlike that which befell the city of the Xanthians, who,
+besieged by Brutus, flew pell-mell, men, women, and children, into such a
+frenzied craving for death that there is nothign done to escape death which they
+did not do to escape life; so that only with difficulty could Brutus save a very
+small number of them. - Michel de Montaigne
+
+** Verb                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       dd842f3e-2292-44a0-9872-577e33e23b49
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:02]
+  :END:
+Define the word
+*** English
+bilk
+*** Definitiono
+To block the free development of: frustrate
+To cheat out of something valuable: defraud
+To slip away from
+*** Example sentence
+She bilked her persuers.
+Bilking investors out of their savings.
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :ID:       b27060ff-d435-4f0a-809e-64159740f384
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:02]
+  :END:
+[Johhny on the spot] is a phrase for a person who is on hand and ready to
+perform a service or respond to an emergency.
+
+** Phrase                                                             :drill:
+   SCHEDULED: <2019-07-17 Wed>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       ba758775-f698-4674-9500-63a2db41134f
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 12:01]
+  :END:
+Define the word
+*** English
+On the gripping hand
+*** Definition
+To enumerate a third possibility
+A three armed varient of, on the other hand. From Larry Niven and Jerry
+Pournelle's The Gripping Hand
+
+** Adjective                                                    :drill:leech:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       c4e8999f-cd7b-49ac-932e-dc8aa1676fa5
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 22
+  :DRILL_FAILURE_COUNT: 17
+  :DRILL_AVERAGE_QUALITY: 1.682
+  :DRILL_EASE: 2.18
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2019-07-13 Sat 11:45]
+  :END:
+Define this word
+*** English
+apoplectic
+*** Definition
+overcome with anger; extremely indignant
+*** Example sentence
+Mark was apoplectic with rage at the decision
