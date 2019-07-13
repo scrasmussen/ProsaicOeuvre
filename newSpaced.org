@@ -1,7 +1,6 @@
 # -*- mode: org; coding: utf-8 -*-
 #+STARTUP: overview
 * -----------------------------------------------------------------------------------------------
-
 ** Adjective, Noun, Verb
 #  :drill:
   :PROPERTIES:
@@ -19,6 +18,19 @@ Define the word
 Something [like] this
 
 * Vocab
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+indignant
+*** Definition
+feeling or showing anger because of something unjust or unworthy : filled with
+or marked by indignation
+*** Example sentence
+Was she rejecting me as a dating formality, or because my race made us an
+impossiblity? I felt indignant.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
