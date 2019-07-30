@@ -18,6 +18,10 @@ ________________________________________________________________________________
 *** Mutant Genesis (X-Men Vol 2 #1-3)
 *** Worst X-Men Ever #1-5
 *** New Mutants Summer Special 1990
+** Episode 5
+*** X-men #12-13, July & September 1965
+*** Uncanny X-Force 8-19 2010
+*** Uncanny X-Men #205, May 1986
 * Master List
 :Episode-1:
 1. God Loves Man Kills
@@ -27,7 +31,7 @@ ________________________________________________________________________________
 :Episode-2:
 1. God Loves Man Kills
 2. Wolverine & the X-Men #17 (Doop)
-3. Giant-Size X-men #1
+3. Giant-Size X-Men #1
 4. X-Men: Deadly Genesis
 5. X-Men: No More Humans
 6. God Loves Man Kills II
@@ -36,7 +40,7 @@ ________________________________________________________________________________
 1. God Loves Man Kills
 2. Wolverine Vol 1: #1-4 (1982)
 3. Wolverine & the X-Men #17 (Doop)
-4. Giant-Size X-men #1
+4. Giant-Size X-Men #1
 5. Excalibur: Mojo Mayhem
 6. Battle of the Atom
 7. X-Men: Deadly Genesis
@@ -46,24 +50,44 @@ ________________________________________________________________________________
 :Episode-4:
 1. God Loves Man Kills
 2. Wolverine Vol 1: #1-4 (1982)
-3. Wolverine & the X-Men #17 (Doop)
-4. Giant-Size X-men #1
-5. Excalibur: Mojo Mayhem
-6. Battle of the Atom
-7. X-Men: Deadly Genesis
-8. X-Men: No More Humans
-9. God Loves Man Kills II\
-999. Mutant Genesis (X-Men Vol 2 #1-3)
-999. Worse X-Men Ever #1-5
-999. New Mutants Summer Special 1990
+3. Worse X-Men Ever #1-5
+4. Mutant Genesis (X-Men Vol 2 #1-3)
+5. Wolverine & the X-Men #17 (Doop)
+6. Giant-Size X-Men #1
+7. Excalibur: Mojo Mayhem
+8. Battle of the Atom
+9. X-Men: Deadly Genesis
+10. X-Men: No More Humans
+11. New Mutants Summer Special 1990
+12. God Loves Man Kills II
 :END:
+:Episode-5:
+1. God Loves Man Kills
+2. Wolverine Vol 1: #1-4 (1982)
+3. Worse X-Men Ever #1-5
+4. Mutant Genesis (X-Men Vol 2 #1-3)
+5. Wolverine & the X-Men #17 (Doop)
+6. Giant-Size X-Men #1
+7. Excalibur: Mojo Mayhem
+8. Battle of the Atom
+9. X-Men: Deadly Genesis
+10. X-Men: No More Humans
+11. New Mutants Summer Special 1990
+12. God Loves Man Kills II
+999. X-men #12-13, July & September 1965
+999. Uncanny X-Force 8-19 2010
+999. Uncanny X-Men #205, May 1986
+:END:
+
 * Personal List
 1. God Loves Man Kills
 2. Wolverine Vol 1: #1-4 (1982)
-3. Wolverine & the X-Men #17 (Doop)
-4. Excalibur: Mojo Mayhem
-5. Giant-Size X-men #1
-6. Battle of the Atom
-7. X-Men: No More Humans
-8. X-Men: Deadly Genesis
-9. God Loves Man Kills II
+3. Mutant Genesis (X-Men Vol 2 #1-3)
+4. Worse X-Men Ever #1-5
+5. Wolverine & the X-Men #17 (Doop)
+6. Excalibur: Mojo Mayhem
+7. Giant-Size X-men #1
+8. Battle of the Atom
+9. X-Men: No More Humans
+10. X-Men: Deadly Genesis
+11. God Loves Man Kills II
