@@ -33,11 +33,11 @@
 
 ;; show column numbers
     (setq column-number-mode t)
-;
-; [tab] inserts two spaces
-    (setq-default indent-tabs-mode nil)
-    (global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
-    (electric-indent-mode 0)
+
+;; [tab] inserts two spaces
+;; (setq-default indent-tabs-mode nil)
+;; (global-set-key "\t" (lambda () (interactive) (insert-char 32 2)))
+;; (electric-indent-mode 0)
 
 ;; code folding
 (global-set-key "\C-x$" 'set-selective-display-dlw)
@@ -49,6 +49,29 @@
 
 ;; remove trailing whitespace
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; set visible-bell, will possibly disable ding
+(setq visible-bell 1)
+
+;; remove automatic indenting in latex mode
+(add-hook 'latex-mode-hook (lambda() (electric-indent-local-mode -1)))
+
+;; visual over 80+ columns wide warning
+;; https://github.com/jordonbiondo/column-enforce-mode/
+(add-to-list 'load-path "~/.emacs.d/columnEnforce")
+(require 'column-enforce-mode)
+
+(defun renumber (&optional num)
+  "Renumber the list items in the current paragraph, starting at point."
+  (interactive "p")
+  (setq num (or num 1))
+  (let ((end (save-excursion
+	       (forward-paragraph)
+	       (point))))
+    (while (re-search-forward "^[0-9]+" end t)
+      (replace-match (number-to-string num))
+      (setq num (1+ num)))))
+
 
 ;; https://github.com/joaotavora/autopair
 (add-to-list 'load-path "/root/local/emacs") ;; comment if autopair.el is in standard load path
