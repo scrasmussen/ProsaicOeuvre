@@ -1,7 +1,13 @@
 # Quotes
 
+* Freedom
+"If one minute’s freedom had been offered to me, and I had been told must die at
+ the end of that minute, I would have taken it."
+   - Mum Bett
+
+
 * Death
-"Another repied to his confesosr, who was promising him that he should sup that
+"Another repied to his confessor, who was promising him that he should sup that
  day with Our Lord: You go there yourself; for my part, I'm fasting."
   - Michel de Montaigne, That the Taste of Good and Evil Depends in Large Part
                          on the Opinion We Have of Them
@@ -29,3 +35,7 @@
  private, behind locked gates. One could no longer see and therefore resist
  state power."
   - Based on Foucault's Discipline and Punish
+
+"The most difficult thing in the world is to know how to do a thing and to watch
+ someone else do it wrong without comment."
+  - Theodore H. White
