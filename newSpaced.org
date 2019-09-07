@@ -17,7 +17,84 @@ Define the word
   :END:
 Something [like] this
 
-* Vocab
+* Knowledge
+** Person                                                             :drill:
+  :PROPERTIES:
+  :END:
+Romulus:
+[The legendary founder and first king of Rome. Various traditions attribute the]
+[establishment of many of Rome's oldest legal, political, religious, and social]
+[institutions to Romulus and his contemporaries.]
+
+** Person                                                             :drill:
+  :PROPERTIES:
+  :END:
+Seneca the Younger:
+[A Roman trained in rhetoric and philosophy. Known for his philosophical work]
+[and his plays, which are all tragedies. His writings are the body of material]
+[for what is known of ancient Stoicism. His best known plays are Medea, ]
+[Thyestes and Phaedra.]
+
+** Person                                                             :drill:
+  :PROPERTIES:
+  :END:
+Demosthenes:
+[A Greek statesman and great orator of ancient Athens. His orations constitute]
+[a significant expression of contemporary Athenian intellectual prowess and]
+[provide an insight into the politics and culture of ancient Greece during the]
+[4th century BC.]
+
+** Person                                                             :drill:
+  :PROPERTIES:
+  :END:
+Plutarch:
+[a Greek biographer and essayist, known primarily for his Parallel]
+[Lives and Moralia. Parallel Lives of the Noble Greeks and Romans is a series]
+[of 48 biographies of famous men. Some of the remaining 23 Roman and Greek]
+[pairs are Alexander the Great and Julius Caesar, or Demonsthenes and Cicero.]
+[Moralia is a series of essays, Michel de Montaigne was one who copied this ]
+[style.]
+
+
+** Adjective, Noun, Verb                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+pastiche
+*** Definition
+a literary, artistic, musical, or architectural work that imitates the style of
+previous work
+*** Example sentence
+FRANK HERBERT’S Dune (1965) is a science-fiction classic in part because it’s
+such brilliant pastiche.
+
+** Vocab                                                              :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       8dd05e63-3255-4005-945d-ec0e4b0c421f
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2019-08-19 Mon 09:20]
+  :END:
+Define the word
+*** Latin
+callida junctura
+*** Definition
+skillful or judicius arrangement in literary compositions
+
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Potemkin Village] is any construction (literal or figurative) build solely to
+deceive others into thinking that a situation is better than it is.
+
 ** Fact                                                               :drill:
   :PROPERTIES:
   :ID:       8508d927-f008-4992-9716-88822af7240b
