@@ -118,3 +118,6 @@ export MANPATH="/usr/local/texlive/2018/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/usr/local/texlive/2018/texmf-dist/doc/info:$INFOPATH"
 export DISPLAY=:0
 alias emacs="emacs -nw"
+
+toilet -F border "Hello Soren." -f pagga
+toilet -F border "You're looking well    today.                            " -f pagga
