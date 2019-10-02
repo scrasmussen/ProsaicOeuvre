@@ -1,9 +1,16 @@
 # Quotes
 
 * Freedom
+"A pawn acts like a pawn because it believes its a pawn"
+   - An Old Man playing chess, Wu-Tang: An American Saga
+
 "If one minute’s freedom had been offered to me, and I had been told must die at
  the end of that minute, I would have taken it."
    - Mum Bett
+
+"There are only three real sports: bullfighting, mountain climbing, and motor
+racing. The rest are merely games."
+   - Ernest Hemingway
 
 
 * Death
@@ -47,3 +54,15 @@
 * Thoughts
 "And if I am a man of some reading, I am a man of no retentiveness"
   - Michel de Montaigne
+
+"Hell is truth seen too late"
+  - Thomas Hobbes
+
+
+* Politics
+"In politics, identity is an appeal to authority—the moral authority of the
+oppressed: I am what I am, which explains my view and makes it the truth. The
+politics of identity starts out with the universal principles of equality,
+dignity, and freedom, but in practice it becomes an end in itself—often a dead
+end, a trap from which there’s no easy escape and maybe no desire for escape"
+  - George Packer, [[https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/][When the Culture War Comes for the Kids]]
