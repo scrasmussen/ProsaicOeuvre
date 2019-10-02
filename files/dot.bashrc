@@ -121,3 +121,4 @@ alias emacs="emacs -nw"
 
 toilet -F border "Hello Soren." -f pagga
 toilet -F border "You're looking well    today.                            " -f pagga
+# C:\>module load rose-git-develop-091219-jdk-12.0.2
