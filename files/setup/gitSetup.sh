@@ -8,6 +8,7 @@ function run(){
 email='s.c.rasmussen@gmail.com'
 git config --global user.name "Soren Rasmussen"
 git config --global user.email ${email}
+git config --global core.editor "emacs"
 
 if [[ $1 == "-print" ]]; then
   run "cat ~/.ssh/id_rsa.pub"
