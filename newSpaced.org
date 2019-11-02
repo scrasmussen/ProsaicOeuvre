@@ -18,6 +18,158 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+adherance
+*** Definition
+the act, action, or quality of adhering (give support, maintain loyalty, etc)
+steady of faithful attachment
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[griot]: a West African historian, storyteller, praise singer, poet, or musician
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[probiotics]:thought to help restore the natural balance of bacteria in your gut
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Lien]: a form of security interest granted over an item of property to secure
+the payment of a debt or performance of some other obligation.
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Short sale]: a sale of real estate in which the net proceeds from selling the
+property will fall short of the debts secured by liens against the property.
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Damascene moment]: the religious conversion of Paul
+** Phrase                                                             :drill:
+  :PROPERTIES:
+  :END:
+[persona non grata]: person not appreciated. Foreign person whose entering or
+remaining in a particular country is prohibited.
+
+Not popular or accepted by others
+
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** French
+    comme  il faut
+*** Definition
+conforming to accepted standards
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** French
+mon ami
+*** Definition
+my friend
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** French
+cheri
+*** Definition
+darling
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Perseus]: legendary founder of Mycenae and of the Perseid dynansty. Son of
+Zeus and mortal Danae
+
+** Noun                                                    :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+vitriol
+*** Definition
+something felt to resemble vitriol, virulence of felling or of speech
+filled with bitter criticism or malice
+*** Example sentence
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** Gaelic
+Slainte
+*** Definition
+health, commenly used as a toast
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+[Dog-whistle politics]: political messaging employing coded language that
+appears to mean one thing to the general population but has an additional,
+different, or more specific resonance for a targeted subgroup.
+
+** Phrase                                                             :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** Latin
+Mea culpa
+*** Definition
+"through my fault", an acknowledgement of having done wrong
+*** Example sentence
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+emolument
+*** Definition
+the return arising from office or employment usually in the form of compensation
+or perquisites
+*** Example sentence
+Emolument is a crime that people are wondering if Trump has commited, e.g.
+Hotels.
+** Adjective                                                          :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+irascible
+*** Definition
+marked by hot temper and easily provoked anger
+** Verb                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+prorogation
+*** Definition
+the action of proroguing (ending) an essembly, especially a parliament.
+** Noun                                                               :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+travail
+*** Definition
+work especially of a laborious or painful nature.
+a physical or mental exertion or piece of work.
+agony, torment
 ** Person                                                             :drill:
   :PROPERTIES:
   :END:
