@@ -1,5 +1,5 @@
 PC=python3
-file=problem67
+file=problem51
 
 
 all: run

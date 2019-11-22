@@ -10,7 +10,7 @@
 #                   41 20  7  8  9 10 27
 #                   42 21 22 23 24 25 26
 #                   43 44 45 46 47 48 49
-#
+p#
 # It is interesting to note that the odd squares lie along the bottom right
 # diagonal, but what is more interesting is that 8 out of the 13 numbers lying
 # along both diagonals are prime; that is, a ratio of 8/13 ≈ 62%.
