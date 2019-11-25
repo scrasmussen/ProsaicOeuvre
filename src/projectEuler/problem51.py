@@ -14,8 +14,17 @@
 # value family.
 import sys
 sys.path.append(r'lib/')
-import sieves as s
+import sieves
 import numpy as np
 
-n = 10
-s.Sieves(n)
+n = 30
+s = sieves.Sieves(n)
+s.sieveOfEratosthenes()
+
+# s.reportPrimes()
+
+# for i in range(1,n+1):
+#     if (s.isPrime(i)):
+#         print(i)
+
+print("Fin")
