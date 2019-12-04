@@ -5,6 +5,11 @@
 - [[https://sourceforge.net/projects/xming/][Xming]] for X Server
 This needs to be installed on Windows Side and `export DISPLAY:=0` run in `cl`.
 
+
+## Fix
+passing variable with strings or strings to command to make adding things to files easier
+
+
 ## Linux
 ### .bashrc
 - [ ] [[https://askubuntu.com/questions/33774/how-do-i-remap-the-caps-lock-and-ctrl-keys][caps is ctrl]]
@@ -12,8 +17,11 @@ This needs to be installed on Windows Side and `export DISPLAY:=0` run in `cl`.
 ## Windows 10
 ### Powershell
 Automated process for
-- [ ] Change caps to ctrl
-- [ ] automatically turn on WSL and install Ubuntu
+- [X] Change caps to ctrl
+- [X] automatically turn on WSL and install Ubuntu
+- [ ] automatically turn scrolling "Down motion scrolls down"
+- [ ] turn off pinch to zoom
+
 #### installation
 - [ ] calibre
 - [ ] expressvpn

@@ -3,15 +3,14 @@
 #  * make the command line into a function
 #  * look at google shell style guide
 
-set -e -x
+# set -e -x
 
 N=$'\n'
 config_file="$HOME/.tmux.conf"
 
 function add(){
-  echo $1
-  if ! grep -q "^$1" "${config_file}"; then
-    echo "${N}$1" >> ${config_file}
+  if ! grep  "^$@" "${config_file}"; then
+    echo "${N}$@" >> ${config_file}
   fi
 }
 
@@ -21,33 +20,23 @@ fi
 
 # change tmux command to C-q
 tmux_prefix="set-option -g prefix C-q"
-if ! grep -q "^$tmux_prefix" "${config_file}"; then
-  sed -i "1s/^/$tmux_prefix \n/" $config_file
-fi
+add "$tmux_prefix"
 
 # turn off automatic renaming of shell
 turnoff_rename="set-option -g allow-rename off"
-if ! grep -q "^$turnoff_rename" "${config_file}"; then
-  sed -i "1s/^/$turnoff_rename \n/" $config_file
-fi
+add "$turnoff_rename"
 
 # make sure copy key-bindings are emacs
 mode_keys="set-window-option -g mode-keys emacs"
-if ! grep -q "^$mode_keys" "${config_file}"; then
-  sed -i "1s/^/$mode_keys \n/" $config_file
-fi
+add "$mode_keys"
 
 # turn on mouse scrolling
 scroll="set -g mouse on"
-if ! grep -q "^$scroll" "${config_file}"; then
-  sed -i "1s/^/$scroll \n/" $config_file
-fi
+add "$scroll"
 
 # turn on aggressive resizing
 resize="setw -g aggressive-resize on"
-if ! grep -q "^$resize" "${config_file}"; then
-  sed -i "1s/^/$resize \n/" $config_file
-fi
+add "$resize"
 
 # clone plugin manager repo
 if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
@@ -55,18 +44,20 @@ if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
 fi
 
 command="set -g @plugin 'tmux-plugins/tpm'"
-if ! grep -q "^$command" "${config_file}"; then
-  echo "${N}${command}" >> "${config_file}"
-fi
+add "$command"
 
 command="set -g @plugin 'tmux-plugins/tmux-sensible'"
-if ! grep -q "^$command" "${config_file}"; then
-  echo "${N}${command}" >> "${config_file}"
-fi
+add "$command"
 
 command="set -g @plugin 'tmux-plugins/tmux-yank'"
+add "$command"
+
+# remap prefix from 'C-b' to 'C-a'
+command="unbind C-b"
 if ! grep -q "^$command" "${config_file}"; then
-  echo "${N}${command}" >> "${config_file}"
+  echo "${command}" >> "${config_file}"
+  echo "set-option -g prefix C-q" >> "${config_file}"
+  echo "bind-key C-q send-prefix" >> "${config_file}"
 fi
 
 command="run -b ~/.tmux/plugins/tpm/tpm"
@@ -76,4 +67,4 @@ if ! grep -q "^$command" "${config_file}"; then
 fi
 
 echo "Fin"
-echo "Now enter tmux-prefix + `I`"
+
