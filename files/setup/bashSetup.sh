@@ -40,4 +40,7 @@ add "$pip_alias"
 bin_path='export PATH=$HOME/local/bin:$PATH'
 add "$bin_path"
 
+c_path='export C=/mnt/c/Users/scras/Documents'
+add "$c_path"
+
 echo "Fin"
