@@ -38,7 +38,28 @@ add "(require 'column-enforce-mode)"
 add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 
 
+# setup tab width and space as tabs
+# http://blog.binchen.org/posts/easy-indentation-setup-in-emacs-for-web-development.html
+func="defun my-setup-indent"
+if ! grep -q "^$func" "${config_file}"; then
+    echo "${N}($func (n)" >> ${config_file}
+    echo "  ;; c/c++/java"
+    echo "  (setq-local c-basic-offset n)"
+    echo "  ;; fortran"
+    echo "  (setq-local fortran-basic-offset n))"
+fi
+
+func="defun my-personal-code-style"
+if ! grep -q "^$func" "${config_file}"; then
+    echo "${N}($func ()" >> ${config_file}
+    echo "  (interactive)" >> ${config_file}
+    echo "  ;; use space instead of tabs" >> ${config_file}
+    echo "  (setq indent-tab-mode nil)" >> ${config_file}
+    echo "  ;; indent 2 spaces width" >> ${config_file}
+    echo "  (my-setup-indent 2))" >> ${config_file}
+    echo "(my-personal-code-style)" >> ${config_file}
+fi
+
+
 # --- TODO ---
 # how to automatically do meta package-install?
-# fix indendation
-# https://www.emacswiki.org/emacs/IndentingC#toc1
