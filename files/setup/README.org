@@ -23,13 +23,13 @@ Automated process for
 - [ ] turn off pinch to zoom
 
 #### installation
-- [ ] calibre
-- [ ] expressvpn
-- [ ] google chrome
+- [X] calibre
+- [X] expressvpn
+- [X] google chrome
 - [ ] my office
-- [ ] spotify
-- [ ] sticky password
-- [ ] [[https://www.sumatrapdfreader.org/download-free-pdf-viewer.html][sumatra 3.1]]
+- [X] spotify
+- [X] sticky password
+- [X] [[https://www.sumatrapdfreader.org/download-free-pdf-viewer.html][sumatra 3.1]]
 - [ ] sublime
 - [ ] TeX Live
 - [ ] TeXworks
