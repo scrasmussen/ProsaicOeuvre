@@ -6,8 +6,10 @@ function compare {
 
     if [ ! -f $1 ]; then
 	cp /mnt/c/Users/scras/Documents/src/powershell/$1 .
+	echo "copied $1"
     elif [[ $(cmp $1 /mnt/c/Users/scras/Documents/src/powershell/$1) ]]; then
 	cp /mnt/c/Users/scras/Documents/src/powershell/$1 .
+	echo "copied $1"
     fi
 }
 

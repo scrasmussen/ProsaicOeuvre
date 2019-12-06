@@ -25,17 +25,16 @@ Check-Installation 'C:\Program Files (x86)\ExpressVPN\expressvpn-ui\ExpressVPN.e
 # Sumutra PDF
 Check-Installation 'C:\Program Files\SumatraPDF\SumatraPDF.exe' 'https://www.sumatrapdfreader.org/download-free-pdf-viewer.html'
 
-
 # Xming
-Check-Installation 'Xming.exe' 'https://sourceforge.net/projects/xming/'
-
-# Calibre
-Check-Installation 'calibre.exe' 'https://calibre-ebook.com/download_windows64'
+Check-Installation 'C:\Program Files (x86)\Xming\Xming.exe' 'https://sourceforge.net/projects/xming/'
 
 # Texworks
 Check-Installation 'TexWorks.exe' 'https://github.com/TeXworks/texworks/releases'
 # TeX Live, do i need this??
 Check-Installation 'TexLive.exe' ''
+
+# Calibre
+Check-Installation 'calibre.exe' 'https://calibre-ebook.com/download_windows64'
 
 # Chrome, Firefox is already installed
 Check-Installation 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe' 'https://www.google.com/chrome/'
@@ -50,6 +49,5 @@ Check-Installation 'C:\Program Files (x86)\Sticky Password\stpass.exe' 'https://
 Check-Installation 'Mendeley.exe' 'https://www.mendeley.com/download-desktop/'
 
 exit
-
 
 "Fin"

@@ -61,5 +61,11 @@ if ! grep -q "^$func" "${config_file}"; then
 fi
 
 
-# --- TODO ---
-# how to automatically do meta package-install?
+org="https://orgmode.org/elpa"
+# (setq package-check-signature nil)
+if ! grep -q "^$org" "${config_file}"; then
+    echo "${N}(require 'package)" >> ${config_file}
+    echo "(add-to-list 'package-archives '('org' . '${org}') t)" >> ${config_file}
+fi
+echo "FIN"
+echo "Now 'M-x list-packages' and install org"

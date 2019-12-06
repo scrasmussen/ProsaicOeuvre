@@ -4,6 +4,11 @@
 
 # Microsoft Teams
 # Microsoft OneDrive
+# Skype? But how?
+
+# in background apps remove
+# - pretty much everything!
+
 
 # For automation look at
 # https://www.overclock.net/forum/132-windows/622070-how-remove-startup-programs-command-line.html
