@@ -1,5 +1,4 @@
 import numpy as np
-import sieveOfEratosthenes as erat
 import math
 
 class Sieves:
@@ -22,13 +21,13 @@ class Sieves:
             val = i*2+1
             if (self.A[i] == 0):
                 self.A[i] = 1
-                val += val + val
-                step = int((val - 1) / 2)
-                while (step < self.n):
-                    self.A[step] = -1
-                    val += val + val
-                    step = int((val - 1) / 2)
-
+                step_val = 3 * val # adding val twice, because doing it once
+                                      # would just make it even
+                step_i = int((step_val - 1) / 2)
+                while (step_i < self.n):
+                    self.A[step_i] = -1
+                    step_val += val + val
+                    step_i = int((step_val - 1) / 2)
         return self.A
 
     def reportPrimes(self):
