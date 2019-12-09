@@ -15,6 +15,22 @@ add "(setq column-number-mode t)"
 add "(add-hook 'before-save-hook 'delete-trailing-whitespace)"
 add "(setq visible-bell 1)"
 
+
+# setup PowerShell major mode
+url=http://www.emacswiki.org/emacs/download/PowerShell-Mode.el
+autopair_dir=~/.emacs.d/powershell
+autopair_file=~/.emacs.d/powershell/PowerShell-Mode.el
+[[ -d ${autopair_dir}  ]] || mkdir -p ${autopair_dir}
+[[ -f ${autopair_file} ]] || wget -P ${autopair_dir} ${url}
+emacs -batch -f batch-byte-compile ${autopair_file}
+add "(add-to-list 'load-path \"${autopair_dir}\")"
+if ! grep -q "powershell-mode" "${config_file}"; then
+  echo -n "(add-to-list 'auto-mode-alist '("'"' >> ${config_file}
+  echo -n '\\''.ps1''\\'"'"'"' >> ${config_file}
+  echo " . powershell-mode))" >> ${config_file}
+fi
+
+
 # setup autopair
 url=https://raw.githubusercontent.com/capitaomorte/autopair/master/autopair.el
 autopair_dir=~/.emacs.d/autopair
@@ -40,18 +56,18 @@ add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 
 # setup tab width and space as tabs
 # http://blog.binchen.org/posts/easy-indentation-setup-in-emacs-for-web-development.html
-func="defun my-setup-indent"
+func="(defun my-setup-indent (n)"
 if ! grep -q "^$func" "${config_file}"; then
-    echo "${N}($func (n)" >> ${config_file}
+    echo "${N}$func" >> ${config_file}
     echo "  ;; c/c++/java"
     echo "  (setq-local c-basic-offset n)"
     echo "  ;; fortran"
     echo "  (setq-local fortran-basic-offset n))"
 fi
 
-func="defun my-personal-code-style"
+func="(defun my-personal-code-style ()"
 if ! grep -q "^$func" "${config_file}"; then
-    echo "${N}($func ()" >> ${config_file}
+    echo "${N}$func" >> ${config_file}
     echo "  (interactive)" >> ${config_file}
     echo "  ;; use space instead of tabs" >> ${config_file}
     echo "  (setq indent-tab-mode nil)" >> ${config_file}
@@ -61,11 +77,13 @@ if ! grep -q "^$func" "${config_file}"; then
 fi
 
 
+# add elpa repo
 org="https://orgmode.org/elpa"
-# (setq package-check-signature nil)
-if ! grep -q "^$org" "${config_file}"; then
+package="(add-to-list 'package-archives '(\"org\" . \"${org}\") t)"
+if ! grep -q "^${package}" "${config_file}"; then
     echo "${N}(require 'package)" >> ${config_file}
-    echo "(add-to-list 'package-archives '('org' . '${org}') t)" >> ${config_file}
+    echo "${package}" >> ${config_file}
 fi
+
 echo "FIN"
 echo "Now 'M-x list-packages' and install org"
