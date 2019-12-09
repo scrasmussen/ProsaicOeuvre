@@ -13,6 +13,7 @@ sudo apt -y install x11-xkb-utils
 sudo apt -y install build-essential
 sudo apt -y install autoconf
 sudo apt -y install cmake
+sudo apt -y install zip
 sudo apt -y install python3
 sudo apt -y install python3-pip
 sudo apt -y install gcc-8

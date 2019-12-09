@@ -67,4 +67,3 @@ if ! grep -q "^$command" "${config_file}"; then
 fi
 
 echo "Fin"
-

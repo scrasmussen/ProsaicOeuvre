@@ -28,6 +28,10 @@ Check-Installation 'C:\Program Files\SumatraPDF\SumatraPDF.exe' 'https://www.sum
 # Xming
 Check-Installation 'C:\Program Files (x86)\Xming\Xming.exe' 'https://sourceforge.net/projects/xming/'
 
+
+# Tor
+Check-Installation 'Tor.exe' 'https://www.torproject.org/download/'
+
 # Texworks
 Check-Installation 'TexWorks.exe' 'https://github.com/TeXworks/texworks/releases'
 # TeX Live, do i need this??
