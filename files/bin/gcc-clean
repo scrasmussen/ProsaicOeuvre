@@ -1,3 +1,4 @@
+-*- sh -*-
 #!/bin/bash
 
 rm -f  isl
@@ -15,6 +16,3 @@ rm -fr mpc-1.0.3
 rm -f  mpfr
 rm -fr mpfr-3.1.4
 # rm -f  mpfr-3.1.4.tar.bz2
-
-
-
