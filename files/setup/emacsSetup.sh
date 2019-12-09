@@ -23,7 +23,7 @@ autopair_file=~/.emacs.d/powershell/PowerShell-Mode.el
 [[ -d ${autopair_dir}  ]] || mkdir -p ${autopair_dir}
 [[ -f ${autopair_file} ]] || wget -P ${autopair_dir} ${url}
 emacs -batch -f batch-byte-compile ${autopair_file}
-add "(add-to-list 'load-path \"${autopair_dir}\")"
+add "(load-file \"${autopair_file}\")"
 if ! grep -q "powershell-mode" "${config_file}"; then
   echo -n "(add-to-list 'auto-mode-alist '("'"' >> ${config_file}
   echo -n '\\''.ps1''\\'"'"'"' >> ${config_file}
