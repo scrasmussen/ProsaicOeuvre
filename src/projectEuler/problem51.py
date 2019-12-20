@@ -46,11 +46,12 @@ for x in range(1,10):
             report[1,x] += 1
 
 
-num_digits = 2
+num_digits = 5
 new_report = np.zeros((num_digits,10))
 start = 10 ** (num_digits - 1)
 for i in range(start,start * 10):
     if (s.isPrime(i)):
+        print(str(i) + " is prime")
         p = i
 
         digit = 4 # set to the number of digits of m
@@ -62,9 +63,9 @@ for i in range(start,start * 10):
                 m /= 10
                 continue
             p -= (num * m)
-            print(str(num) + "  and prime = " + str(i) + " and digit = "+ str(digit))
             m /= 10
 
+            # print(str(num) + "  and prime = " + str(i) + " and digit = "+ str(digit))
             new_report[digit,num] += 1
 
 

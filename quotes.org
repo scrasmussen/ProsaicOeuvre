@@ -1,5 +1,33 @@
 # Quotes
 
+* Best
+“The one unforgivable sin is to be boring.”
+   - Christopher Hitchens quoting his mother
+
+“All could see her face was as pretty as a flower, but none could know that in
+ her fair and gracious breast there raged a desire to hunt down her enemies.
+
+ People say you can’t wash away the mud of this world with pure white snow:
+
+ You need asura snow, stained fiery red.”
+   - Lady Snowblood
+
+
+* Death
+"Another repied to his confessor, who was promising him that he should sup that
+ day with Our Lord: You go there yourself; for my part, I'm fasting."
+   - Michel de Montaigne, That the Taste of Good and Evil Depends in Large Part
+                         on the Opinion We Have of Them
+
+"Death holds less pain than does the wait for death"
+   - Ovid
+
+“Is there any meaning in my life that the inevitable death awaiting me does not
+ destroy”
+   - Leo Tolstoy
+
+
+
 * Freedom
 "A pawn acts like a pawn because it believes its a pawn"
    - An Old Man playing chess, Wu-Tang: An American Saga
@@ -13,49 +41,86 @@ racing. The rest are merely games."
    - Ernest Hemingway
 
 
-* Death
-"Another repied to his confessor, who was promising him that he should sup that
- day with Our Lord: You go there yourself; for my part, I'm fasting."
-  - Michel de Montaigne, That the Taste of Good and Evil Depends in Large Part
-                         on the Opinion We Have of Them
-
-"Death holds less pain than does the wait for death"
-  - Ovid
-
 
 * Happiness
+“Happy the man, and happy he alone,
+He who can call today his own;
+He who, secure within, can say,
+Tomorrow do thy worst, for I have lived today.”
+   - Translation of Horace by John Dryden
+
 "For people are happy not in hilarity or sensuality or laughter, nor in games,
  the comrades of levity, but often even in sadness through firmness and
  constancy"
- - Cicero
+   - Cicero
 
 "Happiness is reality minus expectations"
 
 
 * Humor
+"In the beginning the Universe was created. This has made a lot of people very
+ angry and has been widely regarded as a bad move."
+   - Douglas Adams
+
 "Why don't you take your library card and fuck off."
-  - Logan Roy, Succession 2:4
+   - Logan Roy, Succession 2:4
 
 "Even on the highest throne in the world, we are still sitting on our ass."
-  - Michel de Montaigne
+   - Michel de Montaigne
+
+"On the planet emacs in the holy control tower" - spacemacs
 
 "Difficulty is a coin which the learned conjure with so as not to reveal the
  vanity of their studies and which human stupidity is keen to accept as payment"
-  - Michel de Montaigne
+   - Michel de Montaigne
 
 "But with the invention of the modern prison system, everything happened in
  private, behind locked gates. One could no longer see and therefore resist
  state power."
-  - Based on Foucault's Discipline and Punish
+   - Based on Foucault's Discipline and Punish
 
 "The most difficult thing in the world is to know how to do a thing and to watch
  someone else do it wrong without comment."
-  - Theodore H. White
+   - Theodore H. White
+
+
+* Life
+“Tuesday: nothing. existed.”
+   - Jean-Paul Sartre, Nausea
+
+“Death destroys a man; the idea of Death saves him”
+   - E. M. Forster
+
+“It is said that his time was easier than ours, but I doubt it — no time can be
+ easy for one who is living through it.”
+   - James Baldwin on Shakespeare
+
+"What cannot be cured, must be endured"
+
+“... we actually have no choice but to fall in love, as biology is stronger than
+ reason”
+   - Arthur Schopenhauer
+
+
+* Literature
+“Lina’s hair is down and her dark eyes, fresh from church, have a familiarly
+ Italian mournful expression.”
+   - Philip Roth Portnoy’s Complaint
+
+
+* Programming
+“The problem of object-oriented languages is they’ve got all this implicit
+ environment that they carry around with them. You wanted a banana but what you
+ got was a gorilla holding the banana and the entire jungle.”
+   - Joe Armstrong
 
 
 * Thoughts
+“The mind of man, which he did not ask to be given, demands a reason”
+   - Intro to Nausea
+
 "And if I am a man of some reading, I am a man of no retentiveness"
-  - Michel de Montaigne
+   - Michel de Montaigne
 
 "Hypocrisy is the homage vice pays to virtue."
 
@@ -63,25 +128,54 @@ racing. The rest are merely games."
  ourselves, and, in the absence of an outside witness, it brings us forward
  against ourselves."
        `Plying a secret whip, our soul as torturer.` - Juvenal
-  - Michel de Montaigne
+   - Michel de Montaigne
+
+"You don't rise to your goals, you fall to the level of your systems"
+   - James Clear
 
 "Spirit of iron makes skin of stone."
-  - Ta-Nehisi Coates, Black Panther
+   - Ta-Nehisi Coates, Black Panther
+
+“I used to have students who bragged to me about how fast they wrote their
+ papers. I would tell them that the great German novelist Thomas Mann said that
+ a writer is someone for whom writing is more difficult than it is for other
+ people. The best writers write much more slowly than everyone else, and the
+ better they are, the slower they write. James Joyce wrote Ulysses, the
+ greatest novel of the 20th century, at the rate of about a hundred words a
+ day.”
+   - William Deresiewicz, Solitude and Leadership
 
 "Wide is the range of words, one one side and the other."
-  - Homer
+   - Homer
 
 "Hell is truth seen too late"
-  - Thomas Hobbes
+   - Thomas Hobbes
 
 "To shun the heaven that leads men to this hell"
-  - Shakespeare, Sonnet 129
+   - Shakespeare, Sonnet 129
 
 
 * Politics
-"In politics, identity is an appeal to authority—the moral authority of the
+“Your representative owes you, not his industry only, but his judgment; and he
+ betrays, instead of serving you, if he sacrifices it to your opinion.”
+   - Edmund Burke
+
+"And so for many Americans, the nuclear family has become a lonely institution -
+ and childhood, one long unpaid internship meant to secure a spot in a dwindling
+ middle class”
+   - Kim Brooks, NYT
+
+"In politics, identity is an appeal to authority — the moral authority of the
 oppressed: I am what I am, which explains my view and makes it the truth. The
 politics of identity starts out with the universal principles of equality,
-dignity, and freedom, but in practice it becomes an end in itself—often a dead
+dignity, and freedom, but in practice it becomes an end in itself — often a dead
 end, a trap from which there’s no easy escape and maybe no desire for escape"
-  - George Packer, [[https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/][When the Culture War Comes for the Kids]]
+   - George Packer, [[https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/][When the Culture War Comes for the Kids]]
+
+“Men are afraid that women will laugh at them. Women are afraid that men will
+ kill them.”
+   - Margaret Atwood
+
+“Progress is never permanent, will always be threatened, must be redoubled,
+ restated and reimagined if it is to survive.”
+   - Zadie Smith
