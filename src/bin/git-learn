@@ -1,0 +1,6 @@
+# -*-sh-*-
+#!/bin/bash
+
+echo "Enter the following commands:"
+echo "$ eval \$(ssh-agent -s)"
+echo "$ ssh-add ~/.ssh/id_rsa"

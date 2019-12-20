@@ -1,0 +1,8 @@
+# -*-sh-*-
+#!/bin/bash
+echo '-----------------------'
+echo '| SOME CMAKE COMMANDS |'
+echo '-----------------------'
+echo '| run specific ctest  |'
+echo '-----------------------'
+echo '$ ctest -R [nameOfTest]'

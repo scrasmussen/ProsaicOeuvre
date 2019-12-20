@@ -1,0 +1,23 @@
+# -*-sh-*-
+#!/bin/bash
+
+echo '-----------------------'
+echo '| SOME EMACS COMMANDS |'
+echo '-----------------------'
+echo '|  center & margins  |'
+echo '----------------------'
+echo '(set-frame-width (selected-frame) 81)'
+echo '(switch-to-buffer "*scratch*")'
+echo '----------------------'
+echo '| current major-mode |'
+echo '----------------------'
+echo '$ alt + x describe-variable'
+echo '$ major-mode'
+echo '----------------------'
+echo '| save & repeat macro|'
+echo '----------------------'
+echo '$ ctrl + x ('
+echo '[type commands you want to save]'
+echo '$ ctrl + x )'
+echo 'To execute saved macro'
+echo '$ ctrl + e'
