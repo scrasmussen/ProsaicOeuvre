@@ -1,5 +1,8 @@
 ﻿# To elevate privelages to properlly install
-# $ Start-Process PowerShell -Verb RunAs 
+# $ Start-Process PowerShell -Verb RunAs
+
+# FIXING FIREWALL ISSUE
+# https://github.com/microsoft/WSL/issues/4212
 
 # Install Chocolatey
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -16,5 +19,5 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseB
 Add-AppxPackage .\Ubuntu.appx
 
 
-# Try restarting PowerShell now to see if everything works 	
+# Try restarting PowerShell now to see if everything works
 # May need to run ubuntu1804.exe for everything to be found

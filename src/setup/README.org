@@ -1,5 +1,9 @@
 # Setup Process
 
+## General Knowledge
+/# - requires that the given linux command be executed with root privileges
+ $ - requires that the given linux command be executed normally
+
 ## By Hand Install
 
 - [[https://sourceforge.net/projects/xming/][Xming]] for X Server
