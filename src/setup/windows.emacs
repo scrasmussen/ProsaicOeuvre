@@ -5,8 +5,14 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(add-to-list 'load-path "~/.emacs.d/column-enforce-mode")
+(require 'column-enforce-mode)
+(add-hook 'prog-mode-hook 'column-enforce-mode)
+(add-hook 'LaTeX-mode-hook 'column-enforce-mode)
+
 (load-theme 'doom-nord-light t)
 (tool-bar-mode -1)
+(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
 
 (setq visible-bell 1)
 (setq inhibit-startup-screen t)
@@ -73,8 +79,12 @@
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (add-hook 'LaTeX-mode-hook 'latex-preview-pane-mode)
+(add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)
 (latex-preview-pane-enable)
 (setq-default latex-preview-pane-multifile-mode 'auctex)
+
+(add-hook 'LaTex-mode-hook 'turn-on-reftex)
+(setq reftex-plug-into-auctex t)
 
 ;; (add-hook 'TeX-after-compilation-finished-functions #'TeX-revert-document-buffer) ;; revert pdf after compile
 ;; (setq TeX-view-program-selection '((output-pdf "PDF Tools"))) ;; use pdf-tools for viewing
