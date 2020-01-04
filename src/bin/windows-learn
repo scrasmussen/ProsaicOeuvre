@@ -1,0 +1,14 @@
+# -*-sh-*-
+#!/bin/bash
+
+echo '-----------------------'
+echo '|    SOME WINDOWS     |'
+echo '|     KNOWLEDGE       |'
+echo '-----------------------'
+echo '|  Powershell Profile  |'
+echo '----------------------'
+echo 'All Users,    All Hosts      $PSHOME\Profile.ps1'
+echo 'All Users,    Current Host   $PSHOME\Microsoft.PowerShell_profile.ps1'
+echo 'Current User, All Hosts      $Home\[My ]Documents\PowerShell\Profile.ps1'
+echo 'Current user, Current Host   $Home\[My ]Documents\PowerShell\Microsoft.PowerShell_profile.ps1]'
+echo "Powershell ISE also has it's own profile"
