@@ -101,6 +101,13 @@ Tomorrow do thy worst, for I have lived today.”
  reason”
    - Arthur Schopenhauer
 
+“Above all, don't lie to yourself. The man who lies to himself and listens to
+ his own lie comes to a point that he cannot distinguish the truth within him,
+ or around him, and so loses all respect for himself and for others. And having
+ no respect he ceases to love… “Above all, avoid falsehood, every kind of
+ falsehood, especially to yourself.”
+   - Zosima, The Brothers Karamozov
+
 
 * Literature
 “Lina’s hair is down and her dark eyes, fresh from church, have a familiarly
@@ -108,11 +115,146 @@ Tomorrow do thy worst, for I have lived today.”
    - Philip Roth Portnoy’s Complaint
 
 
+* Motivation
+:Ire-Glass:
+"Nobody tells this to people who are beginners, I wish someone told me. All of
+ us who do creative work, we get into it because we have good taste. But there
+ is this gap. For the first couple years you make stuff, it’s just not that
+ good. It’s trying to be good, it has potential, but it’s not. But your taste,
+ the thing that got you into the game, is still killer. And your taste is why
+ your work disappoints you.
+
+ A lot of people never get past this phase, they quit. Most people I know who do
+ interesting, creative work went through years of this. We know our work doesn’t
+ have this special thing that we want it to have. We all go through this. And if
+ you are just starting out or you are still in this phase, you gotta know its
+ normal and the most important thing you can do is do a lot of work.
+
+ Put yourself on a deadline so that every week you will finish one story. It is
+ only by going through a volume of work that you will close that gap, and your
+ work will be as good as your ambitions. And I took longer to figure out how to
+ do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take
+ awhile. You’ve just gotta fight your way through."
+:end:
+
+"“When you feel guilty, but haven’t harmed anyone, then you’re just in the realm
+  of perfectionism or criticism”
+   - Dr. Neff
+
+"Your rest is just as important as your work"
+   - through T. to Me
+
+"The easiest way to be discovered right now in technology and perhaps many
+ fields is to create your own independent blog and write. There is a huge dearth
+ in availability of good, current, first party content today.
+
+ The single most important advice I can give to actually write is to write.
+
+ The thing that happens which you don’t see until you write is that your content
+ engages some of the smartest people who are lurking around the internet. And
+ they reach out to you.""
+   - Steve Cheney
+
+“Most geniuses—especially those who lead others—prosper not by deconstructing
+ intricate complexities but by exploiting unrecognized simplicities.”
+   - Andy Benoit
+
+"Impress the crowd when you are alone, impress yourself when you are in a
+ crowd."
+   - T.
+
+"At critical moments in time, you can raise the aspirations of other people
+ significantly, especially when they are relatively young, simply by suggesting
+ they do something better or more ambitious than what they might have in mind.
+ It costs you relatively little to do this, but the benefit to them, and to the
+ broader world, may be enormous. This is in fact one of the most valuable things
+ you can do with your time and with your life."
+   - Tyler Cowen:
+
+
+* On Labour
+:Fashionable-Problems:
+"I've seen a similar pattern in many different fields: even though lots of
+ people have worked hard in the field, only a small fraction of the space of
+ possibilities has been explored, because they've all worked on similar things.
+
+ Even the smartest, most imaginative people are surprisingly conservative when
+ deciding what to work on. People who would never dream of being fashionable in
+ any other way get sucked into working on fashionable problems.
+
+ If you want to try working on unfashionable problems, one of the best places to
+ look is fields that people think have already been fully explored: essays,
+ Lisp, venture funding – you may notice a pattern here. If you can find a new
+ approach into a big but apparently played out field, the value of whatever you
+ discover will be multiplied by its enormous surface area.
+
+ The best protection against getting drawn into working on the same things as
+ everyone else may be to genuinely love what you're doing. Then you'll continue
+ to work on it even if you make the same mistake as other people and think that
+ it's too marginal to matter."
+   - [[http://paulgraham.com/fp.html][Paul Graham]]
+:end:
+
+
+* Politics
+“Your representative owes you, not his industry only, but his judgment; and he
+ betrays, instead of serving you, if he sacrifices it to your opinion.”
+   - Edmund Burke
+
+“The majority is always wrong. The minority is rarely right.”
+   - Henrik Ibsen
+
+“If everybody is thinking alike, then no one is thinking.”
+   - Benjamin Franklin
+
+"And so for many Americans, the nuclear family has become a lonely institution -
+ and childhood, one long unpaid internship meant to secure a spot in a dwindling
+ middle class”
+   - Kim Brooks, NYT
+
+"In politics, identity is an appeal to authority — the moral authority of the
+oppressed: I am what I am, which explains my view and makes it the truth. The
+politics of identity starts out with the universal principles of equality,
+dignity, and freedom, but in practice it becomes an end in itself — often a dead
+end, a trap from which there’s no easy escape and maybe no desire for escape"
+   - George Packer, [[https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/][When the Culture War Comes for the Kids]]
+
+“Men are afraid that women will laugh at them. Women are afraid that men will
+ kill them.”
+   - Margaret Atwood
+
+“Progress is never permanent, will always be threatened, must be redoubled,
+ restated and reimagined if it is to survive.”
+   - Zadie Smith
+
+
+
 * Programming
 “The problem of object-oriented languages is they’ve got all this implicit
  environment that they carry around with them. You wanted a banana but what you
  got was a gorilla holding the banana and the entire jungle.”
    - Joe Armstrong
+
+
+* Stories
+:typhoid-doctor:
+"The wider world is mostly characterized by wicked learning environments, where
+ you can’t see information. It’s hidden from us. Feedback is delayed and
+ sometimes inaccurate.
+
+ One of the examples is a famous New York City physician who was renowned for
+ his ability to predict that patients would get typhoid. He predicted the
+ sickness time and again. He would palpate their tounge (feel around their
+ tongue) and predict, weeks before patients had a single symptom, over and over,
+ and became famous, and as one of his colleagues said, he was a more productive
+ carrier of typhoid than even Typhoid Mary because he was giving his patients
+ Typhoid with his hands. In that case, the feedback he was receiving was
+ reinforcing exactly the wrong lesson.
+
+ So that’s the extreme of a wicked environment where your feedback teaches
+ exactly the wrong lesson.”"
+   - David Epstein
+:end:
 
 
 * Thoughts
@@ -153,29 +295,3 @@ Tomorrow do thy worst, for I have lived today.”
 
 "To shun the heaven that leads men to this hell"
    - Shakespeare, Sonnet 129
-
-
-* Politics
-“Your representative owes you, not his industry only, but his judgment; and he
- betrays, instead of serving you, if he sacrifices it to your opinion.”
-   - Edmund Burke
-
-"And so for many Americans, the nuclear family has become a lonely institution -
- and childhood, one long unpaid internship meant to secure a spot in a dwindling
- middle class”
-   - Kim Brooks, NYT
-
-"In politics, identity is an appeal to authority — the moral authority of the
-oppressed: I am what I am, which explains my view and makes it the truth. The
-politics of identity starts out with the universal principles of equality,
-dignity, and freedom, but in practice it becomes an end in itself — often a dead
-end, a trap from which there’s no easy escape and maybe no desire for escape"
-   - George Packer, [[https://www.theatlantic.com/magazine/archive/2019/10/when-the-culture-war-comes-for-the-kids/596668/][When the Culture War Comes for the Kids]]
-
-“Men are afraid that women will laugh at them. Women are afraid that men will
- kill them.”
-   - Margaret Atwood
-
-“Progress is never permanent, will always be threatened, must be redoubled,
- restated and reimagined if it is to survive.”
-   - Zadie Smith

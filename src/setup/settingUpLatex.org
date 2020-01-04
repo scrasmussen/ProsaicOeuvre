@@ -31,6 +31,9 @@ Maybe add gswin64.exe to Windows path
 
 
 Open up Latex document, M-p M-p for preview, and C-c C-c to recompile
+https://www.emacswiki.org/emacs/LaTeXPreviewPane
+Additional [[https://www.gnu.org/software/auctex/manual/auctex/Starting-Viewers.html#Starting-Viewers][info]]
+
 
 Might need the [[prereqs][prereqs]]
 
