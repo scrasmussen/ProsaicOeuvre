@@ -1,0 +1,10 @@
+# Installing Linux on Chromebook by MrChromebox.tech
+
+BIOS Options:
+ - RW_LEGACY
+ - FULL ROM firmware (Legacy)
+ - FULL ROM firmware (UEFI)  Unified Extensible Firmware Interface
+
+
+Using UEFI
+Have Intel Celeron N2840, previously known as Bay Trail
