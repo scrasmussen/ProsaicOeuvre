@@ -1,0 +1,1 @@
+Smc.exe -disable -ntp

@@ -1,0 +1,1 @@
+Smc.exe -enable -ntp
