@@ -1,0 +1,7 @@
+-*- sh -*-
+#!/bin/bash
+
+user=
+tmux rename-window delta
+ssh -t $user@hpcgate.cranfield.ac.uk ssh $user@delta.central.cranfield.ac.uk
+tmux rename-window bash

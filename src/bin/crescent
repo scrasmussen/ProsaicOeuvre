@@ -1,0 +1,7 @@
+-*- sh -*-
+#!/bin/bash
+
+user=
+tmux rename-window crescent
+ssh -t $user@hpcgate.cranfield.ac.uk ssh $user@crescent.central.cranfield.ac.uk
+tmux rename-window bash
