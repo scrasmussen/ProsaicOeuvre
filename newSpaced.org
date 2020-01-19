@@ -18,6 +18,12 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Fact                                                               :drill:
+  :PROPERTIES:
+  :END:
+The [Hoggar Mountains] are a highland region in the central Sahara, southern
+Algeria, along the Tropic of Cancer. The region contains the tomb of Tin Hinan,
+the 4th century legendary Tuareg mythical queen.
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
