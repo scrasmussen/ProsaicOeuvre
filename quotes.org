@@ -316,3 +316,16 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
 
 "To shun the heaven that leads men to this hell"
    - Shakespeare, Sonnet 129
+
+
+* tmp
+Ma Xiaowei, China’s health commission minister, also revealed on Sunday that
+the incubation period was between one and 14 days, and that the virus was
+infectious during its incubation period when people may show no symptoms.
+   - [[https://www.ft.com/content/7bb597c8-3ff7-11ea-a047-eae9bd51ceba][ft]]
+
+“That’s why you never really hear about problems emerging on a local scale in
+ China,” said John Yasuda, who studies China’s approach to health crises at
+ Indiana University. “By the time that we hear about it, and that the problem
+ reaches the central government, it’s because it’s become a huge problem.”
+   - [[https://nyti.ms/38FTXIO][NYT]]
