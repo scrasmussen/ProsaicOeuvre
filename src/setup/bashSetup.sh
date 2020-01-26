@@ -43,4 +43,10 @@ add "$bin_path"
 c_path='export C=/mnt/c/Users/scras/Documents'
 add "$c_path"
 
+
+echo "Need to work on toilet"
+# toilet -f term -F border "Hello, Soren. You're looking well today."
+# str="Remember, procrastination is about managing emotions not time."
+# toilet -f term -F border ${str}
+
 echo "Fin"
