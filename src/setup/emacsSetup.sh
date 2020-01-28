@@ -59,10 +59,10 @@ add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 func="(defun my-setup-indent (n)"
 if ! grep -q "^$func" "${config_file}"; then
     echo "${N}$func" >> ${config_file}
-    echo "  ;; c/c++/java"
-    echo "  (setq-local c-basic-offset n)"
-    echo "  ;; fortran"
-    echo "  (setq-local fortran-basic-offset n))"
+    echo "  ;; c/c++/java" >> ${config_file}
+    echo "  (setq-local c-basic-offset n)" >> ${config_file}
+    echo "  ;; fortran" >> ${config_file}
+    echo "  (setq-local fortran-basic-offset n))" >> ${config_file}
 fi
 
 func="(defun my-personal-code-style ()"
