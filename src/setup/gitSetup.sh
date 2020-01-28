@@ -3,7 +3,7 @@ function run(){
   echo $*
   eval $*
 }
-
+set -e -x
 
 email='s.c.rasmussen@gmail.com'
 git config --global user.name "Soren Rasmussen"
