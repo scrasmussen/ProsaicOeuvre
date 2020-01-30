@@ -23,6 +23,7 @@ Something [like] this
 * Vocab
 ** Fact                                                               :drill:
   :PROPERTIES:
+  :ID:       6027e345-174c-413e-8ebc-0e18e6e2148a
   :END:
 [Philogoy] is the study of language in oral and written historical sources; it
 is the intersection of textual criticism, literary criticism, history, and
@@ -32,11 +33,13 @@ and their original form, and the determination of their meaning.
 
 ** Fact                                                               :drill:
   :PROPERTIES:
+  :ID:       375430e2-38ee-45a9-8874-43581131050f
   :END:
 [presque vu]: the tip of the tongue phenomenon, in which you know that you know
 something, but can't quite recall it.
 ** Fact                                                               :drill:
   :PROPERTIES:
+  :ID:       453f463c-42d6-4a8c-840a-1e72b3dd880c
   :END:
 [Milgram Experiment]: an expirement that had people following orders to shock
 others, up to lethal doses if it were a real life expirement
