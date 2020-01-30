@@ -66,4 +66,6 @@ if ! grep -q "^$command" "${config_file}"; then
   echo "${command}" >> "${config_file}"
 fi
 
-echo "Fin"
+echo "Almost Fin, now run"
+echo "# sudo apt install xclip"
+echo "$ tmux source-file ~/.tmux.conf"
