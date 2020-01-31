@@ -43,6 +43,11 @@ add "$bin_path"
 c_path='export C=/mnt/c/Users/scras/Documents'
 add "$c_path"
 
+emacs="alias emacs='emacs -nw'"
+add "$emacs"
+
+gemacs="alias gemacs='$(which emacs)'"
+add "$gemacs"
 
 echo "Need to work on toilet"
 # toilet -f term -F border "Hello, Soren. You're looking well today."
