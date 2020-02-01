@@ -14,10 +14,12 @@ if grep -q Microsoft /proc/version; then
   gversion=8
 else
   gversion=9
+  sudo apt -y install gnome-screensaver
 fi
 
 
 sudo apt -y install tmux
+sudo apt -y install texinfo
 sudo apt -y install toilet
 sudo apt -y install build-essential
 sudo apt -y install autoconf

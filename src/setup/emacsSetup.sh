@@ -77,13 +77,22 @@ if ! grep -q "^$func" "${config_file}"; then
 fi
 
 
+# add org that works with org-drill
+mkdir -p ~/tar
+org_url=https://code.orgmode.org/bzg/org-mode/archive/release_8.3.6.tar.gz
+wget -o ~/tar/org_8.3.6.tar.gz $org_url
+tar zxf ~/tar/org_8.3.6.tar.gz    ~/tar/org-mode
+echo "ORG_ADD_CONTRIB = org-*" >> ~/tar/org-mode/mk/default.mk
+
+
+
 # add elpa repo
-org="https://orgmode.org/elpa"
-package="(add-to-list 'package-archives '(\"org\" . \"${org}\") t)"
-if ! grep -q "^${package}" "${config_file}"; then
-    echo "${N}(require 'package)" >> ${config_file}
-    echo "${package}" >> ${config_file}
-fi
+# org="https://orgmode.org/elpa"
+# package="(add-to-list 'package-archives '(\"org\" . \"${org}\") t)"
+# if ! grep -q "^${package}" "${config_file}"; then
+#     echo "${N}(require 'package)" >> ${config_file}
+#     echo "${package}" >> ${config_file}
+# fi
 
 echo "FIN"
 echo "Now 'M-x list-packages' and install org"
