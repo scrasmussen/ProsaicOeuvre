@@ -11,6 +11,8 @@ files=(clean cmake-learn crescent delta dscp emacs-learn evpn gcc-clean
 
 if grep -q Microsoft /proc/version; then
   files+=windows-learn
+else
+  files+=lock
 fi
 
 for f in ${files[@]}; do
