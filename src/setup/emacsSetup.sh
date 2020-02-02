@@ -78,12 +78,9 @@ fi
 
 
 # add org that works with org-drill
-mkdir -p ~/tar
-org_url=https://code.orgmode.org/bzg/org-mode/archive/release_8.3.6.tar.gz
-wget -o ~/tar/org_8.3.6.tar.gz $org_url
-tar zxf ~/tar/org_8.3.6.tar.gz    ~/tar/org-mode
-echo "ORG_ADD_CONTRIB = org-*" >> ~/tar/org-mode/mk/default.mk
-
+add "(require 'cl)"
+add "(require 'org)"
+add "(require 'org-drill)"
 
 
 # add elpa repo
@@ -95,8 +92,12 @@ echo "ORG_ADD_CONTRIB = org-*" >> ~/tar/org-mode/mk/default.mk
 # fi
 
 echo "FIN"
-echo "Now 'M-x list-packages' and install org"
-echo "check end of emacsSetup.sh for info on melpa"
+echo "NOW: Run # orgSetup.sh"
+
+
+# this is oldish, probably can remove
+# echo "Now 'M-x list-packages' and install org"
+# echo "check end of emacsSetup.sh for info on melpa"
 # need this for latex-preview-pane
 #============================
 # (require 'package)
