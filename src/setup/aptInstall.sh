@@ -20,6 +20,7 @@ fi
 
 sudo apt -y install tmux
 sudo apt -y install texinfo
+sudo apt -y install texlive-extra-utils
 sudo apt -y install toilet
 sudo apt -y install build-essential
 sudo apt -y install autoconf

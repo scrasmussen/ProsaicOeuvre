@@ -1,11 +1,16 @@
-# sudo apt install aptitude
 
 # Setting up Latex for Emacs
 
-Using Auxtex.
+## Ubuntu
+(add-to-list
+ 'package-archives
+ '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(latex-preview-pane-enable) ;; https://www.emacswiki.org/emacs/LaTeXPreviewPane
 
+## Windows side
+# sudo apt install aptitude
+Using Auxtex.
 SO THIS SEEMS TO BE THE TRUE WAY TO DO IT
-Use the windows side
 https://vigou3.gitlab.io/emacs-modified-windows/
 Install Ghostscript
 Install ImageMagick
