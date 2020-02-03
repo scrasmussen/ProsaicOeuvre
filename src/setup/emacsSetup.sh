@@ -82,6 +82,16 @@ add "(require 'cl)"
 add "(require 'org)"
 add "(require 'org-drill)"
 
+# setting up latex
+add "(latex-preview-pane-enable)"
+add "(setq TeX-auto-save t)"
+add "(setq TeX-parse-self t)"
+add "(add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)"
+add "(add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)"
+add "(add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)"
+add "(setq-default latex-preview-pane-multifile-mode 'auctex)"
+add "(setq reftex-plug-into-auctex t)"
+
 
 # add elpa repo
 # org="https://orgmode.org/elpa"
