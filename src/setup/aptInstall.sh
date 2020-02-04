@@ -32,6 +32,7 @@ else
   install texlive-latex-recommended
   install texlive-latex-extra
   install texlive-latex-recommended-doc
+  install zathura
 fi
 
 
