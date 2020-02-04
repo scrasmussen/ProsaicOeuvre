@@ -257,6 +257,22 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
 
 
 * Stories
+:Chinese-chilie-farmer:
+Late one night last week, the village committee put out a call on the messaging
+app WeChat, asking local farmers for extra produce that they could send to
+Wuhan. Mr. Li swung into action.
+
+He, his wife and their two daughters grabbed flashlights and worked through the
+night. They harvested half a ton of chilies, twice their normal daily output.
+
+Mr. Li said he had not yet heard from the authorities about when or what he
+might be paid for his contribution. If it ends up being a gift, that would be
+all right by him, he said. When Shouguang suffered catastrophic flooding in
+recent years, people from across China came to his and other farmers’ aid.
+
+“We cannot forget that,”
+   - [[https://www.nytimes.com/2020/02/04/business/china-coronavirus-food-prices.html?action=click&module=Top%2520Stories&pgtype=Homepage][Mr. Li]]
+:end:
 :typhoid-doctor:
 "The wider world is mostly characterized by wicked learning environments, where
  you can’t see information. It’s hidden from us. Feedback is delayed and
