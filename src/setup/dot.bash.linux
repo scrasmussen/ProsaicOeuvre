@@ -1,0 +1,6 @@
+toilet -f term -F border "Hello, Soren. You're looking well today."
+str="Remember, procrastination is about managing emotions not time."
+toilet -f term -F border ${str}
+days=$(expr $(date -d "Dec 25"  +%j) - $(date +%j))
+weeks=$(expr $(date -d "Dec 25"  +%U) - $(date +%U))
+toilet -f term -F border "${days} days | ${weeks} weeks"
