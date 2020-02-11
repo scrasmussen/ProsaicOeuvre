@@ -1,0 +1,31 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: overview
+* -----------------------------------------------------------------------------------------------
+** Term
+#  :drill:
+  :PROPERTIES:
+  :END:
+Something [like] this
+* Finance
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[long]: the holder of the position owns a positive amount of the instrument. The
+holder of the position has the expectation that hte financial instrument will
+increase in value
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[security]: a tradable financial assett. Commonly refers to any form of
+financial instrument.
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[credit default swap] (CDS): [financial swap] agreement that the seller of the
+CDS will compensate the buyer in the event of a debt default or other credit
+event. The seller of the CDS insuresthe buyer against some reference asset
+defaulting.
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[collateralized debt obiligations]: CDO, add more
