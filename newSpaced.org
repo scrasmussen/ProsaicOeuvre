@@ -18,6 +18,15 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Noun 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** Yiddish
+chutzpah
+*** Definition
+extreme self-confidence or audacity. Usually used approvingly
 ** Fact                                                               :drill:
   :PROPERTIES:
   :ID:       017758aa-6e41-47ec-82a7-75c8dff3182a
