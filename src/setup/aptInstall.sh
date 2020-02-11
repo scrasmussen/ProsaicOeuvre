@@ -51,6 +51,7 @@ install gfortran-$gversion
 pip3 install ipython
 pip3 install numpy
 pip3 install pandas
+pip3 install matplotlib
 
 # probably don't need these anymore
 # tlmgr init-usertree
