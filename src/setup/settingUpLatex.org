@@ -1,13 +1,26 @@
 
 # Setting up Latex for Emacs
 
-## Ubuntu
+## =Ubuntu=
+### <<prereqs>>
+  - Latex distribution : https://linuxconfig.org/how-to-install-latex-on-ubuntu-18-04-bionic-beaver-linux
+      - texlive-latex-extra is the best starting package
+
+  - https://milq.github.io/install-latex-ubuntu-debian/
+
+  - https://tex.stackexchange.com/questions/230942/i-found-no-citation-commands-while-reading-myfile-aux
+
+
+### <<Installation>>
 (add-to-list
  'package-archives
  '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (latex-preview-pane-enable) ;; https://www.emacswiki.org/emacs/LaTeXPreviewPane
 
-## Windows side
+
+
+
+## =Windows side=
 # sudo apt install aptitude
 Using Auxtex.
 SO THIS SEEMS TO BE THE TRUE WAY TO DO IT
@@ -50,13 +63,3 @@ $ sudo apt install pdflatex biber texlive-latex-extra
 Following This Guide?: [[https://nasseralkmim.github.io/notes/2016/08/21/my-latex-environment/][the mother-load]]
 Look more into ivy-bibtex, listed in the guide
 :end:
-
-
-
-<<prereqs>>
-  - Latex distribution : https://linuxconfig.org/how-to-install-latex-on-ubuntu-18-04-bionic-beaver-linux
-      - texlive-latex-extra is the best starting package
-
-  - https://milq.github.io/install-latex-ubuntu-debian/
-
-  - https://tex.stackexchange.com/questions/230942/i-found-no-citation-commands-while-reading-myfile-aux

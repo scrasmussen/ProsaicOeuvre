@@ -46,7 +46,7 @@ add "$c_path"
 emacs="alias emacs='emacs -nw'"
 add "$emacs"
 
-gmacs="alias gmacs='$(which emacs)'"
+gmacs="alias gmacs='$(which emacs) -fs'"
 add "$gmacs"
 
 echo "Need to work on toilet"
