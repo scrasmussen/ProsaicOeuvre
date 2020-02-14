@@ -94,6 +94,9 @@ add "(add-hook 'LaTeX-mode-hook 'column-enforce-mode)"
 add "(setq-default latex-preview-pane-multifile-mode 'auctex)"
 add "(setq reftex-plug-into-auctex t)"
 add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
+# https://emacs.stackexchange.com/questions/5939/how-to-disable-auto-indentation-of-new-lines
+add "(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))"
+
 
 # add elpa repo
 # org="https://orgmode.org/elpa"

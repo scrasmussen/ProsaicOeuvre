@@ -1,15 +1,15 @@
 # Quotes
 
 * Best
-“The one unforgivable sin is to be boring.”
+"The one unforgivable sin is to be boring."
    - Christopher Hitchens quoting his mother
 
-“All could see her face was as pretty as a flower, but none could know that in
+"All could see her face was as pretty as a flower, but none could know that in
  her fair and gracious breast there raged a desire to hunt down her enemies.
 
  People say you can’t wash away the mud of this world with pure white snow:
 
- You need asura snow, stained fiery red.”
+ You need asura snow, stained fiery red."
    - Lady Snowblood
 
 
@@ -22,8 +22,8 @@
 "Death holds less pain than does the wait for death"
    - Ovid
 
-“Is there any meaning in my life that the inevitable death awaiting me does not
- destroy”
+"Is there any meaning in my life that the inevitable death awaiting me does not
+ destroy"
    - Leo Tolstoy
 
 
@@ -43,10 +43,10 @@ racing. The rest are merely games."
 
 
 * Happiness
-“Happy the man, and happy he alone,
-He who can call today his own;
-He who, secure within, can say,
-Tomorrow do thy worst, for I have lived today.”
+"Happy the man, and happy he alone,
+ He who can call today his own;
+ He who, secure within, can say,
+ Tomorrow do thy worst, for I have lived today."
    - Translation of Horace by John Dryden
 
 "For people are happy not in hilarity or sensuality or laughter, nor in games,
@@ -85,10 +85,10 @@ Tomorrow do thy worst, for I have lived today.”
 
 
 * Life
-“Tuesday: nothing. existed.”
+"Tuesday: nothing. existed."
    - Jean-Paul Sartre, Nausea
 
-“Death destroys a man; the idea of Death saves him”
+"Death destroys a man; the idea of Death saves him"
    - E. M. Forster
 
 "The best bridge between despair and hope is a good night’s sleep"
@@ -103,21 +103,21 @@ Tomorrow do thy worst, for I have lived today.”
 "Sometimes you have to play a long time to be able to play like yourself."
    - Miles Davis
 
-“It is said that his time was easier than ours, but I doubt it — no time can be
- easy for one who is living through it.”
+"It is said that his time was easier than ours, but I doubt it — no time can be
+ easy for one who is living through it."
    - James Baldwin on Shakespeare
 
 "What cannot be cured, must be endured"
 
-“... we actually have no choice but to fall in love, as biology is stronger than
- reason”
+"... we actually have no choice but to fall in love, as biology is stronger than
+ reason"
    - Arthur Schopenhauer
 
-“Above all, don't lie to yourself. The man who lies to himself and listens to
+"Above all, don't lie to yourself. The man who lies to himself and listens to
  his own lie comes to a point that he cannot distinguish the truth within him,
  or around him, and so loses all respect for himself and for others. And having
- no respect he ceases to love… “Above all, avoid falsehood, every kind of
- falsehood, especially to yourself.”
+ no respect he ceases to love… Above all, avoid falsehood, every kind of
+ falsehood, especially to yourself."
    - Zosima, The Brothers Karamozov
 
 "the most reasonable and widely accepted definition of personality is behaviour
@@ -154,8 +154,8 @@ Tomorrow do thy worst, for I have lived today.”
  awhile. You’ve just gotta fight your way through."
 :end:
 
-"“When you feel guilty, but haven’t harmed anyone, then you’re just in the realm
-  of perfectionism or criticism”
+"When you feel guilty, but haven’t harmed anyone, then you’re just in the realm
+ of perfectionism or criticism"
    - Dr. Neff
 
 "Your rest is just as important as your work"
@@ -169,19 +169,25 @@ Tomorrow do thy worst, for I have lived today.”
 
  The thing that happens which you don’t see until you write is that your content
  engages some of the smartest people who are lurking around the internet. And
- they reach out to you.""
+ they reach out to you."
    - Steve Cheney
 
 "You don't rise to your goals, you fall to the level of your systems"
    - James Clear
 
-“Most geniuses—especially those who lead others—prosper not by deconstructing
- intricate complexities but by exploiting unrecognized simplicities.”
+"Most geniuses—especially those who lead others—prosper not by deconstructing
+ intricate complexities but by exploiting unrecognized simplicities."
    - Andy Benoit
 
 "Impress the crowd when you are alone, impress yourself when you are in a
  crowd."
    - T.
+
+"When I feel panic-stricken about a task, I repeat a mantra I read in Haruki
+ Murukami’s memoir, What I Talk About When I Talk About Running, which the
+ author uses when he feels he cannot run any further: ‘I’m not human. I’m a
+ piece of machinery . . . Just forge on ahead’."
+   - [[https://www.ft.com/content/9cf6a48e-395a-11ea-ac3c-f68c10993b04][Carl Cederstrom]]
 
 "At critical moments in time, you can raise the aspirations of other people
  significantly, especially when they are relatively young, simply by suggesting
@@ -254,6 +260,11 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
  environment that they carry around with them. You wanted a banana but what you
  got was a gorilla holding the banana and the entire jungle.”
    - Joe Armstrong
+
+
+* Race
+"We are not pressing toward the brink of violence, but for the peak of freedom"
+   - James Farmer
 
 
 * Stories
