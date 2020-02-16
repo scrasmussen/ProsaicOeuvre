@@ -106,6 +106,10 @@ add "(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))"
 #     echo "${package}" >> ${config_file}
 # fi
 
+
+# add melpa repo
+add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)"
+
 echo "FIN"
 echo "NOW: Run # orgSetup.sh"
 
@@ -114,6 +118,10 @@ echo "NOW: Run # orgSetup.sh"
 # echo "Now 'M-x list-packages' and install org"
 # echo "check end of emacsSetup.sh for info on melpa"
 # need this for latex-preview-pane
+
+
+
+
 #============================
 # (require 'package)
 # (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
