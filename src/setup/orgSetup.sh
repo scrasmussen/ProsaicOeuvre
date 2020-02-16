@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 
 set -e -x
+function add(){
+  echo $1
+  if ! grep -q "^$1" "${config_file}"; then
+    echo "${N}$1" >> ${config_file}
+  fi
+}
+
+
 
 org_url=https://code.orgmode.org/bzg/org-mode/archive/release_8.3.6.tar.gz
 org_drill_url=https://bitbucket.org/eeeickythump/org-drill/raw/01b05cd7561ad69e5ec9c1200414d4fa128c9a17/org-drill.el
@@ -29,3 +37,6 @@ mv ~/tar/org-drill.el $org_path/contrib/lisp
 # make and install
 make -C $org_path
 make -C $org_path install
+
+# add org path to .emacs
+add "(add-to-list 'load-path \"/usr/share/emacs/site-lisp/org\")"
