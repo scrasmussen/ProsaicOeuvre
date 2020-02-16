@@ -1,0 +1,30 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: overview
+| CHINESE SPACED REPETITION |
+* -----------------------------------------------------------------------------------------------
+** phrase
+#  :drill:
+  :PROPERTIES:
+  :END:
+Something [like] this
+** vocab
+#  :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+*** Definition
+*** Example sentence
+
+* Chinese
+** vocab 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** Chinese
+来了 láile
+*** Definition
+coming
+*** Example sentence
