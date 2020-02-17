@@ -1,30 +1,244 @@
 # -*- mode: org; coding: utf-8 -*-
 #+STARTUP: overview
-| CHINESE SPACED REPETITION |
+                            | CHINESE SPACED REPETITION |
 * -----------------------------------------------------------------------------------------------
 ** phrase
 #  :drill:
   :PROPERTIES:
   :END:
 Something [like] this
-** vocab
+** []
 #  :drill:
   :PROPERTIES:
-  :DRILL_CARD_TYPE: twosided
+  :DRILL_CARD_TYPE: multisided
   :END:
 Define the word
-*** English
+*** 汉字
+*** Pinyin
 *** Definition
-*** Example sentence
 
-* Chinese
-** vocab 							      :drill:
+
+
+* Vocab
+** [jí] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :END:
+Define the word
+*** 汉字
+集
+*** Pinyin
+jí
+*** Definition
+to gather / to collect / collected works /
+classifier for sections of a TV series etc: episode
+** [yǒu] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :END:
+Define the word
+*** 汉字
+有
+*** Pinyin
+yǒu
+*** Definition
+to have, there is, there are, to exist, to be
+** [láile] 							      :drill:
+   SCHEDULED: <2020-02-21 Fri>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       a6684081-129b-487b-81d9-5dcad9762a2d
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 13:45]
+  :END:
+Define the word
+*** 汉字
+来了
+*** Pinyin
+láile
+*** Definition
+coming
+** [cóng] 							      :drill:
+   SCHEDULED: <2020-02-21 Fri>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       8e84648a-3690-4be6-88fd-248ddc485ba8
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:03]
+  :END:
+Define the word
+*** 汉字
+从
+*** Pinyin
+cóng
+*** Definition
+from
+** [dì] 							      :drill:
+   SCHEDULED: <2020-02-21 Fri>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       a55f6d83-cd43-43ae-b37f-ef14882a7eef
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:03]
+  :END:
+Define the word
+*** 汉字
+第
+*** Pinyin
+dì
+*** Definition
+prefix before numbers.
+used before numerals to form ordinal numbers.
+
+** [zài] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       0f444501-d148-48e4-bae7-f4ebe0cc6df9
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:07]
+  :END:
+Define the word
+*** 汉字
+在
+*** Pinyin
+zài
+*** Definition
+(located) at, in, exist
+
+
+* Characters
+** [jí] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :END:
 Define the word
-*** Chinese
-来了 láile
+*** 汉字
+集
+*** Pinyin
+jí
+*** Definition
+to gather / to collect / collected works /
+classifier for sections of a TV series etc: episode** [zài] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       0f444501-d148-48e4-bae7-f4ebe0cc6df9
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:07]
+  :END:
+Define the word
+*** 汉字
+在
+*** Pinyin
+zài
+*** Definition
+(located) at, in, exist
+** [yǒu] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+有
+*** Pinyin
+yǒu
+*** Definition
+to have, there is, there are, to exist, to be** [zài] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       cb03c547-8f97-4792-8d43-a7ba3c578303
+  :END:
+Define the word
+*** 汉字
+在
+*** Pinyin
+zài
+*** Definition
+(located) at, in, exist
+** [láile] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       a6684081-129b-487b-81d9-5dcad9762a2d
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 13:45]
+  :END:
+Define the word
+*** 汉字
+来了
+*** Pinyin
+láile
 *** Definition
 coming
-*** Example sentence
+** [cóng] 							      :drill:
+   SCHEDULED: <2020-02-21 Fri>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       d3cbff03-eb27-4cad-99d3-8dbab1cfb675
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:07]
+  :END:
+Define the word
+*** 汉字
+从
+*** Pinyin
+cóng
+*** Definition
+from
+** [dì] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       627e9b5e-eff5-4b9e-837b-33a55a272538
+  :END:
+Define the word
+*** 汉字
+第
+*** Pinyin
+dì
+*** Definition
+prefix before numbers.
+used before numerals to form ordinal numbers.
+
+
+
+* Phrases
