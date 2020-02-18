@@ -18,6 +18,10 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[source provenance]: the context of the source, the original
 ** Noun 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided

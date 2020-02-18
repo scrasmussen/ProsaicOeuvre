@@ -20,9 +20,74 @@ Define the word
 
 
 * Vocab
+** [zài] 							      :drill:
+   SCHEDULED: <2020-02-22 Sat>
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       0f444501-d148-48e4-bae7-f4ebe0cc6df9
+  :DRILL_LAST_INTERVAL: 4.0
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 3.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 4
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:39]
+  :END:
+Define the word
+*** 汉字
+在
+*** Pinyin
+zài
+*** Definition
+(located) at, in, exist
+
+** [tǔ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       c60a2907-d47f-4e24-aae0-5af1aae99f01
+  :END:
+Define the word
+*** 汉字
+土
+*** Pinyin
+tǔ
+*** Definition
+earth / dust / clay / local / indigenous / crude opium / unsophisticated /
+one of the eight categories of ancient musical instruments
+** [ba, bā] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       37ad300f-aff6-45a4-a972-ea52926d1169
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:40]
+  :END:
+Define the word
+*** 汉字
+吧
+*** Pinyin
+ba, bā
+*** Definition
+(modal particle indicating suggestion or surmise) / ...right? / ...OK? /
+...I presume.
 ** [jí] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: multisided
+  :ID:       c1d6b657-7048-4bbd-8432-6c09c9a7c6c6
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:40]
   :END:
 Define the word
 *** 汉字
@@ -35,6 +100,7 @@ classifier for sections of a TV series etc: episode
 ** [yǒu] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: multisided
+  :ID:       0a0e321f-8572-48be-900a-c208460f1c5c
   :END:
 Define the word
 *** 汉字
@@ -108,18 +174,12 @@ dì
 prefix before numbers.
 used before numerals to form ordinal numbers.
 
+
+* Characters
 ** [zài] 							      :drill:
   :PROPERTIES:
-  :DRILL_CARD_TYPE: multisided
-  :ID:       0f444501-d148-48e4-bae7-f4ebe0cc6df9
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:07]
+  :DRILL_CARD_TYPE: twosided
+  :ID:       f0f0612b-2788-41dd-a704-cf537a861501
   :END:
 Define the word
 *** 汉字
@@ -128,12 +188,41 @@ Define the word
 zài
 *** Definition
 (located) at, in, exist
-
-
-* Characters
+** [tǔ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       aa257295-55e5-441c-8d78-f6a508c561f5
+  :END:
+Define the word
+*** 汉字
+土
+*** Pinyin
+tǔ
+*** Definition
+earth / dust / clay / local / indigenous / crude opium / unsophisticated /
+one of the eight categories of ancient musical instruments** [ba, bā] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       e5898d2f-74a1-4d3e-8295-bae520eda92f
+  :END:
+Define the word
+** [ba, bā] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :ID:       6d11893d-dc57-4e03-898a-8b75a2dd42c1
+  :END:
+Define the word
+*** 汉字
+吧
+*** Pinyin
+ba, bā
+*** Definition
+(modal particle indicating suggestion or surmise) / ...right? / ...OK? /
+...I presume.
 ** [jí] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       c9bf967b-de96-4adc-9b78-24cd92e379ee
   :END:
 Define the word
 *** 汉字
@@ -142,29 +231,20 @@ Define the word
 jí
 *** Definition
 to gather / to collect / collected works /
-classifier for sections of a TV series etc: episode** [zài] 							      :drill:
-  :PROPERTIES:
-  :DRILL_CARD_TYPE: twosided
-  :ID:       0f444501-d148-48e4-bae7-f4ebe0cc6df9
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 14:07]
-  :END:
-Define the word
-*** 汉字
-在
-*** Pinyin
-zài
-*** Definition
-(located) at, in, exist
+classifier for sections of a TV series etc: episode
 ** [yǒu] 							      :drill:
+   SCHEDULED: <2020-02-22 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       4a8b357e-8553-4ceb-99ff-e6bdc7b843b1
+  :DRILL_LAST_INTERVAL: 4.14
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 0
+  :DRILL_AVERAGE_QUALITY: 5.0
+  :DRILL_EASE: 2.6
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:40]
   :END:
 Define the word
 *** 汉字
@@ -172,30 +252,20 @@ Define the word
 *** Pinyin
 yǒu
 *** Definition
-to have, there is, there are, to exist, to be** [zài] 							      :drill:
-  :PROPERTIES:
-  :DRILL_CARD_TYPE: twosided
-  :ID:       cb03c547-8f97-4792-8d43-a7ba3c578303
-  :END:
-Define the word
-*** 汉字
-在
-*** Pinyin
-zài
-*** Definition
-(located) at, in, exist
+to have, there is, there are, to exist, to be
 ** [láile] 							      :drill:
+   SCHEDULED: <2020-02-27 Thu>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       a6684081-129b-487b-81d9-5dcad9762a2d
-  :DRILL_LAST_INTERVAL: 3.86
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 9.43
+  :DRILL_REPEATS_SINCE_FAIL: 3
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 0
-  :DRILL_AVERAGE_QUALITY: 3.0
-  :DRILL_EASE: 2.36
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [2020-02-17 Mon 13:45]
+  :DRILL_AVERAGE_QUALITY: 4.0
+  :DRILL_EASE: 2.46
+  :DRILL_LAST_QUALITY: 5
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:41]
   :END:
 Define the word
 *** 汉字
