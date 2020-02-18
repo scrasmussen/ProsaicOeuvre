@@ -312,3 +312,17 @@ used before numerals to form ordinal numbers.
 
 
 * Phrases
+** phrase 							      :drill:
+   SCHEDULED: <2020-02-22 Sat>
+  :PROPERTIES:
+  :ID:       f8f13432-c1c8-4fe6-8601-6f2308ee3919
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:51]
+  :END:
+[看一看  kàn yī kàn]: have a look
