@@ -1,7 +1,7 @@
 # -*- mode: org; coding: utf-8 -*-
 #+STARTUP: overview
-                            | CHINESE SPACED REPETITION |
-* -----------------------------------------------------------------------------------------------
+                        | CHINESE SPACED REPETITION |
+* ------------------------------------------------------------------------------
 ** phrase
 #  :drill:
   :PROPERTIES:
@@ -20,6 +20,101 @@ Define the word
 
 
 * Vocab
+** [zǒu] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       0ad24d94-17c2-4516-924b-9f876e631da5
+  :END:
+Define the word
+*** 汉字
+走
+*** Pinyin
+zǒu
+*** Definition
+to walk / to go / to run / to move (of vehicle) / to visit / to leave /
+to go away / to die (euph.) / from / through / away /
+to change (shape, form, meaning)
+** [nǎr] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       52a299ff-8062-4c7c-ba49-cca11a6c820f
+  :END:
+Define the word
+*** 汉字
+哪儿
+*** Pinyin
+nǎr
+*** Definition
+where? / wherever / anywhere
+** [nǎ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       c23a2643-55e4-43f9-8580-2a2ef005aee9
+  :END:
+Define the word
+*** 汉字
+哪
+*** Pinyin
+nǎ
+*** Definition
+which? where? how?
+** [ā] 								      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       b53d948d-fd8e-4494-913c-2b42a0e3349a
+  :END:
+Define the word
+*** 汉字
+啊
+*** Pinyin
+ā
+*** Definition
+interjection of surprise / Ah! / Oh!
+** [qǐng] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       c6ee09f1-8131-4630-87df-2f79853a3dc7
+  :END:
+Define the word
+*** 汉字
+请
+*** Pinyin
+qǐng
+*** Definition
+to ask / to invite / please (do sth) / to treat (to a meal etc) / to request
+
+** [zhè me] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       d4fc5f93-1b0d-46d0-9a6e-64d44d8325d8
+  :DRILL_LAST_INTERVAL: 0.0
+  :DRILL_REPEATS_SINCE_FAIL: 1
+  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_FAILURE_COUNT: 1
+  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_EASE: 2.5
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:04]
+  :END:
+Define the word
+*** 汉字
+这么
+*** Pinyin
+zhè me
+*** Definition
+so much / this much / how much? / this way / like this
+** [jǐ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :ID:       c0ded5f8-bc3d-435d-a2d3-f73303eefbf2
+  :END:
+Define the word
+*** 汉字
+几
+*** Pinyin
+jǐ
+*** Definition
+how much / how many / several / a few
 ** [zài] 							      :drill:
    SCHEDULED: <2020-02-22 Sat>
   :PROPERTIES:
@@ -61,12 +156,12 @@ one of the eight categories of ancient musical instruments
   :ID:       37ad300f-aff6-45a4-a972-ea52926d1169
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 3
   :DRILL_AVERAGE_QUALITY: 2.0
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 21:50]
+  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:03]
   :END:
 Define the word
 *** 汉字
@@ -82,12 +177,12 @@ ba, bā
   :ID:       c1d6b657-7048-4bbd-8432-6c09c9a7c6c6
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 2.0
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.667
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 21:50]
+  :DRILL_LAST_QUALITY: 1
+  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:03]
   :END:
 Define the word
 *** 汉字
@@ -185,6 +280,86 @@ used before numerals to form ordinal numbers.
 
 
 * Characters
+** [zǒu] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+走
+*** Pinyin
+zǒu
+*** Definition
+to walk / to go / to run / to move (of vehicle) / to visit / to leave /
+to go away / to die (euph.) / from / through / away /
+to change (shape, form, meaning)
+** [nǎr] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+哪儿
+*** Pinyin
+nǎr
+*** Definition
+where? / wherever / anywhere
+** [nǎ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+哪
+*** Pinyin
+nǎ
+*** Definition
+which? where? how?
+** [ā] 								      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+啊
+*** Pinyin
+ā
+*** Definition
+interjection of surprise / Ah! / Oh!
+** [qǐng] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+请
+*** Pinyin
+qǐng
+*** Definition
+to ask / to invite / please (do sth) / to treat (to a meal etc) / to request
+
+** [zhè me] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+这么
+*** Pinyin
+zhè me
+*** Definition
+so much / this much / how much? / this way / like this
+** [jǐ] 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** 汉字
+几
+*** Pinyin
+jǐ
+*** Definition
+how much / how many / several / a few
 ** [zài] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -376,3 +551,5 @@ used before numerals to form ordinal numbers.
   :DRILL_LAST_REVIEWED: [2020-02-18 Tue 13:51]
   :END:
 [看一看  kàn yī kàn]: have a look
+[请吗]: please?
+[我们这是去哪啊]: Where are we going?
