@@ -54,4 +54,9 @@ echo "Need to work on toilet"
 # str="Remember, procrastination is about managing emotions not time."
 # toilet -f term -F border ${str}
 
+# days=$(expr $(date -d "Dec 25"  +%j) - $(date +%j))
+# weeks=$(expr $(date -d "Dec 25"  +%U) - $(date +%U))
+# months=$(expr $(date -d "Dec 25"  +%m) - $(date +%m))
+# toilet -f term -F border "${days} days | ${weeks} weeks | ${months} months"
+
 echo "Fin"
