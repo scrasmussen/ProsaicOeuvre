@@ -10,9 +10,14 @@ Something [like] this
 ** Term 							      :drill:
   :PROPERTIES:
   :END:
-[long]: the holder of the position owns a positive amount of the instrument. The
-holder of the position has the expectation that hte financial instrument will
-increase in value
+[buy-side]: these profesisonals work with insurance firms, mutual funds, and
+pension funds as they purchase large blocks of securities for fund managers.
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[sell-side]: the part of the financial industry that is involved in the
+creation, promotion, and sale of stocks, bonds, foreign exachange, and other
+fincial instruments.
 ** Term 							      :drill:
   :PROPERTIES:
   :END:

@@ -28,6 +28,17 @@
 
 
 
+* Finance
+"“the extension of credit by instrument.” That is, a lot of people couldn’t
+ actually afford to pay their mortgages the old-fashioned way, and so the
+ lenders were dreaming up new financial instruments to justify handing them new
+ money."
+   - Michael Lewis on Michael Burry's original quote
+
+"If you're reading about it in the paper, it's too late."
+   - from The Big Short
+
+
 * Freedom
 "A pawn acts like a pawn because it believes its a pawn"
    - An Old Man playing chess, Wu-Tang: An American Saga
@@ -82,6 +93,30 @@ racing. The rest are merely games."
 "The most difficult thing in the world is to know how to do a thing and to watch
  someone else do it wrong without comment."
    - Theodore H. White
+
+
+* Labour
+:Fashionable-Problems:
+"I've seen a similar pattern in many different fields: even though lots of
+ people have worked hard in the field, only a small fraction of the space of
+ possibilities has been explored, because they've all worked on similar things.
+
+ Even the smartest, most imaginative people are surprisingly conservative when
+ deciding what to work on. People who would never dream of being fashionable in
+ any other way get sucked into working on fashionable problems.
+
+ If you want to try working on unfashionable problems, one of the best places to
+ look is fields that people think have already been fully explored: essays,
+ Lisp, venture funding – you may notice a pattern here. If you can find a new
+ approach into a big but apparently played out field, the value of whatever you
+ discover will be multiplied by its enormous surface area.
+
+ The best protection against getting drawn into working on the same things as
+ everyone else may be to genuinely love what you're doing. Then you'll continue
+ to work on it even if you make the same mistake as other people and think that
+ it's too marginal to matter."
+   - [[http://paulgraham.com/fp.html][Paul Graham]]
+:end:
 
 
 * Life
@@ -196,30 +231,6 @@ racing. The rest are merely games."
  broader world, may be enormous. This is in fact one of the most valuable things
  you can do with your time and with your life."
    - Tyler Cowen:
-
-
-* On Labour
-:Fashionable-Problems:
-"I've seen a similar pattern in many different fields: even though lots of
- people have worked hard in the field, only a small fraction of the space of
- possibilities has been explored, because they've all worked on similar things.
-
- Even the smartest, most imaginative people are surprisingly conservative when
- deciding what to work on. People who would never dream of being fashionable in
- any other way get sucked into working on fashionable problems.
-
- If you want to try working on unfashionable problems, one of the best places to
- look is fields that people think have already been fully explored: essays,
- Lisp, venture funding – you may notice a pattern here. If you can find a new
- approach into a big but apparently played out field, the value of whatever you
- discover will be multiplied by its enormous surface area.
-
- The best protection against getting drawn into working on the same things as
- everyone else may be to genuinely love what you're doing. Then you'll continue
- to work on it even if you make the same mistake as other people and think that
- it's too marginal to matter."
-   - [[http://paulgraham.com/fp.html][Paul Graham]]
-:end:
 
 
 * Politics
