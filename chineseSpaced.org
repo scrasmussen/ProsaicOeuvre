@@ -89,12 +89,12 @@ to ask / to invite / please (do sth) / to treat (to a meal etc) / to request
   :ID:       d4fc5f93-1b0d-46d0-9a6e-64d44d8325d8
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
-  :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 1.0
+  :DRILL_TOTAL_REPEATS: 2
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.5
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:04]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:56]
   :END:
 Define the word
 *** 汉字
@@ -156,12 +156,12 @@ one of the eight categories of ancient musical instruments
   :ID:       37ad300f-aff6-45a4-a972-ea52926d1169
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 3
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 4
   :DRILL_AVERAGE_QUALITY: 2.0
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:03]
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:56]
   :END:
 Define the word
 *** 汉字
@@ -177,12 +177,12 @@ ba, bā
   :ID:       c1d6b657-7048-4bbd-8432-6c09c9a7c6c6
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 3
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 1.667
+  :DRILL_TOTAL_REPEATS: 4
+  :DRILL_FAILURE_COUNT: 4
+  :DRILL_AVERAGE_QUALITY: 1.75
   :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 1
-  :DRILL_LAST_REVIEWED: [2020-02-20 Thu 13:03]
+  :DRILL_LAST_QUALITY: 2
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:58]
   :END:
 Define the word
 *** 汉字
@@ -283,6 +283,7 @@ used before numerals to form ordinal numbers.
 ** [zǒu] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       c2dd821d-2ef2-4d3b-b9b8-6ec48fc76592
   :END:
 Define the word
 *** 汉字
@@ -296,6 +297,7 @@ to change (shape, form, meaning)
 ** [nǎr] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       34e9ab77-7995-4b1b-bd55-f241e39855e7
   :END:
 Define the word
 *** 汉字
@@ -307,6 +309,7 @@ where? / wherever / anywhere
 ** [nǎ] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       f0b48c09-cfed-4716-9f9a-6259dc17ec03
   :END:
 Define the word
 *** 汉字
@@ -318,6 +321,7 @@ which? where? how?
 ** [ā] 								      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       af76d53b-4039-49f7-9b97-b330ed8def75
   :END:
 Define the word
 *** 汉字
@@ -329,6 +333,7 @@ interjection of surprise / Ah! / Oh!
 ** [qǐng] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       45ea5bfd-ecec-4a40-a96c-766d9bf04a5c
   :END:
 Define the word
 *** 汉字
@@ -341,6 +346,7 @@ to ask / to invite / please (do sth) / to treat (to a meal etc) / to request
 ** [zhè me] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       e1318301-8fb6-4597-81cb-f961557ae020
   :END:
 Define the word
 *** 汉字
@@ -352,6 +358,7 @@ so much / this much / how much? / this way / like this
 ** [jǐ] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+  :ID:       861655f4-a9fd-45e6-92ed-39e0e9cec31f
   :END:
 Define the word
 *** 汉字
@@ -361,17 +368,18 @@ jǐ
 *** Definition
 how much / how many / several / a few
 ** [zài] 							      :drill:
+   SCHEDULED: <2020-03-01 Sun>
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       f0f0612b-2788-41dd-a704-cf537a861501
-  :DRILL_LAST_INTERVAL: 0.0
-  :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 1
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 2
   :DRILL_FAILURE_COUNT: 1
-  :DRILL_AVERAGE_QUALITY: 2.0
-  :DRILL_EASE: 2.5
-  :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 21:53]
+  :DRILL_AVERAGE_QUALITY: 2.5
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:56]
   :END:
 Define the word
 *** 汉字
@@ -428,18 +436,20 @@ ba, bā
 *** Definition
 (modal particle indicating suggestion or surmise) / ...right? / ...OK? /
 ...I presume.
+*** Example Sentence
+
 ** [jí] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
   :ID:       c9bf967b-de96-4adc-9b78-24cd92e379ee
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.5
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.667
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 21:52]
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:55]
   :END:
 Define the word
 *** 汉字
@@ -518,12 +528,12 @@ from
   :ID:       627e9b5e-eff5-4b9e-837b-33a55a272538
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 1.5
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 3
+  :DRILL_AVERAGE_QUALITY: 1.667
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 2
-  :DRILL_LAST_REVIEWED: [2020-02-18 Tue 21:53]
+  :DRILL_LAST_REVIEWED: [2020-02-26 Wed 13:57]
   :END:
 Define the word
 *** 汉字
