@@ -21,6 +21,11 @@ Something [like] this
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
+[Tora Bora]: a cave complex, part of the Spin Ghar mountain range of eastern
+Afghanistan.
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
 [source provenance]: the context of the source, the original
 ** Noun 							      :drill:
   :PROPERTIES:

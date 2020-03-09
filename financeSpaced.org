@@ -10,8 +10,8 @@ Something [like] this
 ** Term 							      :drill:
   :PROPERTIES:
   :END:
-[buy-side]: these profesisonals work with insurance firms, mutual funds, and
-pension funds as they purchase large blocks of securities for fund managers.
+[silent seconds]: is a second mortgage placed on an asset for down payment funds
+that are not disclosed to the oriignal lender on the first mortgage.
 ** Term 							      :drill:
   :PROPERTIES:
   :END:
@@ -34,3 +34,11 @@ defaulting.
   :PROPERTIES:
   :END:
 [collateralized debt obiligations]: CDO, add more
+** Term 							      :drill:
+  :PROPERTIES:
+  :END:
+[synthetic collateralized debt obligation]: (CDO) while a traditional CDO
+generates income for the seller from cash assets like loans, credit cards,
+mortages, the value of a [synthetic CDO] comes from insurance premiums of
+credit default swaps paid for by investors. The seller takes a long position,
+while the buyer takes a short position.

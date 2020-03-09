@@ -26,6 +26,7 @@
  destroy"
    - Leo Tolstoy
 
+Memento Mori: Latin for 'remember that you must die'
 
 
 * Finance
@@ -67,6 +68,10 @@ racing. The rest are merely games."
 
 "Happiness is reality minus expectations"
 
+"It’s easier to desire and pursue the attention of tens of millions of total
+ strangers than it is to accept the love and loyalty of the people closest to
+ us."
+   - William Gibson, Idoru
 
 * Humor
 "In the beginning the Universe was created. This has made a lot of people very
@@ -125,6 +130,8 @@ racing. The rest are merely games."
 
 "Death destroys a man; the idea of Death saves him"
    - E. M. Forster
+
+"I laugh so I do not cry"
 
 "Don’t you ever let a soul in the world tell you that you can’t be exactly who
  you are."
@@ -196,6 +203,9 @@ racing. The rest are merely games."
  do this than anyone I’ve ever met. It’s gonna take awhile. It’s normal to take
  awhile. You’ve just gotta fight your way through."
 :end:
+
+"Life begins at 55, the age at which I published my first book"
+  - Dr. Freeman Dyson, From Eros to Gaia
 
 "When you feel guilty, but haven’t harmed anyone, then you’re just in the realm
  of perfectionism or criticism"
@@ -284,6 +294,16 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
 * Race
 "We are not pressing toward the brink of violence, but for the peak of freedom"
    - James Farmer
+
+
+* Science
+"Existing order that is kept up."
+   - Antonio Damasio, The Strange Order of Things
+
+"I think it’s almost true without exception if you want to win a Nobel Prize,
+ you should have a long attention span, get hold of some deep and important
+ problem and stay with it for 10 years, that wasn’t my style."
+   - Dr. Freeman Dyson
 
 
 * Stories
