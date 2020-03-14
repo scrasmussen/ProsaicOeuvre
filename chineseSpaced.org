@@ -20,6 +20,18 @@ Define the word
 
 
 * Vocab
+** [zé] 								      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: multisided
+  :END:
+Define the word
+*** 汉字
+啧
+*** Pinyin
+zé
+*** Definition
+a calm way of showing the expression of "Jesus fking Chris!" and "I wanna kick
+someone's ass hard!".
 ** [zǒu] 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: multisided

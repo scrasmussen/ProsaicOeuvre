@@ -73,6 +73,7 @@ racing. The rest are merely games."
  us."
    - William Gibson, Idoru
 
+
 * Humor
 "In the beginning the Universe was created. This has made a lot of people very
  angry and has been widely regarded as a bad move."
@@ -101,6 +102,10 @@ racing. The rest are merely games."
 
 
 * Labour
+"Christopher Hitchens defined happiness as solitary work during the day, in
+ anticipation of company that evening."
+   - Janen Ganesh, [[https://www.ft.com/content/311b9b4e-6456-11ea-a6cd-df28cc3c6a68][ft]]
+
 :Fashionable-Problems:
 "I've seen a similar pattern in many different fields: even though lots of
  people have worked hard in the field, only a small fraction of the space of
@@ -130,6 +135,12 @@ racing. The rest are merely games."
 
 "Death destroys a man; the idea of Death saves him"
    - E. M. Forster
+
+"Let everything happen to you
+      Beauty and terror
+       Just keep going
+     No feeling is final."
+   - Rainer Maria Rilke
 
 "I laugh so I do not cry"
 
