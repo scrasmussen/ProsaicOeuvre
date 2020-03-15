@@ -54,6 +54,7 @@ pip3 install scipy
 pip3 install pandas
 pip3 install matplotlib
 pip3 install pip-review
+pip3 install beautifulsoup4
 
 # probably don't need these anymore
 # tlmgr init-usertree
