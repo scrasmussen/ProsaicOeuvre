@@ -18,6 +18,28 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Adjective 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+latent
+*** Definition
+- (of a quality or state) existing but not yet developed or manifest; hidden or
+concealed
+- present or capableof emerging or developing but not now visible, obvious,
+active, or symptomatic
+** Verb 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+inundate
+*** Definition
+overwhelm
+to cover with a flood : overflow
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
