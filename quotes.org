@@ -311,6 +311,9 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
  got was a gorilla holding the banana and the entire jungle.”
    - Joe Armstrong
 
+"GPLv3: as worthy a successor as The Phantom Menace, as timely as Duke Nukem
+ Forever, and as welcome as New Coke."
+   - Rob Landley, [[http://lists.busybox.net/pipermail/busybox/2010-December/074114.html][Understanding the bin, sbin, usr/bin, usr/sbin split]]
 
 * Race
 "We are not pressing toward the brink of violence, but for the peak of freedom"

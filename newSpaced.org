@@ -18,6 +18,10 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[Pareto Principle]: roughly 80% of the effects come from 20% of the causes
 ** Adjective 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
