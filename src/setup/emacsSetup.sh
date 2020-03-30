@@ -15,6 +15,8 @@ add "(setq column-number-mode t)"
 add "(add-hook 'before-save-hook 'delete-trailing-whitespace)"
 add "(setq visible-bell 1)"
 
+# easy switch between windows
+add "(windmove-default-keybindings)"
 
 # setup PowerShell major mode
 url=http://www.emacswiki.org/emacs/download/PowerShell-Mode.el
