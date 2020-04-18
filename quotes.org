@@ -128,6 +128,9 @@ racing. The rest are merely games."
    - [[http://paulgraham.com/fp.html][Paul Graham]]
 :end:
 
+"All professions are conspiracies against the laity."
+   - George Bernard Shaw
+
 
 * Life
 "Tuesday: nothing. existed."
@@ -320,6 +323,7 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
  Forever, and as welcome as New Coke."
    - Rob Landley, [[http://lists.busybox.net/pipermail/busybox/2010-December/074114.html][Understanding the bin, sbin, usr/bin, usr/sbin split]]
 
+
 * Race
 "We are not pressing toward the brink of violence, but for the peak of freedom"
    - James Farmer
@@ -378,6 +382,11 @@ recent years, people from across China came to his and other farmers’ aid.
 
 "And if I am a man of some reading, I am a man of no retentiveness"
    - Michel de Montaigne
+
+"Chess problems demand from the composer the same virtues that characterize all
+ worthwhile art: originality, invention, conciseness, harmony, complexity, and
+ splendid insincerity."
+   - Vladimir Nabokov, Poems and Problems
 
 "Hypocrisy is the homage vice pays to virtue."
 

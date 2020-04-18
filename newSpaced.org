@@ -21,6 +21,10 @@ Something [like] this
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
+[golden hammer]: a cognitive bias that involves over-reliance on a familier tool
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
 [Pareto Principle]: roughly 80% of the effects come from 20% of the causes
 ** Adjective 							      :drill:
   :PROPERTIES:
