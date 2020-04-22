@@ -21,6 +21,23 @@ Something [like] this
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
+[lieu]: (archaic) : place, stead
+[in lieu]: instead
+[in lieu of]: in the place of, instead of
+** Noun 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+quisling
+*** Definition
+A person who colaborates with the enemy
+Term originated in Norway during World War II,
+*** Example sentence
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
 [golden hammer]: a cognitive bias that involves over-reliance on a familier tool
 ** Fact 							      :drill:
   :PROPERTIES:
