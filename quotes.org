@@ -12,6 +12,10 @@
  You need asura snow, stained fiery red."
    - Lady Snowblood
 
+"What you are shouts so loudly in my ears I cannot hear what you say."
+   - Ralph Waldo Emerson
+
+
 
 * Death
 "Another repied to his confessor, who was promising him that he should sup that
@@ -27,6 +31,9 @@
    - Leo Tolstoy
 
 Memento Mori: Latin for 'remember that you must die'
+
+"I have lived longer by this one day than I should have done."
+   - Macrobius
 
 
 * Finance
@@ -161,6 +168,8 @@ racing. The rest are merely games."
 "You could leave life right now. Let that determine what you do and say and
  think."
    - Marcus Aurelius, Meditations
+
+"All gas no brakes"
 
 "I think we get it wrong a lot, especially in this country. It's all about
  winning. Winning, winning, winning. People who are considered "winners" are in
@@ -338,6 +347,9 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
  problem and stay with it for 10 years, that wasn’t my style."
    - Dr. Freeman Dyson
 
+"Why are you keeping this curiosity door locked?"
+   - Dustin, Stranger Things
+
 
 * Stories
 :Chinese-chilie-farmer:
@@ -393,6 +405,9 @@ recent years, people from across China came to his and other farmers’ aid.
 "Get rid of your lawns, lawns are total biological deserts. It’s just grass with
  pesticides. The way it’s grown does not support a lot of biodiversity."
    - Dr. May Berenbaum
+
+"Better three hours too soon than a minute too late."
+   - Shakespeare
 
 "The forest was shrinking, but the Trees kept voting for the Axe, for the Axe
  was clever and convinced the Trees that because his handle was made of wood, he

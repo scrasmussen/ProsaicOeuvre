@@ -21,6 +21,43 @@ Something [like] this
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
+[littera scripta manet]: the written letter remains
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[fait accompli]: a thing that has already happened or been decided before those
+affected hear about it, leaving them with no option but to accept it
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[rumspringa]: the period where Amish youth have the option to leave the
+community
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[The man on the Clapham omnibus]: a hpothetical ordinary and reasonable person,
+used by the courts in English law where it is necessary to decide whether a
+party has acted as a reasonable person would. A reasonably educated, intelligent
+but nondescript person, against whome the defendant's conduct can be measured
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[bounded rationality]: the idea that rationality is limited, when individuals
+make decisions, by the tractability of the decision problem, the cognitive
+limitations of the mind, and the time available to make the decision.
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[Walter Johnson]: on of the greatest pitchers in baseball history. Long arm,
+side throw
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[Merkle's Boner]: cause the most controversail game in baseball history. A
+failure to advance to second base because crowd was too big and wild
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
 [lieu]: (archaic) : place, stead
 [in lieu]: instead
 [in lieu of]: in the place of, instead of
