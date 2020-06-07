@@ -23,6 +23,12 @@
    - Michel de Montaigne, That the Taste of Good and Evil Depends in Large Part
                          on the Opinion We Have of Them
 
+"Nature’s a lot brighter than what people think. Little by little, we lose our
+ friends that we care about, and little by little, we lose our interests til’
+ finally we say 'well what the hell am I doing around here', we have no reason
+ to go on. But I have a reason with Mike here."
+   - Cus D'Amato speaks about old age and his reason to stay alive.
+
 "Death holds less pain than does the wait for death"
    - Ovid
 
@@ -62,6 +68,9 @@ racing. The rest are merely games."
 
 
 * Happiness
+"Some people are so much sunshine to the square inch."
+   - Walt Whitman
+
 "Happy the man, and happy he alone,
  He who can call today his own;
  He who, secure within, can say,
@@ -88,6 +97,10 @@ racing. The rest are merely games."
 
 "Why don't you take your library card and fuck off."
    - Logan Roy, Succession 2:4
+
+"Find the quote about the American insulting the King, and the Englishman
+ insulting Babe Ruth"
+   - PBS, Ken Burn's Baseball, episod IV, 10ish minutes in?
 
 "Even on the highest throne in the world, we are still sitting on our ass."
    - Michel de Montaigne
@@ -145,6 +158,16 @@ racing. The rest are merely games."
 
 "Death destroys a man; the idea of Death saves him"
    - E. M. Forster
+
+"Not being able to govern events, I govern myself"
+   - Montaigne
+
+"If you want to make progress, put up with being perceived as ignorant or naive
+ in worldly matters, don't aspire to a reputation for sagacity. If you do
+ impress others as somebody, don't altogether believe it. You have to realize,
+ it isn't easy to keep your will in agreement with nature, as well as externals.
+ Caring about the one inevitably means you are going to shortchange the other"
+   - Epictetus
 
 "Let everything happen to you
       Beauty and terror
@@ -242,8 +265,16 @@ racing. The rest are merely games."
  awhile. You’ve just gotta fight your way through."
 :end:
 
+"No matter what anyone says, no matter the excuse or explanation, whatever a
+ person does in the end is what he intended to do all along."
+   - Cus D'Amato
+
+"If you want nothing, do what you want. If you want everything, develop
+ discipline."
+   - Kostya Tszyu
+
 "Life begins at 55, the age at which I published my first book"
-  - Dr. Freeman Dyson, From Eros to Gaia
+   - Dr. Freeman Dyson, From Eros to Gaia
 
 "When you feel guilty, but haven’t harmed anyone, then you’re just in the realm
  of perfectionism or criticism"
@@ -289,6 +320,17 @@ racing. The rest are merely games."
    - Tyler Cowen:
 
 
+
+* On Drink
+"Once, on a trek through Afghanistan, we lost our corkscrew ... and were
+ compelled to live on food and water for several days."
+   - W.C. Fields, My Little Chickadee
+
+"I was in love with a beautiful blonde once, dear. She drove me to drink. That's
+ the one thing I am indebted to her for."
+   - W.C. Fields, Never Give a Sucker an Even Break
+
+
 * Politics
 “Your representative owes you, not his industry only, but his judgment; and he
  betrays, instead of serving you, if he sacrifices it to your opinion.”
@@ -297,8 +339,18 @@ racing. The rest are merely games."
 “The majority is always wrong. The minority is rarely right.”
    - Henrik Ibsen
 
+"Nothing on the St. Anthony’s block is a remedy for homelessness, but the
+ harmony shows that it is possible to create shared space and resources on a
+ small scale—also known as a community."
+   - [[https://www.newyorker.com/magazine/2020/06/01/a-window-onto-an-american-nightmare][A Window Onto an American Nightmare]]
+
 “If everybody is thinking alike, then no one is thinking.”
    - Benjamin Franklin
+
+"Intellectually deprived Americans had thrilled to Buckley’s overwrought and
+ often pretentious manner, his cute logic-chopping and word play, but this cut
+ less ice in Cambridge."
+   - The Fire is Upon Us [[https://www.the-tls.co.uk/articles/fire-is-upon-us-by-nicholas-buccola-book-review/][book review]]
 
 "And so for many Americans, the nuclear family has become a lonely institution -
  and childhood, one long unpaid internship meant to secure a spot in a dwindling
@@ -336,6 +388,26 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
 * Race
 "We are not pressing toward the brink of violence, but for the peak of freedom"
    - James Farmer
+
+
+* Racing
+*** Stirling Moss
+Motion, he said, was tranquillity. Why, he wondered, do people walk, since God
+gave them feet that fit automotive pedals?
+
+Moss, the ultimate pro, once observed that there are no professionals at dying
+ — although he had practiced. He was sure he was "a goner" after his steering
+column snapped at over 160 m.p.h. in a race in Monza, Italy, in 1958. As he
+staggered away from the wreckage, he thought, "Well, if this is hell, it’s not
+very hot, or if it’s heaven, why is it so dusty?"
+
+"Who do you think you are, Stirling Moss?" Moss, who had been knighted, was once
+ asked that question, and answered, "Sir Stirling, please."
+
+
+* Religion
+He "regarded all religions with the suspicion of a seasoned con man"
+   - James Curis on W. C. Fields was an atheist
 
 
 * Science

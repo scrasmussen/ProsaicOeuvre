@@ -21,6 +21,37 @@ Something [like] this
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
+[Manchester Liberalism], das Manchestertum: It expounded the social and economic
+implications of free trade and laissez-faire capitalism. The Manchester School
+took the theories of economic liberalism advocated by classical economists such
+as Adam Smith and made them the basis for government policy. It also promoted
+pacifism, anti-slavery, freedom of the press and separation of church and state.
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[Jeremiah]: a prophet who is pessimistic about the present and foresees a
+calamitous future; a prophet of doom
+** Adjective 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+mellifluous
+*** Definition
+(of a sound) pleasingly smooth and musical to hear
+
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[Hoist with his own petard]: a phrase from a speech in William Shakespeare's
+play Hamlet that has become proverbial. The phrase's meaning is literally that a
+bomb-maker is blown up ("hoist" off the ground) by his own bomb (a "petard" is a
+small explosive device), and indicates an ironic reversal, or poetic justice.
+
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
 [littera scripta manet]: the written letter remains
 ** Fact 							      :drill:
   :PROPERTIES:

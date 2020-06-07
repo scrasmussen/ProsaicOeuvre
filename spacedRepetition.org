@@ -21,6 +21,11 @@ Something [like] this
 
 
 * Vocab
+** Fact 							      :drill:
+  :PROPERTIES:
+  :END:
+[sword saint]: (Kensei), a Japanese honorary title given to a warrior with
+legendary skill in swordmanship: "gods and [sword saints]" - Jack Slack
 ** Fact                                                               :drill:
   :PROPERTIES:
   :ID:       6027e345-174c-413e-8ebc-0e18e6e2148a
