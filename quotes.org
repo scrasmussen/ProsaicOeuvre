@@ -17,6 +17,14 @@
 
 
 
+* Art
+"Irony is to art what kryptonite is to Superman. Irony kills art. Nothing can be
+ moving, meaningful, joy inducing or tear-wrenching if irony is involved,
+ because anything that is ironic positions itself as superior to standard human
+ emotion, superior to anything that can touch you."
+   - [[https://www.insidehook.com/article/music/weezers-africa-worst-pop-recording-time][Why Weezer’s “Africa” Is the Worst Pop Recording of All Time]]
+
+
 * Death
 "Another repied to his confessor, who was promising him that he should sup that
  day with Our Lord: You go there yourself; for my part, I'm fasting."
@@ -98,12 +106,18 @@ racing. The rest are merely games."
 "Why don't you take your library card and fuck off."
    - Logan Roy, Succession 2:4
 
+"How does working on this case effect your sex life?"
+"Mine? Doesn't effect mine, it effects yours, go fuck yourself."
+   - Manhunter, 49:45
+
 "Find the quote about the American insulting the King, and the Englishman
  insulting Babe Ruth"
    - PBS, Ken Burn's Baseball, episod IV, 10ish minutes in?
 
 "Even on the highest throne in the world, we are still sitting on our ass."
    - Michel de Montaigne
+
+"But there was always a moldy thrift store stink of irony about Weezer;"
 
 "On the planet emacs in the holy control tower" - spacemacs
 
