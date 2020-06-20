@@ -93,6 +93,19 @@ add "(add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)"
 add "(add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)"
 add "(add-hook 'LaTeX-mode-hook 'column-enforce-mode)"
 
+
+# ==== current usage =====
+# (setq-default latex-preview-pane-multifile-mode 'auctex)
+# (require 'reftex)
+# (add-hook 'LaTeX-mode-hook 'turn-on-reftex)   ; with AUCTeX LaTeX mode
+# (add-hook 'latex-mode-hook 'turn-on-reftex)   ; with Emacs latex mode
+# (setq reftex-plug-into-auctex t)
+# (add-to-list 'auto-mode-alist '("\\.tex$" . LaTeX-mode))
+#
+# (require 'cnfonts)
+# (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+
+
 add "(setq-default latex-preview-pane-multifile-mode 'auctex)"
 add "(setq reftex-plug-into-auctex t)"
 add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
