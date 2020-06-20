@@ -23,6 +23,8 @@ fi
 # setxkbmap -layout us -option ctrl:nocaps
 # edit /etc/default/keyboard so XKBOPTIONS="ctrl:nocaps"
 
+c_path='export C=/mnt/c/Users/scras/Documents'
+add "$c_path"
 
 prompt='PS1="C:\>"'
 add "$prompt"
@@ -40,16 +42,20 @@ add "$pip_alias"
 bin_path='export PATH=$HOME/local/bin:$PATH'
 add "$bin_path"
 
-c_path='export C=/mnt/c/Users/scras/Documents'
-add "$c_path"
-
 emacs="alias emacs='emacs -nw'"
 add "$emacs"
 
-gmacs="alias gmacs='$(which emacs) -fs'"
+gmacs='gmacs() { /usr/bin/emacs "$@" -fs & }'
 add "$gmacs"
+# gmacs="alias gmacs='$(which emacs) -fs'"
+# add "$gmacs"
 
 echo "Need to work on toilet"
+
+# toilet -f term -F border "From stressed, to jest."
+# toilet -f term -F border "Chop wood, carry water."
+
+# toilet -f term -F border "From stressed, to blessed."
 # toilet -f term -F border "Hello, Soren. You're looking well today."
 # str="Remember, procrastination is about managing emotions not time."
 # toilet -f term -F border ${str}
@@ -58,5 +64,9 @@ echo "Need to work on toilet"
 # weeks=$(expr $(date -d "Dec 25"  +%U) - $(date +%U))
 # months=$(expr $(date -d "Dec 25"  +%m) - $(date +%m))
 # toilet -f term -F border "${days} days | ${weeks} weeks | ${months} months"
+
+
+# NOT SURE ABOUT THIS, LOOK INTO MORE
+# alias ipython='tmux-ipython.sh'
 
 echo "Fin"

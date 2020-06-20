@@ -52,6 +52,11 @@ add "$command"
 command="set -g @plugin 'tmux-plugins/tmux-yank'"
 add "$command"
 
+
+t_display="#[bg=blue, fg=black]GMT %H:%M|PST #(TZ=\"US/Pacific\" date +%%H:%%M)"
+status="set -g status-right '$t_display'"
+add "$status"
+
 # remap prefix from 'C-b' to 'C-a'
 command="unbind C-b"
 if ! grep -q "^$command" "${config_file}"; then
