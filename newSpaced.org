@@ -18,6 +18,17 @@ Define the word
 Something [like] this
 
 * Knowledge
+** Adjective 							      :drill:
+  :PROPERTIES:
+  :DRILL_CARD_TYPE: twosided
+  :END:
+Define the word
+*** English
+inchoate
+*** Definition
+being only partly in existence or operation: incipient
+just begun and so not fully formed or developed
+
 ** Fact 							      :drill:
   :PROPERTIES:
   :END:
