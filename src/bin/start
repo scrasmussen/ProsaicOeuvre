@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd cranfield/org
+emacs notes.org timeboxing.org -nw
