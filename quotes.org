@@ -24,6 +24,10 @@
  emotion, superior to anything that can touch you."
    - [[https://www.insidehook.com/article/music/weezers-africa-worst-pop-recording-time][Why Weezer’s “Africa” Is the Worst Pop Recording of All Time]]
 
+"I don’t design clothes for the Queen; but for the people who wave at her as
+ she goes by."
+   - Willi Smith
+
 
 * Death
 "Another repied to his confessor, who was promising him that he should sup that
@@ -173,6 +177,15 @@ racing. The rest are merely games."
 "Death destroys a man; the idea of Death saves him"
    - E. M. Forster
 
+"He came home weighing ninety-eight pounds. 'My wife cooks good food for me,'
+ Muongkhot said. 'Today, I’m at a hundred and five.
+ Two numbers. Now I got three.'"
+   - Lauren Hilgers,
+     [[https://www.newyorker.com/magazine/dispatch/how-two-waves-of-coronavirus-cases-swept-through-the-texas-panhandle][How Two Waves of Coronavirus Cases Swept Through the Texas Panhandle]]
+
+"A friend is, as it were, a second self."
+   - Marcus Tullius Cicero
+
 "Not being able to govern events, I govern myself"
    - Montaigne
 
@@ -194,6 +207,8 @@ racing. The rest are merely games."
 "Don’t you ever let a soul in the world tell you that you can’t be exactly who
  you are."
    - Lady Gaga, [[https://www.nytimes.com/2020/02/27/opinion/lady-gaga-boyfriend.html][from here]]
+
+"The devil may care, but I do not."
 
 "If you only read the books that everyone else is reading, you can only think
  what everyone else is thinking."
