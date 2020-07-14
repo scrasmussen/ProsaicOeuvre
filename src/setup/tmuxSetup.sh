@@ -52,8 +52,9 @@ add "$command"
 command="set -g @plugin 'tmux-plugins/tmux-yank'"
 add "$command"
 
-
-t_display="#[bg=blue, fg=black]GMT %H:%M|PST #(TZ=\"US/Pacific\" date +%%H:%%M)"
+london='GMT #(TZ=\"Europe/London\" date +%%H:%%M)'
+pacific='PST #(TZ=\"US/Pacific\" date +%%H:%%M)'
+t_display="#[bg=blue, fg=black] $(pacific)| $(london)"
 status="set -g status-right '$t_display'"
 add "$status"
 
@@ -73,4 +74,5 @@ fi
 
 echo "Almost Fin, now run"
 echo "# sudo apt install xclip"
+echo "Use prefix-I to install plugins"
 echo "$ tmux source-file ~/.tmux.conf"

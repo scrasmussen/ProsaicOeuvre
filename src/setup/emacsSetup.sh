@@ -10,6 +10,9 @@ function add(){
   fi
 }
 
+# add melpa repo
+add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)"
+
 # add column and row numbers
 add "(setq column-number-mode t)"
 add "(add-hook 'before-save-hook 'delete-trailing-whitespace)"
@@ -83,32 +86,40 @@ fi
 add "(require 'cl)"
 add "(require 'org)"
 add "(require 'org-drill)"
+add "(require 'reftex)"
 
 # setting up latex
 add "(setq TeX-auto-save t)"
 add "(setq TeX-parse-self t)"
 add "(latex-preview-pane-enable)"
+add "(setq reftex-plug-into-AUCTeX t)"
+add "(setq-default latex-preview-pane-multifile-mode 'auctex)"
+
 add "(add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)"
+add "(add-hook 'latex-mode-hook 'toggle-frame-fullscreen)"
 add "(add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)"
+add "(add-hook 'latex-mode-hook 'turn-off-auto-fill)"
 add "(add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)"
+add "(add-hook 'latex-mode-hook 'toggle-frame-fullscreen)"
 add "(add-hook 'LaTeX-mode-hook 'column-enforce-mode)"
+add "(add-hook 'latex-mode-hook 'column-enforce-mode)"
+add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
+add "(add-hook 'latex-mode-hook 'turn-on-reftex)"
+add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
+add "(add-hook 'latex-mode-hook 'turn-on-reftex)"
+
+
+
 
 
 # ==== current usage =====
 # (setq-default latex-preview-pane-multifile-mode 'auctex)
-# (require 'reftex)
-# (add-hook 'LaTeX-mode-hook 'turn-on-reftex)   ; with AUCTeX LaTeX mode
-# (add-hook 'latex-mode-hook 'turn-on-reftex)   ; with Emacs latex mode
-# (setq reftex-plug-into-auctex t)
 # (add-to-list 'auto-mode-alist '("\\.tex$" . LaTeX-mode))
 #
 # (require 'cnfonts)
 # (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
 
 
-add "(setq-default latex-preview-pane-multifile-mode 'auctex)"
-add "(setq reftex-plug-into-auctex t)"
-add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
 # https://emacs.stackexchange.com/questions/5939/how-to-disable-auto-indentation-of-new-lines
 add "(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))"
 
@@ -122,17 +133,16 @@ add "(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))"
 # fi
 
 
-# add melpa repo
-add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)"
 
 echo "FIN"
 echo "NOW: Run # orgSetup.sh"
+echo "Now 'M-x list-packages' and install latex-preview-pane"
 
 
 # this is oldish, probably can remove
 # echo "Now 'M-x list-packages' and install org"
-# echo "check end of emacsSetup.sh for info on melpa"
 # need this for latex-preview-pane
+# echo "check end of emacsSetup.sh for info on melpa"
 
 
 
