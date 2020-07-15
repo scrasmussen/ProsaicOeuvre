@@ -18,6 +18,12 @@ Define the word
 Something [like] this
 
 * Knowledge
+
+** [tickety boo]                                                      :drill:
+  :PROPERTIES:
+  :END:
+[tickety boo]: in good order, fine
+
 ** Adjective 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
