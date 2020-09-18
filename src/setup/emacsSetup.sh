@@ -11,7 +11,7 @@ function add(){
 }
 
 # add melpa repo
-add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.milkbox.net/packages/\") t)"
+add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.org/packages/\") t)"
 
 # add column and row numbers
 add "(setq column-number-mode t)"
@@ -166,3 +166,27 @@ echo "Now 'M-x list-packages' and install latex-preview-pane"
 #     ;; For important compatibility libraries like cl-lib
 #     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 # (package-initialize)
+
+
+
+
+# ---- manual add now ----
+# (set-default-font "Menlo 18")
+# (require 'reftex)
+# (setq reftex-plug-into-AUCTeX t)
+
+
+# ;; (latex-preview-pane-enable)
+# (add-hook 'LaTeX-mode-hook (lambda () (latex-preview-pane-mode 1)))
+# (add-hook 'latex-mode-hook (lambda () (latex-preview-pane-mode 1)))
+# (add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)
+# (add-hook 'latex-mode-hook 'toggle-frame-fullscreen)
+# (add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)
+# (add-hook 'latex-mode-hook 'turn-off-auto-fill)
+# (add-hook 'LaTeX-mode-hook 'column-enforce-mode)
+# (add-hook 'latex-mode-hook 'column-enforce-mode)
+# (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+# (add-hook 'latex-mode-hook 'turn-on-reftex)   ; with Emacs latex mode
+
+
+# (setq-default latex-preview-pane-multifile-mode 'auctex)

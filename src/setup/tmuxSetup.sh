@@ -76,3 +76,7 @@ echo "Almost Fin, now run"
 echo "# sudo apt install xclip"
 echo "Use prefix-I to install plugins"
 echo "$ tmux source-file ~/.tmux.conf"
+
+
+#set-option -g default-command "reattach-to-user-namespace -l $SHELL"
+#set -g status-right '#[bg=blue, fg=black] PST #(TZ="US/Pacific" date +%%H:%%M)|GMT #(TZ="Europe/London" date +%%H:%%M)'
