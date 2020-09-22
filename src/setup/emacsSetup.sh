@@ -137,7 +137,14 @@ add "(when (fboundp 'electric-indent-mode) (electric-indent-mode -1))"
 echo "FIN"
 echo "NOW: Run # orgSetup.sh"
 echo "Now 'M-x list-packages' and install latex-preview-pane"
+echo "                            install auctex"
+echo "                            install org-drill"
 
+echo "
+(defun LaTeX-preview-pane-enable ()
+   \"Enable `latex-preview-pane-mode' in `latex-mode'.\"
+   (add-hook 'LaTeX-mode-hook (lambda () (latex-preview-pane-mode 1))))
+(LaTeX-preview-pane-enable)"
 
 # this is oldish, probably can remove
 # echo "Now 'M-x list-packages' and install org"

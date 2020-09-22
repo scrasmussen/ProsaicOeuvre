@@ -21,12 +21,20 @@ if grep -q Microsoft /proc/version; then
   install x11-xkb-utils
   gversion=8
 else
-  gversion=9
+  gversion=10
+  echo "Version ${gversion} of GNU will be installed. Is this ok?"
+  read ok
+  if [[ ${ok} != 'yes' || ${ok} != 'y' ]]; then
+      echo "Not proceeding, edit file"
+      exit 1
+  fi
+
   install gnome-screensaver
   install texlive-latex-base
   install texinfo
   install texlive
   install texlive-extra-utils
+  install texlive-font-utils
   install texlive-latex-extra-doc
   install texlive-latex-base-doc
   install texlive-latex-recommended
