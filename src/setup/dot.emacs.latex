@@ -1,0 +1,66 @@
+(require 'reftex)
+
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+
+
+(add-hook 'LaTeX-mode-hook 'latex-preview-pane-enable)
+(add-hook 'latex-mode-hook 'latex-preview-pane-enable)
+
+(setq reftex-plug-into-AUCTeX t)
+
+;; (setq-default latex-preview-pane-multifile-mode 'auctex)
+
+;; (add-hook 'LaTeX-mode-hook 'toggle-frame-fullscreen)
+;; (add-hook 'latex-mode-hook 'toggle-frame-fullscreen)
+;; (add-hook 'LaTeX-mode-hook '(fullscreen . fullboth))
+;; (add-hook 'latex-mode-hook '(fullscreen . fullboth))
+;; (add-hook 'LaTeX-mode-hook '(fullscreen . fullboth))
+;; (add-hook 'latex-mode-hook '(fullscreen . fullboth))
+
+(add-hook 'LaTeX-mode-hook 'turn-off-auto-fill)
+(add-hook 'latex-mode-hook 'turn-off-auto-fill)
+
+(add-hook 'LaTeX-mode-hook 'column-enforce-mode)
+(add-hook 'latex-mode-hook 'column-enforce-mode)
+
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+(add-hook 'latex-mode-hook 'turn-on-reftex)
+
+(setq-default latex-preview-pane-multifile-mode 'auctex)
+
+
+(latex-preview-pane-enable)
+
+(defun LaTeX-preview-pane-enable ()
+   "Enable `latex-preview-pane-mode' in `latex-mode'."
+   (add-hook 'LaTeX-mode-hook (lambda () (latex-preview-pane-mode 1))))
+(LaTeX-preview-pane-enable)
+(add-hook 'LaTeX-mode-hook 'LaTeX-preview-pane-enable)
+
+
+(defun remove-electric-indent-mode ()
+  (electric-indent-local-mode -1))
+(add-hook 'LaTex-mode-hook 'remove-electric-indent-mode)
+(add-hook 'latex-mode-hook 'remove-electric-indent-mode)
+
+ ;; '(latex-preview-pane-multifile-mode (quote auctex))
+
+
+
+;; '(package-selected-packages (quote (latex-preview-pane)))
+
+;; (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(TeX-master "convection.tex")
+ )
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
