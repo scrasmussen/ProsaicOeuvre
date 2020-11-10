@@ -411,6 +411,10 @@ end, a trap from which there’s no easy escape and maybe no desire for escape"
 
 
 
+* Phrase
+"It is a reminder of the steep risks taken by the Covid Carpe Diem set."
+
+
 * Programming
 “The problem of object-oriented languages is they’ve got all this implicit
  environment that they carry around with them. You wanted a banana but what you

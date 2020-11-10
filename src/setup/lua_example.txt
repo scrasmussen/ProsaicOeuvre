@@ -1,0 +1,11 @@
+whatis("Version: ")
+whatis("Keywords: ")
+whatis("Description: ")
+
+local base = pathJoin(os.getenv("HOME"), "local")
+local path = pathJoin(base, "PATH_TO_PACKAGE")
+local bin  = pathJoin(path, "bin")
+prepend_path("PATH", bin)
+
+-- https://lmod.readthedocs.io/en/latest/050_lua_modulefiles.html
+-- https://lmod.readthedocs.io/en/latest/100_modulefile_examples.html

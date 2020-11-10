@@ -55,6 +55,7 @@ install python3-pip
 install gcc-$gversion
 install g++-$gversion
 install gfortran-$gversion
+install lmod
 
 pip3 install ipython
 pip3 install numpy
@@ -63,6 +64,7 @@ pip3 install pandas
 pip3 install matplotlib
 pip3 install pip-review
 pip3 install beautifulsoup4
+pip3 install tabulate
 
 # probably don't need these anymore
 # tlmgr init-usertree
