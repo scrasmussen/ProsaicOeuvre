@@ -65,6 +65,7 @@ pip3 install matplotlib
 pip3 install pip-review
 pip3 install beautifulsoup4
 pip3 install tabulate
+pip3 install jupyterlab
 
 # probably don't need these anymore
 # tlmgr init-usertree
