@@ -45,7 +45,7 @@ add "$bin_path"
 emacs="alias emacs='emacs -nw'"
 add "$emacs"
 
-gmacs='gmacs() { /usr/bin/emacs "$@" -fs & }'
+gmacs='echo "starting gmacs"; gmacs() { /usr/bin/emacs "$@" -fs & }'
 add "$gmacs"
 # gmacs="alias gmacs='$(which emacs) -fs'"
 # add "$gmacs"
