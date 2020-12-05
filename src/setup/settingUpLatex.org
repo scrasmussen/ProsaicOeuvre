@@ -17,7 +17,13 @@
  '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (latex-preview-pane-enable) ;; https://www.emacswiki.org/emacs/LaTeXPreviewPane
 
-
+### <<troubleshooting>>
+Was needed to have things build correctly
+  ;;; Directory Local Variables
+  ;;; For more information see (info "(emacs) Directory Variables")
+  ((latex-mode
+    (setq TeX-master "convection"))
+.dir-locals.el (END)
 
 
 ## =Windows side=
