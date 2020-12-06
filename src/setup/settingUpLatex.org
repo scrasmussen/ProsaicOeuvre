@@ -1,3 +1,7 @@
+# Latex Documents Help
+Useful resources from the interwebz
+https://tex.stackexchange.com/questions/315999/have-side-by-side-figures-in-latex
+
 
 # Setting up Latex for Emacs
 
