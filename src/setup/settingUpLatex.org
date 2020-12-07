@@ -2,6 +2,12 @@
 Useful resources from the interwebz
 https://tex.stackexchange.com/questions/315999/have-side-by-side-figures-in-latex
 
+# Setting up Latex document
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "convection"
+%%% End:
+
 
 # Setting up Latex for Emacs
 
