@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+time=1:00:00
+time=0:30:00
+if [ $# -eq 1 ]; then
+    if [ ${#1} -eq 1 ]; then
+        time=0:0$1:00
+    else
+        time=0:$1:00
+    fi
+fi
+
+set -e -x
+PS1="I:\>"
+echo "qsub -I -l select=1,place=scatter,walltime=$time"
+PS1="S:\>"
