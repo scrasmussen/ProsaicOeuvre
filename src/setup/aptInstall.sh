@@ -56,6 +56,7 @@ install gcc-$gversion
 install g++-$gversion
 install gfortran-$gversion
 install lmod
+install graphviz
 
 pip3 install ipython
 pip3 install numpy
