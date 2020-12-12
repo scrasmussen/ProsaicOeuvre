@@ -58,7 +58,6 @@ add "(add-to-list 'load-path \"${columnEnforce_dir}\")"
 add "(require 'column-enforce-mode)"
 add "(add-hook 'prog-mode-hook 'column-enforce-mode)"
 
-
 # setup tab width and space as tabs
 # http://blog.binchen.org/posts/easy-indentation-setup-in-emacs-for-web-development.html
 func="(defun my-setup-indent (n)"
@@ -81,6 +80,9 @@ if ! grep -q "^$func" "${config_file}"; then
     echo "(my-personal-code-style)" >> ${config_file}
 fi
 
+
+# graphviz
+add "(require 'graphviz-dot-mode)"
 
 # add org that works with org-drill
 add "(require 'cl)"
@@ -139,6 +141,7 @@ echo "NOW: Run # orgSetup.sh"
 echo "Now 'M-x list-packages' and install latex-preview-pane"
 echo "                            install auctex"
 echo "                            install org-drill"
+echo "                            install graphviz-dot-mode"
 
 echo "
 (defun LaTeX-preview-pane-enable ()
