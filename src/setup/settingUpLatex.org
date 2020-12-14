@@ -26,6 +26,12 @@ plt.tight_layout()
 plt.savefig(filename, dpi=300)
 plt.show()
 
+// raise image just a little
+\raisebox{1mm}{
+  \includegraphics...
+}
+
+
 
 
 # Setting up Latex for Emacs
