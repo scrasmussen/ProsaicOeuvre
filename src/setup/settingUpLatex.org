@@ -12,6 +12,20 @@ find width of document
 \usepackage{layouts}
 textwidth in inches: \printinunitsof{in}\prntlen{\textwidth}
 
+// at start
+plt.rc('font', family='serif')
+plt.rcParams['font.size'] = 10
+plt.rcParams['axes.linewidth'] = 2
+
+// at end, and actually manually save image to filename, better ratio for
+//   some reason
+filename=''
+fig = plt.gcf()
+fig.set_size_inches((4,3))
+plt.tight_layout()
+plt.savefig(filename, dpi=300)
+plt.show()
+
 
 
 # Setting up Latex for Emacs
