@@ -32,6 +32,12 @@ plt.show()
 }
 
 
+// order of compiling
+latex doc
+bibtex doc
+latex doc
+latex doc
+
 
 
 # Setting up Latex for Emacs
