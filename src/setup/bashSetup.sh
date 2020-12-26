@@ -47,6 +47,10 @@ add "$emacs"
 
 gmacs='gmacs() { echo "starting gmacs"; /usr/bin/emacs "$@" -fs & }'
 add "$gmacs"
+
+start='start() { cd $HOME/Documents/cranfield/org; start-script; }'
+add "$start"
+
 # gmacs="alias gmacs='$(which emacs) -fs'"
 # add "$gmacs"
 
