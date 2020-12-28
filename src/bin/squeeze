@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ]; then
+		echo "no arguments given"
+		exit 1
+fi
+
+column -t $1 > new.txt
+mv new.txt $1
