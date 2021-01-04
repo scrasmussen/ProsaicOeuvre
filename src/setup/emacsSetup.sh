@@ -111,9 +111,6 @@ add "(add-hook 'LaTeX-mode-hook 'turn-on-reftex)"
 add "(add-hook 'latex-mode-hook 'turn-on-reftex)"
 
 
-
-
-
 # ==== current usage =====
 # (setq-default latex-preview-pane-multifile-mode 'auctex)
 # (add-to-list 'auto-mode-alist '("\\.tex$" . LaTeX-mode))
@@ -200,3 +197,15 @@ echo "
 
 
 # (setq-default latex-preview-pane-multifile-mode 'auctex)
+
+echo "LOOK AT SETUP TASK JUGGLER"
+echo "
+set up task juggler
+add (setq org-agenda-files '(\"/home/artless/Documents/cranfield/org/tasks.org\"))
+add (add-to-list 'load-path \"/home/artless/.emacs.d/taskjuggler\")
+(require 'ox-taskjuggler)
+(defun scr-taskjuggler ()
+  (interactive)
+  (org-taskjuggler-export-process-and-open)
+)
+"

@@ -19,14 +19,24 @@ Something [like] this
 
 * Knowledge
 
+** Phrase                                                             :drill:
+  :PROPERTIES:
+	:ID:       53e34791-a150-4dce-9dfc-e54f3c2838c6
+  :END:
+[felix culpa]: the sin of Adam viewed as fortunate, because it brought about the
+ blessedness of the Redemption. An apparent error or disaster with happy
+ consequences.
+
 ** [tickety boo]                                                      :drill:
   :PROPERTIES:
+	:ID:       14e97f92-bc77-45ed-9872-6666439d147a
   :END:
 [tickety boo]: in good order, fine
 
 ** Adjective 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       8f3131a7-6564-49e9-bd95-a38beda1134d
   :END:
 Define the word
 *** English
@@ -37,6 +47,7 @@ just begun and so not fully formed or developed
 
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       d8e0b209-1f3a-4d3c-937d-c363c547fbcf
   :END:
 [Manchester Liberalism], das Manchestertum: It expounded the social and economic
 implications of free trade and laissez-faire capitalism. The Manchester School
@@ -45,12 +56,14 @@ as Adam Smith and made them the basis for government policy. It also promoted
 pacifism, anti-slavery, freedom of the press and separation of church and state.
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       d3d7e079-96f9-4b99-a5df-f2315946ba1b
   :END:
 [Jeremiah]: a prophet who is pessimistic about the present and foresees a
 calamitous future; a prophet of doom
 ** Adjective 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       5967f422-7efd-41f1-a479-81dd878098bf
   :END:
 Define the word
 *** English
@@ -60,6 +73,7 @@ mellifluous
 
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       32e2b437-01cc-472e-aace-b5eef255a0b9
   :END:
 [Hoist with his own petard]: a phrase from a speech in William Shakespeare's
 play Hamlet that has become proverbial. The phrase's meaning is literally that a
@@ -68,20 +82,24 @@ small explosive device), and indicates an ironic reversal, or poetic justice.
 
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       fcc9d8e2-d492-40f3-b9fc-ef4492d0cc84
   :END:
 [littera scripta manet]: the written letter remains
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       77325442-ce38-45c7-8dc7-606cc91c5891
   :END:
 [fait accompli]: a thing that has already happened or been decided before those
 affected hear about it, leaving them with no option but to accept it
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       c221ce69-8f2b-4e9e-a016-74dcf659c496
   :END:
 [rumspringa]: the period where Amish youth have the option to leave the
 community
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       e2d74020-dc37-4280-a4aa-49584f177bfb
   :END:
 [The man on the Clapham omnibus]: a hpothetical ordinary and reasonable person,
 used by the courts in English law where it is necessary to decide whether a
@@ -89,22 +107,26 @@ party has acted as a reasonable person would. A reasonably educated, intelligent
 but nondescript person, against whome the defendant's conduct can be measured
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       55c18842-7019-4067-980a-8337121767a2
   :END:
 [bounded rationality]: the idea that rationality is limited, when individuals
 make decisions, by the tractability of the decision problem, the cognitive
 limitations of the mind, and the time available to make the decision.
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       dd868b0c-f9c5-4b93-8164-4c2ee9a45b13
   :END:
 [Walter Johnson]: on of the greatest pitchers in baseball history. Long arm,
 side throw
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       a28b33ed-0cc2-4bbe-9ec6-5e82254c4221
   :END:
 [Merkle's Boner]: cause the most controversail game in baseball history. A
 failure to advance to second base because crowd was too big and wild
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       6c6a9c21-90bc-451e-92c0-c02048acea93
   :END:
 [lieu]: (archaic) : place, stead
 [in lieu]: instead
@@ -112,6 +134,7 @@ failure to advance to second base because crowd was too big and wild
 ** Noun 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       5f5a3e45-155e-4c34-8321-ddaf934175e6
   :END:
 Define the word
 *** English
@@ -122,15 +145,18 @@ Term originated in Norway during World War II,
 *** Example sentence
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       92ddad7f-bcd8-42f4-884d-e581f22e556c
   :END:
 [golden hammer]: a cognitive bias that involves over-reliance on a familier tool
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       0e7483fb-9213-4063-ba79-468c17a75d82
   :END:
 [Pareto Principle]: roughly 80% of the effects come from 20% of the causes
 ** Adjective 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       7d9184d0-c566-49a9-b7cf-9951a533bade
   :END:
 Define the word
 *** English
@@ -143,6 +169,7 @@ active, or symptomatic
 ** Verb 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       027bcdd8-1602-4162-8117-1f47812c8e48
   :END:
 Define the word
 *** English
@@ -152,16 +179,19 @@ overwhelm
 to cover with a flood : overflow
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       dd66bc06-a91d-480e-b47d-854bf8716746
   :END:
 [Tora Bora]: a cave complex, part of the Spin Ghar mountain range of eastern
 Afghanistan.
 ** Fact 							      :drill:
   :PROPERTIES:
+	:ID:       fab7711e-a8d6-4139-953b-a12803a15297
   :END:
 [source provenance]: the context of the source, the original
 ** Noun 							      :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
+	:ID:       6849305c-a115-49c3-8e66-05d9eed08abe
   :END:
 Define the word
 *** Yiddish
@@ -537,12 +567,12 @@ constancy
   :ID:       e65d8942-48fc-475c-bc05-590f0d09f1a9
   :DRILL_LAST_INTERVAL: 0.0
   :DRILL_REPEATS_SINCE_FAIL: 1
-  :DRILL_TOTAL_REPEATS: 2
-  :DRILL_FAILURE_COUNT: 2
-  :DRILL_AVERAGE_QUALITY: 0.5
+	:DRILL_TOTAL_REPEATS: 3
+	:DRILL_FAILURE_COUNT: 3
+	:DRILL_AVERAGE_QUALITY: 0.333
   :DRILL_EASE: 2.5
   :DRILL_LAST_QUALITY: 0
-  :DRILL_LAST_REVIEWED: [2019-07-31 Wed 12:12]
+	:DRILL_LAST_REVIEWED: [2020-12-29 Tue 08:31]
   :END:
 Define the word
 *** English
