@@ -377,6 +377,10 @@ racing. The rest are merely games."
  betrays, instead of serving you, if he sacrifices it to your opinion.”
    - Edmund Burke
 
+"The issue for Republicans is not election integrity, it’s the fact that
+ Democratic votes count at all."
+   - Jamelle Bouie, [[https://www.nytimes.com/2021/01/05/opinion/trump-georgia-senate-elections.html][Can Only Republicans Legitimately Win Elections?]]
+
 “The majority is always wrong. The minority is rarely right.”
    - Henrik Ibsen
 
