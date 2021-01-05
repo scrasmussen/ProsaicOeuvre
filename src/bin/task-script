@@ -1,0 +1,6 @@
+#!/bin/bash
+
+tmux rename-window TASK
+cd ~/Documents/cranfield/org
+emacs tasks.org -nw
+tmux rename-window bash
