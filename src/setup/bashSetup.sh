@@ -52,6 +52,9 @@ add "$gmacs"
 start='start() { cd $HOME/Documents/cranfield/org; start-script; }'
 add "$start"
 
+task='task() { cd $HOME/Documents/cranfield/org; start-task; }'
+add "$task"
+
 # gmacs="alias gmacs='$(which emacs) -fs'"
 # add "$gmacs"
 
