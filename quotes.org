@@ -381,6 +381,9 @@ racing. The rest are merely games."
  Democratic votes count at all."
    - Jamelle Bouie, [[https://www.nytimes.com/2021/01/05/opinion/trump-georgia-senate-elections.html][Can Only Republicans Legitimately Win Elections?]]
 
+"Proud Boys, a far-right fraternity that uses street thuggery as political theater."
+   - [[https://www.nytimes.com/2021/01/07/us/Capitol-cops-police.html][Capital Breach Draws Sharp Condemnation of Law Enforcement]]
+
 “The majority is always wrong. The minority is rarely right.”
    - Henrik Ibsen
 
