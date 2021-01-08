@@ -1,0 +1,6 @@
+#!/bin/bash
+
+tmux rename-window GANTT
+cd ~/Documents/cranfield/org
+emacs gantt.org -nw
+tmux rename-window bash

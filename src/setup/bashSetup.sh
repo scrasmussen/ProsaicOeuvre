@@ -55,6 +55,9 @@ add "$start"
 task='task() { cd $HOME/Documents/cranfield/org; start-task; }'
 add "$task"
 
+gantt='gantt() { cd $HOME/Documents/cranfield/org; start-gantt; }'
+add "$gantt"
+
 # gmacs="alias gmacs='$(which emacs) -fs'"
 # add "$gmacs"
 
