@@ -16,9 +16,18 @@ Define the word
   :PROPERTIES:
   :END:
 Something [like] this
+** []
+#  :drill:
+  :PROPERTIES:
+  :END:
+[]:
 
 * Knowledge
-
+** [deep-six]                                                         :drill:
+  :PROPERTIES:
+  :END:
+[deep-six]: to get rid of : discard, eliminate.
+A place of disposal or abandonment
 ** Phrase                                                             :drill:
   :PROPERTIES:
 	:ID:       53e34791-a150-4dce-9dfc-e54f3c2838c6
