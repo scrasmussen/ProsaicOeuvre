@@ -23,6 +23,10 @@ Something [like] this
 []:
 
 * Knowledge
+** [pantocrator]                                                      :drill:
+  :PROPERTIES:
+  :END:
+[pantocrator]: the omnipotent lord of the universe : almight ruler -- used especially of Christ
 ** [deep-six]                                                         :drill:
   :PROPERTIES:
   :END:
