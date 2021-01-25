@@ -48,6 +48,8 @@ add "$emacs"
 gmacs='gmacs() { echo "running gmacs"; /usr/bin/emacs "$@" -fh -fw & }'
 gmacs='gmacs() { echo "starting gmacs"; /usr/bin/emacs "$@" -fs & }'
 add "$gmacs"
+# add variable so
+texinputs='export TEXINPUTS=./format/:$TEXINPUTS'
 
 start='start() { cd $HOME/Documents/cranfield/org; start-script; }'
 add "$start"
