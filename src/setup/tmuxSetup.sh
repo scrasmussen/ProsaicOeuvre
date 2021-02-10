@@ -26,6 +26,9 @@ add "$tmux_prefix"
 turnoff_rename="set-option -g allow-rename off"
 add "$turnoff_rename"
 
+renumber_windows="set-option -g renumber-windows on""
+add "$renumber_windows"
+
 # make sure copy key-bindings are emacs
 mode_keys="set-window-option -g mode-keys emacs"
 add "$mode_keys"
