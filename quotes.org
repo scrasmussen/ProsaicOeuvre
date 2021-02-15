@@ -1,3 +1,4 @@
+#+STARTUP: overview
 # Quotes
 
 * Best
@@ -277,6 +278,9 @@ racing. The rest are merely games."
 
 
 * Motivation
+Do ya thang, man, fuck what they lookin' at!
+   - Ice Cube
+
 :Ire-Glass:
 "Nobody tells this to people who are beginners, I wish someone told me. All of
  us who do creative work, we get into it because we have good taste. But there
