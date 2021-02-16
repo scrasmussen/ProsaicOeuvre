@@ -39,6 +39,9 @@ add "$python_alias"
 pip_alias="alias pip='pip3'"
 add "$pip_alias"
 
+open_alias="alias open='xdg-open'"
+add '$open_alias'
+
 bin_path='export PATH=$HOME/local/bin:$PATH'
 add "$bin_path"
 
