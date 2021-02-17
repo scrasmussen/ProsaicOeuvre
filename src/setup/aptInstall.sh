@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e -x
+
 if [ "$EUID" -ne 0 ]
 then echo "Please run as root to install packages"
   exit
@@ -11,6 +11,11 @@ function install(){
 }
 
 
+echo "--------------------------------------------"
+echo "-        Installing Linux Packages         -"
+echo "--------------------------------------------"
+
+set -e -x
 # update and upgrade then start installing packages
 sudo apt update
 sudo apt upgrade
@@ -58,6 +63,11 @@ install gfortran-$gversion
 install lmod
 install graphviz
 
+{ set +x; } 2> /dev/null
+echo "--------------------------------------------"
+echo "-        Installing Python Packages        -"
+echo "--------------------------------------------"
+set -e -x
 pip3 install ipython
 pip3 install numpy
 pip3 install scipy
@@ -67,6 +77,7 @@ pip3 install pip-review
 pip3 install beautifulsoup4
 pip3 install tabulate
 pip3 install jupyterlab
+
 
 # probably don't need these anymore
 # tlmgr init-usertree
