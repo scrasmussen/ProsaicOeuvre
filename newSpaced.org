@@ -23,6 +23,16 @@ Something [like] this
 []:
 
 * Knowledge
+** [parvenu]                                                          :drill:
+  :PROPERTIES:
+  :END:
+[parvenu]: derogatory term for a person of obscure origin who has gained wealth,
+influence of celebrity
+
+** [Karl Gotch]                                                       :drill:
+  :PROPERTIES:
+  :END:
+[Karl Gotch]: the person who the German Suplex is named after
 ** [pantocrator]                                                      :drill:
   :PROPERTIES:
   :END:

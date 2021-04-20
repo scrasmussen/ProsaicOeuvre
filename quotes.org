@@ -2,6 +2,11 @@
 # Quotes
 
 * Best
+"Even the choice of no tradition leaves people ignorantly beholden within a
+ language they didn’t create and frameworks they don’t understand."
+   - Cornel West and Jeremey Tate
+     [[https://www.washingtonpost.com/opinions/2021/04/19/cornel-west-howard-classics/][Howard University’s removal of classics is a spiritual catastrophe]]
+
 "The one unforgivable sin is to be boring."
    - Christopher Hitchens quoting his mother
 
@@ -181,6 +186,11 @@ racing. The rest are merely games."
 
 "Death destroys a man; the idea of Death saves him"
    - E. M. Forster
+
+"Always, always do the right thing for the right reason at the right time with
+ the right people. You will have no regrets for the rest of your life."
+   - Allan McDonald,
+		 [[https://text.npr.org/974534021][Refused to Approve the Challenger Launch]]
 
 "He came home weighing ninety-eight pounds. 'My wife cooks good food for me,'
  Muongkhot said. 'Today, I’m at a hundred and five.
