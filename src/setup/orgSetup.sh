@@ -40,3 +40,7 @@ make -C $org_path install
 
 # add org path to .emacs
 add "(add-to-list 'load-path \"/usr/share/emacs/site-lisp/org\")"
+
+echo "go to org.el to edit verbatim colors"
+echo "  - use M-x list-colors-display to see colors"
+echo "  - see link https://emacs.stackexchange.com/a/44098"
