@@ -4,3 +4,8 @@
 echo "Enter the following commands:"
 echo "$ eval \$(ssh-agent -s)"
 echo "$ ssh-add ~/.ssh/id_rsa"
+
+echo ""
+echo "See git url"
+echo "$ git remote -v"
+echo "$ git remote show origin"
