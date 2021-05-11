@@ -29,6 +29,9 @@ add "$c_path"
 prompt='PS1="C:\>"'
 add "$prompt"
 
+editor='EDITOR=emacs'
+add "$editor"
+
 # change less settings
 lessAlias='alias less="less --silent --ignore-case --status-column"'
 add "$lessAlias"
