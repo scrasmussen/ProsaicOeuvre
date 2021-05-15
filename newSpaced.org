@@ -23,6 +23,14 @@ Something [like] this
 []:
 
 * Knowledge
+** [Laconic phase]                                                    :drill:
+  :PROPERTIES:
+  :END:
+[Laconic phase]: a concise or terse statement, especially a blunt and
+elliptical rejoinder. Named after [Laconia], the region of Greece including
+the city of Sparta, whose ancient inhabitants had a reputation for verbal
+austerity and were famous for their blunt and often pithy remarks.
+
 ** [parvenu]                                                          :drill:
   :PROPERTIES:
   :END:
