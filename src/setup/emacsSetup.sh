@@ -11,6 +11,7 @@ function add(){
 }
 
 # add melpa repo
+add "(require 'package)"
 add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.org/packages/\") t)"
 
 # add column and row numbers
