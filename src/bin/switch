@@ -1,0 +1,14 @@
+# -*-sh-*-
+#!/bin/bash
+set -e -x
+
+bin=SwitchAudioSource
+
+current=$(${bin} -c)
+if [[ ${current} == "External Headphones" ]]; then
+    ${bin} -s "LG UltraFine Display Audio"
+elif [[ ${current} == "LG UltraFine Display Audio" ]]; then
+    ${bin} -s "External Headphones"
+else
+    echo "current is ${current} and switch didn't happen"
+fi
