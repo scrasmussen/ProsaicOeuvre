@@ -2,6 +2,7 @@
 #!/bin/bash
 set -e -x
 
+# brew install SwitchAudioSource
 bin=SwitchAudioSource
 
 current=$(${bin} -c)
