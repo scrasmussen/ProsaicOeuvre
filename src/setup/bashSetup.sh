@@ -3,6 +3,7 @@
 # set -e -x
 
 N=$'\n'
+config_file="$HOME/.bash_profile"
 config_file="$HOME/.bashrc"
 
 
@@ -15,10 +16,10 @@ function add(){
 
 # ---- if Linux add these ----
 # set ding to visual
-ding="set bell-style visible"
-if ! grep -q "^$ding"  "/etc/inputrc"; then
-  sed -i -e "\$a$ding" /etc/inputrc
-fi
+# ding="set bell-style visible"
+# if ! grep -q "^$ding"  "/etc/inputrc"; then
+#   sed -i -e "\$a$ding" /etc/inputrc
+# fi
 # # caps is ctrl
 # setxkbmap -layout us -option ctrl:nocaps
 # edit /etc/default/keyboard so XKBOPTIONS="ctrl:nocaps"
