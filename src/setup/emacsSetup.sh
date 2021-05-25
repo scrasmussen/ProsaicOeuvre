@@ -48,6 +48,10 @@ add "(add-to-list 'load-path \"${autopair_dir}\")"
 add "(require 'autopair)"
 add "(autopair-global-mode)"
 
+# choose correct modes
+add "(add-to-list 'auto-mode-alist '(\"\\.F\\'\" . f90-mode))"
+add "(add-to-list 'auto-mode-alist '(\"\\.nml\\'\" . f90-mode))"
+
 # setup highlighting text beyond column 80
 url=https://raw.githubusercontent.com/jordonbiondo/column-enforce-mode/master/column-enforce-mode.el
 columnEnforce_dir=~/.emacs.d/columnEnforce
