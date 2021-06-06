@@ -3,6 +3,7 @@
 # set -e -x
 
 N=$'\n'
+config_file="$HOME/.bash_profile"
 config_file="$HOME/.bashrc"
 
 
@@ -15,10 +16,10 @@ function add(){
 
 # ---- if Linux add these ----
 # set ding to visual
-ding="set bell-style visible"
-if ! grep -q "^$ding"  "/etc/inputrc"; then
-  sed -i -e "\$a$ding" /etc/inputrc
-fi
+# ding="set bell-style visible"
+# if ! grep -q "^$ding"  "/etc/inputrc"; then
+#   sed -i -e "\$a$ding" /etc/inputrc
+# fi
 # # caps is ctrl
 # setxkbmap -layout us -option ctrl:nocaps
 # edit /etc/default/keyboard so XKBOPTIONS="ctrl:nocaps"
@@ -48,11 +49,11 @@ add '$open_alias'
 bin_path='export PATH=$HOME/local/bin:$PATH'
 add "$bin_path"
 
-emacs="alias emacs='emacs -nw'"
+emacs="alias emacs='/path/to/emacs -nw'"
 add "$emacs"
 
-gmacs='gmacs() { echo "running gmacs"; /usr/bin/emacs "$@" -fh -fw & }'
-gmacs='gmacs() { echo "starting gmacs"; /usr/bin/emacs "$@" -fs & }'
+gmacs='gmacs() { echo "running gmacs"; /path/to/emacs "$@" -fh -fw & }'
+gmacs='gmacs() { echo "starting gmacs"; /path/to/emacs "$@" -fs & }'
 add "$gmacs"
 # add variable so
 texinputs='export TEXINPUTS=./format/:$TEXINPUTS'

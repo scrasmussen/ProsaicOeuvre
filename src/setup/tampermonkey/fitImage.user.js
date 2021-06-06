@@ -1,16 +1,17 @@
+// site="thesite" replace thesite
 // ==UserScript==
 // @name Fit Images to Screen
 // @description Collapses large images to the width of the screen by shift-clicking them.
-// @include http://*.endoftheinter.net/showmessages.php*
-// @include https://*.endoftheinter.net/showmessages.php*
-// @include http://*.endoftheinter.net/message.php*
-// @include https://*.endoftheinter.net/message.php*
-// @include http://endoftheinter.net/showmessages.php*
-// @include https://endoftheinter.net/showmessages.php*
-// @include http://endoftheinter.net/linkme.php*
-// @include https://endoftheinter.net/linkme.php*
-// @include http://links.endoftheinter.net/linkme.php*
-// @include https://links.endoftheinter.net/linkme.php*
+// @include http://*.thesite.net/showmessages.php*
+// @include https://*.thesite.net/showmessages.php*
+// @include http://*.thesite.net/message.php*
+// @include https://*.thesite.net/message.php*
+// @include http://thesite.net/showmessages.php*
+// @include https://thesite.net/showmessages.php*
+// @include http://thesite.net/linkme.php*
+// @include https://thesite.net/linkme.php*
+// @include http://links.thesite.net/linkme.php*
+// @include https://links.thesite.net/linkme.php*
 // @version 0.0.1.20180902114740
 // @namespace https://greasyfork.org/users/209796
 // ==/UserScript==

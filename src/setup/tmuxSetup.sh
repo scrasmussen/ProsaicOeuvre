@@ -26,7 +26,7 @@ add "$tmux_prefix"
 turnoff_rename="set-option -g allow-rename off"
 add "$turnoff_rename"
 
-renumber_windows="set-option -g renumber-windows on""
+renumber_windows="set-option -g renumber-windows on"
 add "$renumber_windows"
 
 # make sure copy key-bindings are emacs
@@ -81,5 +81,5 @@ echo "Use prefix-I to install plugins"
 echo "$ tmux source-file ~/.tmux.conf"
 
 
-#set-option -g default-command "reattach-to-user-namespace -l $SHELL"
-#set -g status-right '#[bg=blue, fg=black] PST #(TZ="US/Pacific" date +%%H:%%M)|GMT #(TZ="Europe/London" date +%%H:%%M)'
+# set-option -g default-command "reattach-to-user-namespace -l $SHELL"
+# set -g status-right '#[bg=blue, fg=black] PST #(TZ="US/Pacific" date +%%H:%%M)|GMT #(TZ="Europe/London" date +%%H:%%M)'

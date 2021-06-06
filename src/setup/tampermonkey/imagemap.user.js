@@ -2,10 +2,10 @@
 // @name Imagemap on infobar
 // @description Puts a link to a topic's imagemap on the infobar
 // @namespace pendevin
-// @include http://boards.endoftheinter.net/showmessages.php*
-// @include https://boards.endoftheinter.net/showmessages.php*
-// @include http://images.endoftheinter.net/imagemap.php*
-// @include https://images.endoftheinter.net/imagemap.php*
+// @include http://boards.thesite.net/showmessages.php*
+// @include https://boards.thesite.net/showmessages.php*
+// @include http://images.thesite.net/imagemap.php*
+// @include https://images.thesite.net/imagemap.php*
 // ==/UserScript==
 
 function getUrlVars(urlz)
