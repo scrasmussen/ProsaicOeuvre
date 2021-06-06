@@ -195,6 +195,12 @@ Definition of self-evident: "Evident to one’s self and to nobody else."
    - Allan McDonald,
 		 [[https://text.npr.org/974534021][Refused to Approve the Challenger Launch]]
 
+"Man is the creature who does not know what to desire, and he turns to others
+  in order to make up his mind. We desire what others desire because we imitate
+  their desires."
+   - Rene Girard,
+		 [[https://en.wikipedia.org/wiki/Mimetic_theory][Mimetic Theory]]
+
 "He came home weighing ninety-eight pounds. 'My wife cooks good food for me,'
  Muongkhot said. 'Today, I’m at a hundred and five.
  Two numbers. Now I got three.'"
