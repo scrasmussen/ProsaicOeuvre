@@ -25,6 +25,7 @@ Something [like] this
 * Knowledge
 ** [Laconic phase]                                                    :drill:
   :PROPERTIES:
+  :ID:       F9A5772C-B3B3-434A-9DBE-0FAD5C9E8E01
   :END:
 [Laconic phase]: a concise or terse statement, especially a blunt and
 elliptical rejoinder. Named after [Laconia], the region of Greece including
@@ -33,20 +34,24 @@ austerity and were famous for their blunt and often pithy remarks.
 
 ** [parvenu]                                                          :drill:
   :PROPERTIES:
+  :ID:       F9CCA949-C3C6-4D12-8F2A-A5AE7C540F8B
   :END:
 [parvenu]: derogatory term for a person of obscure origin who has gained wealth,
 influence of celebrity
 
 ** [Karl Gotch]                                                       :drill:
   :PROPERTIES:
+  :ID:       00EE7A57-33A2-4AF5-BEB5-1A0B66E96A8F
   :END:
 [Karl Gotch]: the person who the German Suplex is named after
 ** [pantocrator]                                                      :drill:
   :PROPERTIES:
+  :ID:       8B57F326-B2EA-4CAF-995A-E025EA92B35C
   :END:
 [pantocrator]: the omnipotent lord of the universe : almight ruler -- used especially of Christ
 ** [deep-six]                                                         :drill:
   :PROPERTIES:
+  :ID:       2EA64443-0B70-43FE-AACF-911565E8B2DA
   :END:
 [deep-six]: to get rid of : discard, eliminate.
 A place of disposal or abandonment
