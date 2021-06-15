@@ -11,8 +11,10 @@ function add(){
 }
 
 # add melpa repo
-add "(require 'package)"
-add "(add-to-list 'package-archives '(\"melpa\" . \"http://melpa.org/packages/\") t)"
+add "(require package)"
+add "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\") t)"
+add "(package-initialize)"
+
 
 # add column and row numbers
 add "(setq column-number-mode t)"

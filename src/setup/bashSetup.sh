@@ -46,6 +46,9 @@ add "$pip_alias"
 open_alias="alias open='xdg-open'"
 add '$open_alias'
 
+ledger_alias="alias led='ledger -f main.dat'"
+add '$ledger_alias'
+
 bin_path='export PATH=$HOME/local/bin:$PATH'
 add "$bin_path"
 
