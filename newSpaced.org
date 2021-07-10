@@ -21,8 +21,23 @@ Something [like] this
   :PROPERTIES:
   :END:
 []:
+** []
+#  :drill:
+  :PROPERTIES:
+  :END:
+
+
+
 
 * Knowledge
+** [patina]                                                           :drill:
+  :PROPERTIES:
+  :END:
+1. a usually green film on top of something
+2. an appearance or aura that is derived from association, habit, or
+   established character
+3. a superficial covering or exterior
+
 ** [Götterdämmerung]                                                  :drill:
   :PROPERTIES:
   :END:
@@ -41,7 +56,6 @@ some other activity or enterprise
 values.
 Also: personal unrest, alienation, and uncertainty that comes from a lack of
 purpose or ideals
-
 
 ** [Laconic phase]                                                    :drill:
   :PROPERTIES:
@@ -69,6 +83,7 @@ influence of celebrity
   :ID:       8B57F326-B2EA-4CAF-995A-E025EA92B35C
   :END:
 [pantocrator]: the omnipotent lord of the universe : almight ruler -- used especially of Christ
+
 ** [deep-six]                                                         :drill:
   :PROPERTIES:
   :ID:       2EA64443-0B70-43FE-AACF-911565E8B2DA
@@ -147,6 +162,7 @@ small explosive device), and indicates an ironic reversal, or poetic justice.
   :END:
 [fait accompli]: a thing that has already happened or been decided before those
 affected hear about it, leaving them with no option but to accept it
+
 ** Fact 							      :drill:
   :PROPERTIES:
 	:ID:       c221ce69-8f2b-4e9e-a016-74dcf659c496
@@ -233,6 +249,7 @@ inundate
 *** Definition
 overwhelm
 to cover with a flood : overflow
+
 ** Fact 							      :drill:
   :PROPERTIES:
 	:ID:       dd66bc06-a91d-480e-b47d-854bf8716746
@@ -307,6 +324,7 @@ property will fall short of the debts secured by liens against the property.
 remaining in a particular country is prohibited.
 
 Not popular or accepted by others
+
 
 ** Adjective                                                          :drill:
   :PROPERTIES:
@@ -420,6 +438,7 @@ Define the word
 prorogation
 *** Definition
 the action of proroguing (ending) an essembly, especially a parliament.
+
 ** Noun                                                               :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: twosided
@@ -591,6 +610,7 @@ Damocles was an obsequious courtier in the court of Dionysius II of Syracuse, a
   :END:
 The [Sword of Damocles] is an allusion to the imminent and ever-present peril
 faced by those in positions of power.
+
 
 ** Noun                                                               :drill:
   :PROPERTIES:
