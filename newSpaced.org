@@ -23,6 +23,26 @@ Something [like] this
 []:
 
 * Knowledge
+** [Götterdämmerung]                                                  :drill:
+  :PROPERTIES:
+  :END:
+[Götterdämmerung]: a collapse (as of a society or regime) marked by
+catastrophic violence and disorder
+
+** [nom de guerre]                                                    :drill:
+  :PROPERTIES:
+  :END:
+[nom de guerre]: an assumed name under which a person engages in combat or
+some other activity or enterprise
+** [anomie]                                                           :drill:
+  :PROPERTIES:
+  :END:
+[anomie]: social instability resulting from a breakdown of standards and
+values.
+Also: personal unrest, alienation, and uncertainty that comes from a lack of
+purpose or ideals
+
+
 ** [Laconic phase]                                                    :drill:
   :PROPERTIES:
   :ID:       F9A5772C-B3B3-434A-9DBE-0FAD5C9E8E01

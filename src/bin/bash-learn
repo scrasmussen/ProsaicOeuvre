@@ -1,0 +1,13 @@
+# -*-sh-*-
+#!/bin/bash
+
+echo '-----------------------'
+echo '| SOME EMACS COMMANDS |'
+echo '-----------------------'
+echo '|  center & margins  |'
+echo '----------------------'
+echo 'Indicates what virtual environment is loaded'
+echo '$VIRTUAL_ENV'
+echo ''
+echo 'Turn off coarray warnings'
+echo '$ export UCX_LOG_LEVEL=error'
