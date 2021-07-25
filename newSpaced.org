@@ -30,6 +30,16 @@ Something [like] this
 
 
 * Knowledge
+** [spoonerism]                                                       :drill:
+  :PROPERTIES:
+  :END:
+an error in speech in which corresponding consonants, vowels, or morphemes are
+switched between two words in a phrase.
+** [malapropism]                                                      :drill:
+  :PROPERTIES:
+  :END:
+The mistaked use of an incorrect word in place of a word with a similar sound.
+
 ** [patina]                                                           :drill:
   :PROPERTIES:
   :END:
