@@ -30,6 +30,13 @@ Something [like] this
 
 
 * Knowledge
+** [Boston marriage]                                                  :drill:
+  :PROPERTIES:
+  :END:
+historically, the cohabitation of two wealthy women, independent of financial
+support from a man. The term is said to have been in use in New England in the
+late 19th/early 20th century. Some of these relationships were romantic in
+nature and might now be considered a lesbian relationship; others were not.
 ** [spoonerism]                                                       :drill:
   :PROPERTIES:
   :END:
