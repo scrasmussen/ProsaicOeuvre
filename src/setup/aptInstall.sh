@@ -62,6 +62,7 @@ install g++-$gversion
 install gfortran-$gversion
 install lmod
 install graphviz
+install tree
 
 { set +x; } 2> /dev/null
 echo "--------------------------------------------"
