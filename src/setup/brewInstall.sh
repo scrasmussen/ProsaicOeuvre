@@ -8,3 +8,5 @@
 # basictex
 # emacs
 # ispell
+# switchaudio-osx
+# tmux
