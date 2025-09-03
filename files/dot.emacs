@@ -5,18 +5,17 @@
              '("melpa" . "https://melpa.org/packages/") t )
 (package-initialize)
 
-
-(require 'org)
-(setq org-log-done t)
-(defun my-org-mode-keys ()
-  "My keys for org-mode"
-  (interactive)
-  (local-set-key "\C-cl" 'org-store-link)
-  (local-set-key "\C-ca" 'org-agenda)
-  (local-set-key [?\C-c ?\C-f]
-    (message "** TODO "))
-)
-(add-hook 'org-mode-hook 'my-org-mode-keys)
+;; (require 'org)
+;; (setq org-log-done t)
+;; (defun my-org-mode-keys ()
+;;   "My keys for org-mode"
+;;   (interactive)
+;;   (local-set-key "\C-cl" 'org-store-link)
+;;   (local-set-key "\C-ca" 'org-agenda)
+;;   (local-set-key [?\C-c ?\C-f]
+;;     (message "** TODO "))
+;; )
+;; (add-hook 'org-mode-hook 'my-org-mode-keys)
 
 ;; (defun my-markdown-mode-keys ()
 ;;   "My keys for markdown-mode"
@@ -32,7 +31,19 @@
 (global-set-key (kbd "C-0") 'org-drill)
 
 ;; show column numbers
-    (setq column-number-mode t)
+(setq column-number-mode t)
+
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.mjs\\'" . js2-mode))
+
+(add-to-list 'auto-mode-alist '("\\.F\\'" . f90-mode))
+(add-to-list 'auto-mode-alist '("\\.nml\\'" . f90-mode))
+(setq auto-mode-alist (delete '("\\.mmd\\" . mermaid-mode) auto-mode-alist))
+
+;; (global-set-key (kbd "C-x ,") #'imenu-list-smart-toggle)
+
+(setq-default fill-column 78)
+
 
 ;; [tab] inserts two spaces
 ;; (setq-default indent-tabs-mode nil)
@@ -52,6 +63,9 @@
 
 ;; set visible-bell, will possibly disable ding
 (setq visible-bell 1)
+
+;;
+(windmove-default-keybindings)
 
 ;; remove automatic indenting in latex mode
 (add-hook 'latex-mode-hook (lambda() (electric-indent-local-mode -1)))
@@ -81,3 +95,13 @@
 
 (require 'org-brain)
 (setq org-brain-path "/mnt/c/Users/Artless/Documents/unix/cranfield/org/brain")
+
+
+# AND
+toilet -f term -F border "From stressed, to jest."
+toilet -f term -F border "Chop wood, carry water."
+toilet -f term -F border "Foresee and fulfill."
+
+MODULEPATH=~/local/lmod:$MODULEPATH
+alias ls="ls -G"
+export BASH_SILENCE_DEPRECATION_WARNING=1

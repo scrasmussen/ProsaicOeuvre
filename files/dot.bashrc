@@ -122,3 +122,29 @@ alias emacs="emacs -nw"
 toilet -F border "Hello Soren." -f pagga
 toilet -F border "You're looking well    today.                            " -f pagga
 # C:\>module load rose-git-develop-091219-jdk-12.0.2
+
+
+# Hatch
+
+PS1="C:\>"
+
+EDITOR=emacs
+
+alias less="less --silent --ignore-case --status-column"
+
+alias python='python3'
+
+alias pip='pip3'
+
+export PATH=$HOME/local/bin:$PATH
+export D=/Users/soren/Documents/src/ncar/docker/wrf_hydro_docker_reorg
+
+start() { cd $HOME/Documents/cranfield/org; start-script; }
+
+task() { cd $HOME/Documents/cranfield/org; start-task; }
+
+gantt() { cd $HOME/Documents/cranfield/org; start-gantt; }
+
+gmacs() { /usr/local/bin/emacs "$@" -fs &; }
+
+# source /Users/soren/.config/broot/launcher/bash/br

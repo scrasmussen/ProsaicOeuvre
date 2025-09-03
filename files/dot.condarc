@@ -1,0 +1,5 @@
+channels:
+  - defaults
+envs_dirs:
+  - /Users/soren/local/conda
+changeps1: false
